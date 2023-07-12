@@ -1,1 +1,9 @@
-124 test
+{
+  "global": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
