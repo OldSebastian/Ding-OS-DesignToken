@@ -1,5 +1,5 @@
 {
-  "global": {
+  "基础样式": {
     "color": {
       "transparent": {
         "value": "#ffffff00",
@@ -3060,7 +3060,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "基础样式"
     ]
   }
 }
