@@ -1114,10 +1114,10 @@
           "value": {
             "color": "#110c2200",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 0,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0"
           },
           "type": "boxShadow"
         },
@@ -1125,10 +1125,10 @@
           "value": {
             "color": "#110c2214",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": -1
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "-1"
           },
           "type": "boxShadow"
         },
@@ -1136,10 +1136,10 @@
           "value": {
             "color": "#110c221f",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 4,
-            "spread": -2
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "-2"
           },
           "type": "boxShadow"
         },
@@ -1147,10 +1147,10 @@
           "value": {
             "color": "#110c221a",
             "type": "dropShadow",
-            "x": 0,
-            "y": 6,
-            "blur": 16,
-            "spread": -6
+            "x": "0",
+            "y": "6",
+            "blur": "16",
+            "spread": "-6"
           },
           "type": "boxShadow"
         },
@@ -1158,10 +1158,10 @@
           "value": {
             "color": "#110c221a",
             "type": "dropShadow",
-            "x": 0,
-            "y": 16,
-            "blur": 20,
-            "spread": -8
+            "x": "0",
+            "y": "16",
+            "blur": "20",
+            "spread": "-8"
           },
           "type": "boxShadow"
         },
@@ -1169,10 +1169,10 @@
           "value": {
             "color": "#110c221a",
             "type": "dropShadow",
-            "x": 0,
-            "y": 20,
-            "blur": 24,
-            "spread": -10
+            "x": "0",
+            "y": "20",
+            "blur": "24",
+            "spread": "-10"
           },
           "type": "boxShadow"
         },
@@ -1180,10 +1180,10 @@
           "value": {
             "color": "#110c221f",
             "type": "dropShadow",
-            "x": 0,
-            "y": 32,
-            "blur": 32,
-            "spread": -12
+            "x": "0",
+            "y": "32",
+            "blur": "32",
+            "spread": "-12"
           },
           "type": "boxShadow"
         }
@@ -1193,10 +1193,10 @@
           "value": {
             "color": "#00000000",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 0,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0"
           },
           "type": "boxShadow"
         },
@@ -1204,10 +1204,10 @@
           "value": {
             "color": "#00000047",
             "type": "dropShadow",
-            "x": 0,
-            "y": 1,
-            "blur": 2,
-            "spread": 0
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0"
           },
           "type": "boxShadow"
         },
@@ -1215,10 +1215,10 @@
           "value": {
             "color": "#00000047",
             "type": "dropShadow",
-            "x": 0,
-            "y": 2,
-            "blur": 4,
-            "spread": 0
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0"
           },
           "type": "boxShadow"
         },
@@ -1226,10 +1226,10 @@
           "value": {
             "color": "#00000047",
             "type": "dropShadow",
-            "x": 0,
-            "y": 6,
-            "blur": 16,
-            "spread": -4
+            "x": "0",
+            "y": "6",
+            "blur": "16",
+            "spread": "-4"
           },
           "type": "boxShadow"
         },
@@ -1237,10 +1237,10 @@
           "value": {
             "color": "#00000047",
             "type": "dropShadow",
-            "x": 0,
-            "y": 16,
-            "blur": 20,
-            "spread": -8
+            "x": "0",
+            "y": "16",
+            "blur": "20",
+            "spread": "-8"
           },
           "type": "boxShadow"
         },
@@ -1248,10 +1248,10 @@
           "value": {
             "color": "#00000052",
             "type": "dropShadow",
-            "x": 0,
-            "y": 20,
-            "blur": 24,
-            "spread": -10
+            "x": "0",
+            "y": "20",
+            "blur": "24",
+            "spread": "-10"
           },
           "type": "boxShadow"
         },
@@ -1259,10 +1259,10 @@
           "value": {
             "color": "#00000052",
             "type": "dropShadow",
-            "x": 0,
-            "y": 24,
-            "blur": 28,
-            "spread": -12
+            "x": "0",
+            "y": "24",
+            "blur": "28",
+            "spread": "-12"
           },
           "type": "boxShadow"
         }
@@ -3551,11 +3551,34 @@
       }
     }
   },
+  "Style 1": {
+    "nav": {
+      "color": {
+        "bg": {
+          "wahte": {
+            "value": "{Light.usage.white.--color-white}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "select": {
+            "value": "{Light.color.grey.--grey-6}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{Light.color.grey.--grey-2}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "基础样式-light",
-      "基础样式Dark"
+      "基础样式Dark",
+      "Style 1"
     ]
   }
 }
