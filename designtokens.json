@@ -1697,8 +1697,8 @@
           }
         },
         "border": {
-          "12": {
-            "value": "{opacity.black.7}",
+          "7": {
+            "value": "{opacity.white.7}",
             "type": "color"
           }
         },
@@ -1720,6 +1720,12 @@
             "type": "sizing"
           }
         }
+      },
+      "text": {
+        "icon_text": {
+          "value": "{body.cn.12}",
+          "type": "typography"
+        }
       }
     },
     "list": {
@@ -1732,7 +1738,7 @@
         },
         "border": {
           "12": {
-            "value": "{nav.color.border.12}",
+            "value": "{nav.color.border.7}",
             "type": "color"
           }
         },
@@ -1789,6 +1795,16 @@
               "type": "color"
             }
           }
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{headLine.cn.18}",
+          "type": "typography"
+        },
+        "details": {
+          "value": "{body.cn.12}",
+          "type": "typography"
         }
       }
     },
@@ -1895,6 +1911,15 @@
         "value": "{basic.grey.8}",
         "type": "color"
       }
+    },
+    "contact_list": {
+      "value": {
+        "fill": "{opacity.white.100}",
+        "itemSpacing": "4",
+        "width": "360",
+        "height": "filling container"
+      },
+      "type": "composition"
     }
   },
   "dark": {
@@ -1942,7 +1967,7 @@
         },
         "border": {
           "12": {
-            "value": "{nav.color.border.12}",
+            "value": "{nav.color.border.7}",
             "type": "color"
           }
         },
@@ -2026,7 +2051,7 @@
         },
         "border": {
           "12": {
-            "value": "{nav.color.border.12}",
+            "value": "{nav.color.border.7}",
             "type": "color"
           },
           " chat-bubbles": {
@@ -2111,6 +2136,47 @@
       "selectedTokenSets": {
         "basic": "source",
         "light": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:149:997",
+      "$figmaModeId": "149:0",
+      "$figmaVariableReferences": {
+        "nav.color.bg.frame": "d54cfa9f3f59f1348bd846be5f09e68279b2cfc7",
+        "nav.color.icon.select": "09af48bdd97412e464352acd549d2b71eb7e30ab",
+        "nav.color.icon.disabled": "382abf89597c7684f3af09100e7c328ff2a5eb8c",
+        "list.color.bg.frame": "73e9c22e27535f085ac632132396a107fefe1268",
+        "list.color.border.12": "3e03deaa83b79053d8d3fa1c6cb71c616c6638c0",
+        "list.color.contact.text.title": "e2b0179a671dc1d7cf94141f8f0162448d00a594",
+        "list.color.contact.text.describe": "b9144ab12bedfb04d572c2f4bbd33332bb26b0da",
+        "list.color.contact.text.date": "a7b29644a329ea016e636eb232d37f6001d1ec51",
+        "list.color.contact.avatar.stroke.gray": "0be0e5fc0e80e9dd2bcaa92781aa2846983f29cf",
+        "list.color.contact.avatar.stroke.purple": "21c7f001a436b44b03d4d2c62a7c1ead5acff223",
+        "list.color.contact.avatar.icon.gray": "617719d4fdfd9857a6e6a4238f7cb5afecd7df8a",
+        "list.color.contact.avatar.icon.purple": "f9ce7e5c7685bf5a1e512dffe79deafce5da5e92",
+        "list.color.contact.avatar.full.gray": "15594ca4c5961a44e9af04cd2129315115cf084c",
+        "list.color.contact.avatar.full.purple": "ed4969584edce197c3077d737d0272d723499db7",
+        "list.color.contact.bg.Select": "20655b850e97049d58485224fc4c4d79ed5a27d8",
+        "conversation.color.bg.frame": "62774d5a2320bdadfedb2331608239e637e7795d",
+        "conversation.color.bg.botton": "242ec324dc0cd83abab7bdb6ec0f090ea386b2d6",
+        "conversation.color.chat_bubbles.other-bg": "60c4016fc10aa0808ef0e2126217aa22d4d40cd1",
+        "conversation.color.chat_bubbles.own-bg": "80f4f596132e03054ddeedcc51099d48d21437ec",
+        "conversation.color.chat_bubbles.own-text": "19a6d560ccd5c5216324073fd1b1114059ec1e16",
+        "conversation.color.border.12": "5a0bd536e483be944baf5589250366ca58ba04a4",
+        "conversation.color.border.chat-bubbles": "a04c31305ffa3aca4892b1b2d64506ca9ef24795",
+        "conversation.color.avatar.stroke.gray": "24ed4f036b412909189368dbaa3c13ff639a2cfb",
+        "conversation.color.avatar.stroke.purple": "c20f8b9d1a59684d468d99299e1554f9a25f3ed6",
+        "conversation.color.avatar.icon.gray": "ccf8a8da453263a28c7d1f9a6577f31e91bb386d",
+        "conversation.color.avatar.icon.purple": "924f8aad5c676d2e3bb725ab3d0ed205f64fe9d8",
+        "conversation.color.avatar.full.gray": "262dca6cd30f6ed94bfc615b0c50420b3a477930",
+        "conversation.color.avatar.full.purple": "d3b998b5fb074663949d41135fe3f91f039b9420",
+        "conversation.color.text.title": "8a560653f98855f4043e33a2a3eee1b99c2f324b",
+        "conversation.color.text.describe": "cbd6ac743256cec54bd5424665d054eee7aa99b9",
+        "conversation.color.text.prompt": "c1a6779691517b74e95e540062b4af5e49a96890",
+        "conversation.color.text.botton": "681bf04ca44581f5275e026ffc89dfc57b53687d",
+        "conversation.color.title_bar_icon.select": "3e3b727d10bf90c952b360025cb9589aac7afe5f",
+        "title_bar.bg_color": "f46efa1807231b1bb8c04cb9f842a258250fde8c",
+        "title_bar.text": "26dbb2bf83793584551e645b8d46bdb341b0d063",
+        "nav.size.avatar.normal": "db5b2f1881a13918c6daaf32483a9dd3cadd3656",
+        "nav.color.border.7": "f2da04b3ebc4b2ab842576734a658723097355b8"
       }
     },
     {
@@ -2120,6 +2186,46 @@
       "selectedTokenSets": {
         "basic": "source",
         "dark": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:149:1035",
+      "$figmaModeId": "149:1",
+      "$figmaVariableReferences": {
+        "nav.color.bg.frame": "09aed1a9b21252628e9cc8ffb752edfc6073594d",
+        "nav.color.icon.select": "e80611733092fc36fe50f3f5a481758aadf5f09d",
+        "nav.color.icon.disabled": "55dcfe8ba7139c3f10ef3cbaa120de7b7c429f25",
+        "list.color.bg.frame": "a3c5c620d4f85914200f27900a5e3e1623822260",
+        "list.color.border.12": "f9704d963a648345a928739e4210c7da0146c1b2",
+        "list.color.contact.text.title": "64813df75e397416387ee2020d6b9a734b76ebb9",
+        "list.color.contact.text.describe": "dc87e0cdd5494a554998ef1346805dffaab94cd8",
+        "list.color.contact.text.date": "d294eae30a8dd14d2b44aedeee3ea863dcd6de45",
+        "list.color.contact.avatar.stroke.gray": "70a1b090c37450d7eacdf58059d90c5ece951b26",
+        "list.color.contact.avatar.stroke.purple": "f2b2c1e058b4de50b62115aebfe6aa7021c18714",
+        "list.color.contact.avatar.icon.gray": "1966c6962cbc6295c6ca3cdaaf44ace09d6a8f64",
+        "list.color.contact.avatar.icon.purple": "f9d212273a59d5585a6bced0d8a73cd7bbf0216a",
+        "list.color.contact.avatar.full.gray": "00d233baeb6334e169c8cf92e430e5fba8ba22dd",
+        "list.color.contact.avatar.full.purple": "74d186d1a941449fe3d46dc72e588044452b6801",
+        "list.color.contact.bg.Select": "c92efbf3a336b9eec531459dbb8f14af9508721e",
+        "conversation.color.bg.frame": "bcebea755fe2b40f43f98298b8654e9801f2c4cd",
+        "conversation.color.bg.botton": "7b033aff7fb8da4cedda6c844845bfbebb3c4f03",
+        "conversation.color.chat_bubbles.other-bg": "ac50975ec9bf3d5c3e2ae863cbc811d784b10a8a",
+        "conversation.color.chat_bubbles.own-bg": "8c86cda1091b6cbf64d75967fb26404e52e72103",
+        "conversation.color.border.12": "fc23c2a6edb416385f7f03bfb3b864f02e5a5030",
+        "conversation.color.border. chat-bubbles": "a7e058e56766fdf909bf6fd940a6ff510311fd99",
+        "conversation.color.avatar.stroke.gray": "a08a41fedf34392a368fad6a5032903e34e7a3ad",
+        "conversation.color.avatar.stroke.purple": "e67dad8dbccda4705704188fa7144bb9d4e7c193",
+        "conversation.color.avatar.icon.gray": "7ba02475239ed896b7f2fa4aded5bf6e2bf4a874",
+        "conversation.color.avatar.icon.purple": "6b4616bb2e1f519261b66a083a02f8b6ccaeec94",
+        "conversation.color.avatar.full.gray": "8a33b0404c22fc691d6d8ca0d82ab7f25a415611",
+        "conversation.color.avatar.full.purple": "df8f9fc80b5704de43df35f714ae27623788d76a",
+        "conversation.color.text.title": "9f3f9ad610c48b649d16a820e5a80d2e393027a0",
+        "conversation.color.text.describe": "90d037158400c66d1a05638ac5c7bada85168993",
+        "conversation.color.text.prompt": "fa0d567d6eebbb097dc7a883e789013740f25cbd",
+        "conversation.color.text.botton": "f357ef9371b5db06338ac09f60a359c46ec7e2b0",
+        "conversation.color.title_bar_icon.select": "d538b8f62654f89bd5d897856fc162fdba92edfe",
+        "title_bar.bg_color": "f3ce72957c434a5d788347037fe558a572928fcb",
+        "title_bar.text": "91b898384343514b1daf521f1873f25f75ee9921",
+        "nav.size.avatar.normal": "9b9ce0d3321d4ea9d49128d819f7a0b7c9873722",
+        "nav.color.border.7": "6db4729dea890e431df32c4ba4d689b02cb89706"
       }
     }
   ],
