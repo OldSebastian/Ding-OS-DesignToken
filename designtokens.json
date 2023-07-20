@@ -1188,7 +1188,7 @@
     },
     "Margin": {
       "16": {
-        "value": "{dimension.16} {dimension.16}",
+        "value": "{dimension.16} {dimension.16} {dimension.16} {dimension.16}",
         "type": "spacing"
       }
     },
@@ -1662,24 +1662,6 @@
           },
           "type": "typography"
         }
-      }
-    },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
-      }
-    },
-    "paragraphIndent": {
-      "0": {
-        "value": "0px",
-        "type": "dimension"
       }
     }
   },
