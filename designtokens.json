@@ -714,6 +714,50 @@
           "value": "#294616",
           "type": "color"
         }
+      },
+      "bg": {
+        "8": {
+          "value": "0.08",
+          "type": "opacity"
+        },
+        "16": {
+          "value": "0.16",
+          "type": "opacity"
+        },
+        "40": {
+          "value": "0.4",
+          "type": "opacity"
+        },
+        "64": {
+          "value": "0.64",
+          "type": "opacity"
+        },
+        "88": {
+          "value": "0.88",
+          "type": "opacity"
+        }
+      },
+      "border": {
+        "10": {
+          "value": "0.1",
+          "type": "opacity"
+        },
+        "20": {
+          "value": "0.2",
+          "type": "opacity"
+        },
+        "50": {
+          "value": "0.5",
+          "type": "opacity"
+        },
+        "70": {
+          "value": "0.7",
+          "type": "opacity"
+        },
+        "90": {
+          "value": "0.9",
+          "type": "opacity"
+        }
       }
     },
     "elevation": {
