@@ -1683,7 +1683,7 @@
       }
     }
   },
-  "style 1": {
+  "light": {
     "nav": {
       "color": {
         "bg": {
@@ -1893,7 +1893,7 @@
       }
     }
   },
-  "style 2": {
+  "dark": {
     "nav": {
       "color": {
         "bg": {
@@ -2099,12 +2099,31 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "5ff20a01aac097b1044b2a776fdba77cb715a871",
+      "name": "light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "basic": "source",
+        "light": "enabled"
+      }
+    },
+    {
+      "id": "65300e9fbeadd46524a1f9df3f25570104206746",
+      "name": "dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "basic": "source",
+        "dark": "enabled"
+      }
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "basic",
-      "style 1",
-      "style 2"
+      "light",
+      "dark"
     ]
   }
 }
