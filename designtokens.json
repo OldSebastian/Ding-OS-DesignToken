@@ -1742,7 +1742,7 @@
             "type": "color"
           }
         },
-        "contact": {
+        "item": {
           "text": {
             "title": {
               "value": "{basic.grey.8}",
@@ -1932,8 +1932,8 @@
           }
         },
         "border": {
-          "12": {
-            "value": "{opacity.white.12}",
+          "7": {
+            "value": "{opacity.white.7}",
             "type": "color"
           }
         },
@@ -1971,7 +1971,7 @@
             "type": "color"
           }
         },
-        "contact": {
+        "item": {
           "text": {
             "title": {
               "value": "{opacity.white.100}",
@@ -2020,7 +2020,7 @@
           },
           "bg": {
             "Select": {
-              "value": "{basic.brand.0}",
+              "value": "{opacity.white.4}",
               "type": "color"
             }
           }
@@ -2093,11 +2093,11 @@
         },
         "text": {
           "title": {
-            "value": "{list.color.contact.text.title}",
+            "value": "{list.color.item.text.title}",
             "type": "color"
           },
           "describe": {
-            "value": "{list.color.contact.text.describe}",
+            "value": "{list.color.item.text.describe}",
             "type": "color"
           },
           "prompt": {
@@ -2123,7 +2123,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{list.color.contact.text.title}",
+        "value": "{list.color.item.text.title}",
         "type": "color"
       }
     }
