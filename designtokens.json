@@ -714,50 +714,6 @@
           "value": "#294616",
           "type": "color"
         }
-      },
-      "bg": {
-        "8": {
-          "value": "0.08",
-          "type": "opacity"
-        },
-        "16": {
-          "value": "0.16",
-          "type": "opacity"
-        },
-        "40": {
-          "value": "0.4",
-          "type": "opacity"
-        },
-        "64": {
-          "value": "0.64",
-          "type": "opacity"
-        },
-        "88": {
-          "value": "0.88",
-          "type": "opacity"
-        }
-      },
-      "border": {
-        "10": {
-          "value": "0.1",
-          "type": "opacity"
-        },
-        "20": {
-          "value": "0.2",
-          "type": "opacity"
-        },
-        "50": {
-          "value": "0.5",
-          "type": "opacity"
-        },
-        "70": {
-          "value": "0.7",
-          "type": "opacity"
-        },
-        "90": {
-          "value": "0.9",
-          "type": "opacity"
-        }
       }
     },
     "elevation": {
@@ -1006,18 +962,6 @@
       "6": {
         "value": "32",
         "type": "fontSizes"
-      }
-    },
-    "letterSpacing": {
-      "0": {
-        "value": "0",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "0": {
-        "value": "0",
-        "type": "paragraphSpacing"
       }
     },
     "Header": {
@@ -1488,18 +1432,6 @@
         }
       }
     },
-    "textCase": {
-      "none": {
-        "value": "none",
-        "type": "textCase"
-      }
-    },
-    "textDecoration": {
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
-      }
-    },
     "opacity": {
       "black": {
         "4": {
@@ -1603,87 +1535,115 @@
       }
     },
     "dimension": {
-      "scale": {
-        "value": "2",
+      "2": {
+        "value": "2px",
         "type": "dimension"
       },
-      "xs": {
-        "value": "4",
+      "4": {
+        "value": "4px",
         "type": "dimension"
       },
-      "sm": {
-        "value": "{dimension.xs} * {dimension.scale}",
+      "8": {
+        "value": "{dimension.4} * {dimension.2}",
         "type": "dimension"
       },
-      "md": {
-        "value": "{dimension.sm} * {dimension.scale}",
+      "12": {
+        "value": "{dimension.4} *3",
         "type": "dimension"
       },
-      "lg": {
-        "value": "{dimension.md} * {dimension.scale}",
+      "16": {
+        "value": "{dimension.8} * {dimension.2}",
         "type": "dimension"
       },
-      "xl": {
-        "value": "{dimension.sm} * 5",
+      "20": {
+        "value": "{dimension.4} *5",
         "type": "dimension"
       },
-      "xxl": {
-        "value": "{dimension.sm} * 6",
+      "24": {
+        "value": "{dimension.4} *6",
         "type": "dimension"
       },
-      "3xl": {
-        "value": "{dimension.sm} * 7",
+      "32": {
+        "value": "{dimension.16} * {dimension.2}",
         "type": "dimension"
       },
-      "4xl": {
-        "value": "{dimension.sm} * 8",
+      "40": {
+        "value": "{dimension.8} * 5",
+        "type": "dimension"
+      },
+      "48": {
+        "value": "{dimension.8} * 6",
+        "type": "dimension"
+      },
+      "56": {
+        "value": "{dimension.8} * 7",
+        "type": "dimension"
+      },
+      "64": {
+        "value": "{dimension.8} * 8",
         "type": "dimension"
       }
     },
     "spacing": {
-      "xs": {
-        "value": "{dimension.xs}",
+      "4": {
+        "value": "{dimension.4}",
         "type": "spacing"
       },
-      "sm": {
-        "value": "{dimension.sm}",
+      "8": {
+        "value": "{dimension.8}",
         "type": "spacing"
       },
-      "md": {
-        "value": "{dimension.md}",
+      "12": {
+        "value": "{dimension.12}",
         "type": "spacing"
       },
-      "lg": {
-        "value": "{dimension.lg}",
+      "16": {
+        "value": "{dimension.16}",
         "type": "spacing"
       },
-      "xl": {
-        "value": "{dimension.xl}",
+      "20": {
+        "value": "{dimension.20}",
         "type": "spacing"
       },
-      "multi-value": {
-        "value": "{dimension.sm} {dimension.xl}",
-        "type": "spacing",
-        "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
+      "24": {
+        "value": "{dimension.24}",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{dimension.32}",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{dimension.40}",
+        "type": "spacing"
+      }
+    },
+    "Margin": {
+      "16": {
+        "value": "{dimension.16} {dimension.16}",
+        "type": "spacing"
       }
     },
     "borderRadius": {
-      "sm": {
+      "4": {
         "value": "4",
         "type": "borderRadius"
       },
-      "lg": {
+      "8": {
         "value": "8",
         "type": "borderRadius"
       },
-      "xl": {
+      "12": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "16": {
         "value": "16",
         "type": "borderRadius"
       },
-      "multi-value": {
-        "value": "{borderRadius.sm} {borderRadius.lg}",
-        "type": "borderRadius",
-        "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#singlemultiple-values"
+      "24": {
+        "value": "24",
+        "type": "borderRadius"
       }
     }
   },
