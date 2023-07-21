@@ -1796,7 +1796,7 @@
             }
           },
           "bg": {
-            "Select": {
+            "select": {
               "value": "{basic.brand.0}",
               "type": "color"
             }
@@ -1898,9 +1898,13 @@
             "type": "color"
           }
         },
-        "title_bar_icon": {
-          "select": {
+        "icon": {
+          "title_bar": {
             "value": "{basic.grey.6}",
+            "type": "color"
+          },
+          "Input_box": {
+            "value": "{basic.grey.2}",
             "type": "color"
           }
         }
@@ -2115,9 +2119,13 @@
             "type": "color"
           }
         },
-        "title_bar_icon": {
-          "select": {
+        "icon": {
+          "title_bar": {
             "value": "{basic.grey.3}",
+            "type": "color"
+          },
+          "Input_box": {
+            "value": "{basic.grey.6}",
             "type": "color"
           }
         }
