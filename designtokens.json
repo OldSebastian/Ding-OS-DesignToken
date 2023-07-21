@@ -1030,6 +1030,12 @@
         }
       }
     },
+    "gradient": {
+      "100-copy": {
+        "value": "linear-gradient(315deg, #A7A6CB 0%, #8989BA 52.00%, #8989BA 100%)",
+        "type": "color"
+      }
+    },
     "dimension": {
       "2": {
         "value": "2px",
@@ -1698,7 +1704,7 @@
         },
         "border": {
           "7": {
-            "value": "{opacity.white.7}",
+            "value": "{opacity.black.7}",
             "type": "color"
           }
         },
@@ -1716,7 +1722,7 @@
       "size": {
         "avatar": {
           "normal": {
-            "value": "40px",
+            "value": "48px",
             "type": "sizing"
           }
         }
@@ -1760,11 +1766,11 @@
           "avatar": {
             "stroke": {
               "gray": {
-                "value": "{basic.grey.3}",
+                "value": "{basic.grey.6}",
                 "type": "color"
               },
               "purple": {
-                "value": "{basic.brand.4}",
+                "value": "{basic.brand.6}",
                 "type": "color"
               }
             },
@@ -1821,26 +1827,34 @@
           }
         },
         "chat_bubbles": {
-          "other-bg": {
-            "value": "{opacity.white.100}",
-            "type": "color"
+          "other": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.black.12}",
+              "type": "color"
+            }
           },
-          "own-bg": {
-            "value": "{basic.brand.1}",
-            "type": "color"
-          },
-          "own-text": {
-            "value": "{basic.brand.1}",
-            "type": "color"
+          "own": {
+            "bg": {
+              "value": "{basic.brand.1}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            }
           }
         },
         "border": {
-          "12": {
-            "value": "{opacity.black.12}",
-            "type": "color"
-          },
-          "chat-bubbles": {
-            "value": "{opacity.black.12}",
+          "7": {
+            "value": "{nav.color.border.7}",
             "type": "color"
           }
         },
@@ -1862,16 +1876,6 @@
             },
             "purple": {
               "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          },
-          "full": {
-            "gray": {
-              "value": "{basic.grey.0}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.0}",
               "type": "color"
             }
           }
@@ -1951,7 +1955,7 @@
       "size": {
         "avatar": {
           "normal": {
-            "value": "40",
+            "value": "48px",
             "type": "sizing"
           }
         }
@@ -1989,7 +1993,7 @@
           "avatar": {
             "stroke": {
               "gray": {
-                "value": "{basic.grey.6}",
+                "value": "{basic.grey.3}",
                 "type": "color"
               },
               "purple": {
@@ -2003,7 +2007,7 @@
                 "type": "color"
               },
               "purple": {
-                "value": "{basic.brand.3}",
+                "value": "{basic.brand.4}",
                 "type": "color"
               }
             },
@@ -2019,7 +2023,7 @@
             }
           },
           "bg": {
-            "Select": {
+            "select": {
               "value": "{opacity.white.4}",
               "type": "color"
             }
@@ -2040,22 +2044,34 @@
           }
         },
         "chat_bubbles": {
-          "other-bg": {
-            "value": "{basic.grey.8}",
-            "type": "color"
+          "other": {
+            "bg": {
+              "value": "{basic.grey.8}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.white.12}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            }
           },
-          "own-bg": {
-            "value": "{basic.brand.5}",
-            "type": "color"
+          "own": {
+            "bg": {
+              "value": "{basic.brand.5}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            }
           }
         },
         "border": {
-          "12": {
+          "7": {
             "value": "{nav.color.border.7}",
-            "type": "color"
-          },
-          " chat-bubbles": {
-            "value": "{opacity.white.12}",
             "type": "color"
           }
         },
@@ -2077,16 +2093,6 @@
             },
             "purple": {
               "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          },
-          "full": {
-            "gray": {
-              "value": "{basic.grey.0}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.0}",
               "type": "color"
             }
           }
@@ -2128,57 +2134,49 @@
       }
     }
   },
-  "$themes": [
-    {
-      "id": "5ff20a01aac097b1044b2a776fdba77cb715a871",
-      "name": "light",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "basic": "source",
-        "light": "enabled"
+  "风格3": {
+    "dingchat_overall": {
+      "value": {
+        "fill": "{gradient.100-copy}",
+        "spacing": "16px"
       },
-      "$figmaCollectionId": "VariableCollectionId:149:997",
-      "$figmaModeId": "149:0",
-      "$figmaVariableReferences": {
-        "nav.color.bg.frame": "d54cfa9f3f59f1348bd846be5f09e68279b2cfc7",
-        "nav.color.icon.select": "09af48bdd97412e464352acd549d2b71eb7e30ab",
-        "nav.color.icon.disabled": "382abf89597c7684f3af09100e7c328ff2a5eb8c",
-        "list.color.bg.frame": "73e9c22e27535f085ac632132396a107fefe1268",
-        "list.color.border.12": "3e03deaa83b79053d8d3fa1c6cb71c616c6638c0",
-        "list.color.contact.text.title": "e2b0179a671dc1d7cf94141f8f0162448d00a594",
-        "list.color.contact.text.describe": "b9144ab12bedfb04d572c2f4bbd33332bb26b0da",
-        "list.color.contact.text.date": "a7b29644a329ea016e636eb232d37f6001d1ec51",
-        "list.color.contact.avatar.stroke.gray": "0be0e5fc0e80e9dd2bcaa92781aa2846983f29cf",
-        "list.color.contact.avatar.stroke.purple": "21c7f001a436b44b03d4d2c62a7c1ead5acff223",
-        "list.color.contact.avatar.icon.gray": "617719d4fdfd9857a6e6a4238f7cb5afecd7df8a",
-        "list.color.contact.avatar.icon.purple": "f9ce7e5c7685bf5a1e512dffe79deafce5da5e92",
-        "list.color.contact.avatar.full.gray": "15594ca4c5961a44e9af04cd2129315115cf084c",
-        "list.color.contact.avatar.full.purple": "ed4969584edce197c3077d737d0272d723499db7",
-        "list.color.contact.bg.Select": "20655b850e97049d58485224fc4c4d79ed5a27d8",
-        "conversation.color.bg.frame": "62774d5a2320bdadfedb2331608239e637e7795d",
-        "conversation.color.bg.botton": "242ec324dc0cd83abab7bdb6ec0f090ea386b2d6",
-        "conversation.color.chat_bubbles.other-bg": "60c4016fc10aa0808ef0e2126217aa22d4d40cd1",
-        "conversation.color.chat_bubbles.own-bg": "80f4f596132e03054ddeedcc51099d48d21437ec",
-        "conversation.color.chat_bubbles.own-text": "19a6d560ccd5c5216324073fd1b1114059ec1e16",
-        "conversation.color.border.12": "5a0bd536e483be944baf5589250366ca58ba04a4",
-        "conversation.color.border.chat-bubbles": "a04c31305ffa3aca4892b1b2d64506ca9ef24795",
-        "conversation.color.avatar.stroke.gray": "24ed4f036b412909189368dbaa3c13ff639a2cfb",
-        "conversation.color.avatar.stroke.purple": "c20f8b9d1a59684d468d99299e1554f9a25f3ed6",
-        "conversation.color.avatar.icon.gray": "ccf8a8da453263a28c7d1f9a6577f31e91bb386d",
-        "conversation.color.avatar.icon.purple": "924f8aad5c676d2e3bb725ab3d0ed205f64fe9d8",
-        "conversation.color.avatar.full.gray": "262dca6cd30f6ed94bfc615b0c50420b3a477930",
-        "conversation.color.avatar.full.purple": "d3b998b5fb074663949d41135fe3f91f039b9420",
-        "conversation.color.text.title": "8a560653f98855f4043e33a2a3eee1b99c2f324b",
-        "conversation.color.text.describe": "cbd6ac743256cec54bd5424665d054eee7aa99b9",
-        "conversation.color.text.prompt": "c1a6779691517b74e95e540062b4af5e49a96890",
-        "conversation.color.text.botton": "681bf04ca44581f5275e026ffc89dfc57b53687d",
-        "conversation.color.title_bar_icon.select": "3e3b727d10bf90c952b360025cb9589aac7afe5f",
-        "title_bar.bg_color": "f46efa1807231b1bb8c04cb9f842a258250fde8c",
-        "title_bar.text": "26dbb2bf83793584551e645b8d46bdb341b0d063",
-        "nav.size.avatar.normal": "db5b2f1881a13918c6daaf32483a9dd3cadd3656",
-        "nav.color.border.7": "f2da04b3ebc4b2ab842576734a658723097355b8"
-      }
+      "type": "composition"
     },
+    "nav+list": {
+      "value": {
+        "itemSpacing": "0px",
+        "borderRadius": "12px",
+        "borderWidthTop": "1px",
+        "borderWidthBottom": "1px",
+        "borderWidthLeft": "1px",
+        "borderColor": "{opacity.white.24}",
+        "fill": "{opacity.white.32}"
+      },
+      "type": "composition"
+    },
+    "nav": {
+      "value": {
+        "fill": "rgba(255, 255, 255, 0.00)",
+        "borderRadiusTopLeft": "12px",
+        "borderRadiusTopRight": "0px",
+        "borderRadiusBottomRight": "12px",
+        "borderRadiusBottomLeft": "0px",
+        "width": "80px"
+      },
+      "type": "composition"
+    },
+    "list": {
+      "value": {
+        "fill": "{opacity.white.100}",
+        "borderRadius": "12px",
+        "spacing": "0",
+        "itemSpacing": "0",
+        "width": "360"
+      },
+      "type": "composition"
+    }
+  },
+  "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
       "name": "dark",
@@ -2207,10 +2205,6 @@
         "list.color.contact.bg.Select": "c92efbf3a336b9eec531459dbb8f14af9508721e",
         "conversation.color.bg.frame": "bcebea755fe2b40f43f98298b8654e9801f2c4cd",
         "conversation.color.bg.botton": "7b033aff7fb8da4cedda6c844845bfbebb3c4f03",
-        "conversation.color.chat_bubbles.other-bg": "ac50975ec9bf3d5c3e2ae863cbc811d784b10a8a",
-        "conversation.color.chat_bubbles.own-bg": "8c86cda1091b6cbf64d75967fb26404e52e72103",
-        "conversation.color.border.12": "fc23c2a6edb416385f7f03bfb3b864f02e5a5030",
-        "conversation.color.border. chat-bubbles": "a7e058e56766fdf909bf6fd940a6ff510311fd99",
         "conversation.color.avatar.stroke.gray": "a08a41fedf34392a368fad6a5032903e34e7a3ad",
         "conversation.color.avatar.stroke.purple": "e67dad8dbccda4705704188fa7144bb9d4e7c193",
         "conversation.color.avatar.icon.gray": "7ba02475239ed896b7f2fa4aded5bf6e2bf4a874",
@@ -2225,7 +2219,11 @@
         "title_bar.bg_color": "f3ce72957c434a5d788347037fe558a572928fcb",
         "title_bar.text": "91b898384343514b1daf521f1873f25f75ee9921",
         "nav.size.avatar.normal": "9b9ce0d3321d4ea9d49128d819f7a0b7c9873722",
-        "nav.color.border.7": "6db4729dea890e431df32c4ba4d689b02cb89706"
+        "nav.color.border.7": "6db4729dea890e431df32c4ba4d689b02cb89706",
+        "conversation.color.border.7": "fc23c2a6edb416385f7f03bfb3b864f02e5a5030",
+        "conversation.color.chat_bubbles.other.bg": "ac50975ec9bf3d5c3e2ae863cbc811d784b10a8a",
+        "conversation.color.chat_bubbles.own.bg": "8c86cda1091b6cbf64d75967fb26404e52e72103",
+        "conversation.color.chat_bubbles.other.border": "a7e058e56766fdf909bf6fd940a6ff510311fd99"
       }
     }
   ],
@@ -2233,7 +2231,8 @@
     "tokenSetOrder": [
       "basic",
       "light",
-      "dark"
+      "dark",
+      "风格3"
     ]
   }
 }
