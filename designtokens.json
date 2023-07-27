@@ -1031,8 +1031,12 @@
       }
     },
     "gradient": {
-      "100-copy": {
+      "1": {
         "value": "linear-gradient(315deg, #A7A6CB 0%, #8989BA 52.00%, #8989BA 100%)",
+        "type": "color"
+      },
+      "2": {
+        "value": "linear-gradient(0deg, #31DD76 0%, #3CBA92 100%);",
         "type": "color"
       }
     },
@@ -1978,7 +1982,7 @@
     },
     "inner_spacing": {
       "win": {
-        "value": "{spacing.16}",
+        "value": "none",
         "type": "spacing"
       },
       "nav_list": {
@@ -2353,7 +2357,7 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{gradient.100-copy}",
+          "value": "{gradient.1}",
           "type": "color"
         }
       }
@@ -2619,6 +2623,316 @@
       "type": "boxShadow"
     }
   },
+  "style 4": {
+    "nav": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "none",
+            "type": "color"
+          }
+        },
+        "border": {
+          "7": {
+            "value": "none",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "select": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{basic.grey.2}",
+            "type": "color"
+          }
+        }
+      },
+      "size": {
+        "avatar": {
+          "normal": {
+            "value": "48px",
+            "type": "sizing"
+          }
+        }
+      },
+      "text": {
+        "icon_text": {
+          "value": "{body.cn.12}",
+          "type": "typography"
+        }
+      }
+    },
+    "win": {
+      "color": {
+        "bg": {
+          "value": "{gradient.2}",
+          "type": "color"
+        }
+      }
+    },
+    "list": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "{opacity.white.76}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "12": {
+            "value": "{nav.color.border.7}",
+            "type": "color"
+          }
+        },
+        "item": {
+          "text": {
+            "title": {
+              "value": "{basic.grey.8}",
+              "type": "color"
+            },
+            "describe": {
+              "value": "{basic.grey.5}",
+              "type": "color"
+            },
+            "date": {
+              "value": "{basic.grey.3}",
+              "type": "color"
+            }
+          },
+          "avatar": {
+            "stroke": {
+              "gray": {
+                "value": "{basic.grey.7}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{basic.green.6}",
+                "type": "color"
+              }
+            },
+            "icon": {
+              "gray": {
+                "value": "{list.color.item.avatar.stroke.gray}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{list.color.item.avatar.stroke.purple}",
+                "type": "color"
+              }
+            },
+            "full": {
+              "gray": {
+                "value": "{basic.grey.0}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{opacity.white.100}",
+                "type": "color"
+              }
+            }
+          },
+          "bg": {
+            "select": {
+              "value": "{opacity.white.64}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{headLine.cn.18}",
+          "type": "typography"
+        },
+        "details": {
+          "value": "{body.cn.12}",
+          "type": "typography"
+        }
+      }
+    },
+    "conversation": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "none",
+            "type": "color"
+          },
+          "botton": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "titlebar": {
+            "value": "{list.color.bg.frame}",
+            "type": "color"
+          },
+          "Inputbox": {
+            "value": "{list.color.bg.frame}",
+            "type": "color"
+          },
+          "messages": {
+            "value": "{list.color.bg.frame}",
+            "type": "color"
+          }
+        },
+        "chat_bubbles": {
+          "other": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.black.12}",
+              "type": "color"
+            }
+          },
+          "own": {
+            "bg": {
+              "value": "{basic.green.6}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{opacity.white.100}",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "7": {
+            "value": "{nav.color.border.7}",
+            "type": "color"
+          }
+        },
+        "avatar": {
+          "stroke": {
+            "gray": {
+              "value": "{basic.grey.3}",
+              "type": "color"
+            },
+            "purple": {
+              "value": "{basic.brand.4}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "gray": {
+              "value": "{basic.grey.6}",
+              "type": "color"
+            },
+            "purple": {
+              "value": "{basic.brand.6}",
+              "type": "color"
+            }
+          }
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.8}",
+            "type": "color"
+          },
+          "describe": {
+            "value": "{basic.grey.5}",
+            "type": "color"
+          },
+          "prompt": {
+            "value": "{basic.grey.3}",
+            "type": "color"
+          },
+          "botton": {
+            "value": "{basic.grey.9}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "title_bar": {
+            "value": "{basic.grey.6}",
+            "type": "color"
+          },
+          "Input_box": {
+            "value": "{basic.grey.2}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "title_bar": {
+      "bg_color": {
+        "value": "{basic.grey.1}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{basic.grey.8}",
+        "type": "color"
+      }
+    },
+    "radius": {
+      "list": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius"
+      },
+      "nav": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius"
+      },
+      "conversation": {
+        "message": {
+          "value": "{borderRadius.16}",
+          "type": "borderRadius"
+        },
+        "titlebar": {
+          "value": "{borderRadius.16}",
+          "type": "borderRadius"
+        },
+        "inputbox": {
+          "value": "{borderRadius.16}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "inner_spacing": {
+      "win": {
+        "value": "{spacing.16}",
+        "type": "spacing"
+      },
+      "nav_list": {
+        "value": "{spacing.16}",
+        "type": "spacing"
+      },
+      "conversation": {
+        "titlebar_messages": {
+          "value": "{spacing.16}",
+          "type": "spacing"
+        },
+        "chatpanel": {
+          "value": "{spacing.16}",
+          "type": "spacing"
+        }
+      },
+      "nav": {
+        "avatar_icon": {
+          "value": "space-between;",
+          "type": "spacing"
+        }
+      }
+    },
+    "nav_shadow": {
+      "value": "{elevation.theme_light.e3}",
+      "type": "boxShadow"
+    },
+    "list_shadow": {
+      "value": "{elevation.theme_light.e3}",
+      "type": "boxShadow"
+    },
+    "conversation_shadow": {
+      "value": "{elevation.theme_light.e3}",
+      "type": "boxShadow"
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
@@ -2626,8 +2940,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "basic": "source",
-        "dark": "enabled",
-        "style 3": "disabled"
+        "dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -2676,7 +2989,8 @@
       "basic",
       "light",
       "dark",
-      "style 3"
+      "style 3",
+      "style 4"
     ]
   }
 }
