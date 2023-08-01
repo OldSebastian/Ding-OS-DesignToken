@@ -1885,6 +1885,10 @@
             "text": {
               "value": "{conversation.color.text.title}",
               "type": "color"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color"
             }
           }
         },
@@ -2216,11 +2220,15 @@
           },
           "own": {
             "bg": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.9}",
               "type": "color"
             },
             "text": {
               "value": "{conversation.color.text.title}",
+              "type": "color"
+            },
+            "link": {
+              "value": "{basic.light-blue.5}",
               "type": "color"
             }
           }
@@ -2591,6 +2599,10 @@
             "text": {
               "value": "{conversation.color.text.title}",
               "type": "color"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color"
             }
           }
         },
@@ -2829,7 +2841,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{opacity.white.76}",
+            "value": "{opacity.white.88}",
             "type": "color"
           }
         },
@@ -2946,11 +2958,15 @@
           },
           "own": {
             "bg": {
-              "value": "{basic.green.6}",
+              "value": "{basic.green.8}",
               "type": "color"
             },
             "text": {
               "value": "{opacity.white.100}",
+              "type": "color"
+            },
+            "link": {
+              "value": "{basic.green.2}",
               "type": "color"
             }
           }
@@ -3070,13 +3086,13 @@
       },
       "nav": {
         "avatar_icon": {
-          "value": "space-between;",
+          "value": "flex-star",
           "type": "spacing"
         }
       }
     },
     "nav_shadow": {
-      "value": "{elevation.theme_light.e3}",
+      "value": "none",
       "type": "boxShadow"
     },
     "list_shadow": {
