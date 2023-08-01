@@ -1753,7 +1753,7 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{opacity.black.100}",
+          "value": "{opacity.white.100}",
           "type": "color"
         }
       }
@@ -2776,7 +2776,7 @@
       }
     }
   },
-  "style 4": {
+  "柔和模式": {
     "nav": {
       "color": {
         "bg": {
@@ -3194,7 +3194,7 @@
       "light",
       "dark",
       "style 3",
-      "style 4"
+      "柔和模式"
     ]
   }
 }
