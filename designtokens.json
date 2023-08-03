@@ -1860,6 +1860,12 @@
           "messages": {
             "value": "{conversation.color.bg.titlebar}",
             "type": "color"
+          },
+          "new_messages": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "新消息提示",
+            "$extensions": {}
           }
         },
         "chat_bubbles": {
@@ -2201,6 +2207,12 @@
           "Inputbox": {
             "value": "{opacity.black.16}",
             "type": "color"
+          },
+          "new_messages": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "新消息提示",
+            "$extensions": {}
           }
         },
         "chat_bubbles": {
@@ -2574,6 +2586,21 @@
           "messages": {
             "value": "{list.color.bg.frame}",
             "type": "color"
+          },
+          "new_messages": {
+            "value": "{conversation.color.bg.titlebar}",
+            "type": "color",
+            "description": "新消息提示",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "1",
+                  "space": "srgb",
+                  "color": "{opacity.black.7}"
+                }
+              }
+            }
           }
         },
         "chat_bubbles": {
@@ -2939,6 +2966,12 @@
           "messages": {
             "value": "{list.color.bg.frame}",
             "type": "color"
+          },
+          "new_messages": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "新消息提示",
+            "$extensions": {}
           }
         },
         "chat_bubbles": {
