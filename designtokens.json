@@ -3198,6 +3198,90 @@
       }
     }
   },
+  "黑": {
+    "gw": {
+      "gwbt": {
+        "value": "{opacity.white.100}",
+        "type": "color"
+      },
+      "lsdk": {
+        "ds": {
+          "value": "{opacity.black.24}",
+          "type": "color",
+          "mb": {
+            "s": {
+              "value": "{opacity.white.7}",
+              "type": "color"
+            }
+          }
+        },
+        "kp": {
+          "fbt": {
+            "value": "{basic.grey.2}",
+            "type": "color"
+          }
+        }
+      },
+      "bw": {
+        "ds": {
+          "value": "{opacity.black.24}",
+          "type": "color"
+        }
+      },
+      "ds": {
+        "value": "{gradient.3}",
+        "type": "color"
+      }
+    },
+    "gw_bt": {
+      "mb": {
+        "value": "{basic.blue.8}",
+        "type": "color"
+      }
+    }
+  },
+  "白": {
+    "gw": {
+      "gwbt": {
+        "value": "{opacity.black.100}",
+        "type": "color"
+      },
+      "lsdk": {
+        "ds": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "mb": {
+            "q": {
+              "value": "{opacity.black.7}",
+              "type": "color"
+            }
+          }
+        },
+        "kp": {
+          "fbt": {
+            "value": "{basic.grey.1}",
+            "type": "color"
+          }
+        }
+      },
+      "bw": {
+        "ds": {
+          "value": "{opacity.white.24}",
+          "type": "color"
+        }
+      },
+      "ds": {
+        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
+        "type": "color"
+      }
+    },
+    "gw_bt": {
+      "mb": {
+        "value": "{basic.grey.4}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
@@ -3205,7 +3289,9 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "basic": "source",
-        "dark": "enabled"
+        "dark": "enabled",
+        "黑": "disabled",
+        "白": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -3255,7 +3341,9 @@
       "light",
       "dark",
       "style 3",
-      "柔和模式"
+      "柔和模式",
+      "黑",
+      "白"
     ]
   }
 }
