@@ -1042,6 +1042,10 @@
       "3": {
         "value": "linear-gradient(180deg, #0A1732 0%, #132C57 100%);",
         "type": "color"
+      },
+      "4": {
+        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
+        "type": "color"
       }
     },
     "dimension": {
@@ -3198,7 +3202,7 @@
       }
     }
   },
-  "黑": {
+  "深色鼎呱呱": {
     "gw": {
       "gwbt": {
         "value": "{opacity.white.100}",
@@ -3240,7 +3244,7 @@
       }
     }
   },
-  "白": {
+  "浅色鼎呱呱": {
     "gw": {
       "gwbt": {
         "value": "{opacity.black.100}",
@@ -3271,7 +3275,7 @@
         }
       },
       "ds": {
-        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
+        "value": "{gradient.4}",
         "type": "color"
       }
     },
@@ -3290,8 +3294,8 @@
       "selectedTokenSets": {
         "basic": "source",
         "dark": "enabled",
-        "黑": "disabled",
-        "白": "disabled"
+        "深色鼎呱呱": "disabled",
+        "浅色鼎呱呱": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -3342,8 +3346,8 @@
       "dark",
       "style 3",
       "柔和模式",
-      "黑",
-      "白"
+      "深色鼎呱呱",
+      "浅色鼎呱呱"
     ]
   }
 }
