@@ -1147,6 +1147,10 @@
         "value": "4px",
         "type": "borderRadius"
       },
+      "6": {
+        "value": "6px",
+        "type": "borderRadius"
+      },
       "8": {
         "value": "8px",
         "type": "borderRadius"
@@ -1922,6 +1926,32 @@
               "value": "{basic.grey.3}",
               "type": "color"
             }
+          },
+          "tag": {
+            "quote": {
+              "bg": {
+                "value": "{basic.blue.1}",
+                "type": "color",
+                "description": "引用标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.blue.6}",
+                "type": "color",
+                "description": "引用标签🏷️文字"
+              }
+            },
+            "optimize": {
+              "bg": {
+                "value": "{basic.cyan.1}",
+                "type": "color",
+                "description": "优化标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.cyan.6}",
+                "type": "color",
+                "description": "优化标签🏷️文字"
+              }
+            }
           }
         },
         "border": {
@@ -1996,6 +2026,38 @@
           "text": {
             "value": "{basic.blue.5}",
             "type": "color"
+          }
+        },
+        "entry_popwin": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "select_bg": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "对话列表弹窗选中色"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "对话列表弹窗描边"
           }
         }
       }
@@ -2081,6 +2143,14 @@
         },
         "inputbox": {
           "value": "{borderRadius.0}",
+          "type": "borderRadius"
+        },
+        "entry_popwin_select": {
+          "value": "{borderRadius.6}",
+          "type": "borderRadius"
+        },
+        "entry_popwin": {
+          "value": "{borderRadius.8}",
           "type": "borderRadius"
         }
       }
@@ -2377,6 +2447,38 @@
             "type": "color"
           }
         },
+        "entry_popwin": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "select_bg": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "对话列表弹窗选中色"
+          },
+          "title": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "border": {
+            "value": "o",
+            "type": "color",
+            "description": "对话列表弹窗描边"
+          }
+        },
         "chat_bubbles": {
           "other": {
             "bg": {
@@ -2390,6 +2492,32 @@
             "text": {
               "value": "{conversation.color.text.title}",
               "type": "color"
+            }
+          },
+          "tag": {
+            "quote": {
+              "bg": {
+                "value": "{basic.blue.1}",
+                "type": "color",
+                "description": "引用标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.blue.6}",
+                "type": "color",
+                "description": "引用标签🏷️文字"
+              }
+            },
+            "optimize": {
+              "bg": {
+                "value": "{basic.cyan.1}",
+                "type": "color",
+                "description": "优化标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.cyan.6}",
+                "type": "color",
+                "description": "优化标签🏷️文字"
+              }
             }
           },
           "disable": {
@@ -2511,6 +2639,14 @@
       "conversation": {
         "message": {
           "value": "{borderRadius.0}",
+          "type": "borderRadius"
+        },
+        "entry_popwin": {
+          "value": "{borderRadius.8}",
+          "type": "borderRadius"
+        },
+        "entry_popwin_select": {
+          "value": "{borderRadius.6}",
           "type": "borderRadius"
         },
         "inputbox": {
