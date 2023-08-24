@@ -1908,6 +1908,20 @@
               "value": "{basic.blue.5}",
               "type": "color"
             }
+          },
+          "disable": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -1963,6 +1977,24 @@
           },
           "Input_box": {
             "value": "{basic.grey.2}",
+            "type": "color"
+          }
+        },
+        "entry": {
+          "bg": {
+            "value": "{opacity.white.24}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{opacity.white.48}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.blue.5}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.blue.5}",
             "type": "color"
           }
         }
@@ -2090,6 +2122,52 @@
     "conversation_shadow": {
       "value": "none",
       "type": "boxShadow"
+    },
+    "popwin": {
+      "color": {
+        "border": {
+          "value": "{opacity.black.16}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{opacity.white.20}",
+          "type": "color"
+        },
+        "text": {
+          "body": {
+            "value": "{opacity.black.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          },
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "border": {
+          "value": "{opacity.black.24}",
+          "type": "color"
+        },
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.black.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
@@ -2129,23 +2207,9 @@
     },
     "popwin": {
       "color": {
-        "text": {
-          "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
-          }
-        },
-        "button": {
-          "bg": {
-            "value": "{opacity.white.7}",
-            "type": "color"
-          }
-        },
         "bg": {
+          "value": "{opacity.black.20}",
+          "type": "color",
           "border": {
             "value": "{opacity.white.16}",
             "type": "color"
@@ -2154,6 +2218,44 @@
             "value": "{opacity.black.20}",
             "type": "color"
           }
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
         }
       }
     },
@@ -2257,6 +2359,24 @@
             "$extensions": {}
           }
         },
+        "entry": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.grey.0}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.grey.0}",
+            "type": "color"
+          }
+        },
         "chat_bubbles": {
           "other": {
             "bg": {
@@ -2269,6 +2389,20 @@
             },
             "text": {
               "value": "{conversation.color.text.title}",
+              "type": "color"
+            }
+          },
+          "disable": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.white.12}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{basic.grey.5}",
               "type": "color"
             }
           },
