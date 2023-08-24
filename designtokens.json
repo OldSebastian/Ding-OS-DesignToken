@@ -2060,6 +2060,20 @@
             "description": "对话列表弹窗描边"
           }
         }
+      },
+      "size": {
+        "entry_popwin": {
+          "expand": {
+            "value": "280px",
+            "type": "sizing",
+            "description": "会话列表弹窗展开宽度"
+          },
+          "fold": {
+            "value": "94px",
+            "type": "sizing",
+            "description": "会话列表弹窗折叠宽度"
+          }
+        }
       }
     },
     "win_titlebar": {
@@ -2275,131 +2289,21 @@
         }
       }
     },
-    "popwin": {
-      "color": {
-        "bg": {
-          "value": "{opacity.black.20}",
-          "type": "color",
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "frame": {
-            "value": "{opacity.black.20}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color"
-          }
-        }
-      },
-      "button": {
-        "bg": {
-          "value": "{opacity.white.7}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
-        }
-      }
-    },
-    "list": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "12": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "item": {
-          "text": {
-            "title": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "describe": {
-              "value": "{opacity.white.76}",
-              "type": "color"
-            },
-            "date": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "avatar": {
-            "stroke": {
-              "gray": {
-                "value": "{basic.grey.3}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            },
-            "icon": {
-              "gray": {
-                "value": "{basic.grey.3}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{opacity.white.100}",
-                "type": "color"
-              }
-            },
-            "full": {
-              "gray": {
-                "value": "{basic.grey.9}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            }
-          },
-          "bg": {
-            "select": {
-              "value": "{opacity.white.4}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
     "conversation": {
+      "size": {
+        "entry_popwin": {
+          "expand": {
+            "value": "280px",
+            "type": "sizing",
+            "description": "会话列表弹窗展开宽度"
+          },
+          "fold": {
+            "value": "94px",
+            "type": "sizing",
+            "description": "会话列表弹窗折叠宽度"
+          }
+        }
+      },
       "color": {
         "bg": {
           "frame": {
@@ -2603,6 +2507,130 @@
           "Input_box": {
             "value": "{basic.grey.6}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "popwin": {
+      "color": {
+        "bg": {
+          "value": "{opacity.black.20}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
+        }
+      }
+    },
+    "list": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "{nav.color.bg.frame}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "12": {
+            "value": "{nav.color.border.7}",
+            "type": "color"
+          }
+        },
+        "item": {
+          "text": {
+            "title": {
+              "value": "{opacity.white.100}",
+              "type": "color"
+            },
+            "describe": {
+              "value": "{opacity.white.76}",
+              "type": "color"
+            },
+            "date": {
+              "value": "{basic.grey.3}",
+              "type": "color"
+            }
+          },
+          "avatar": {
+            "stroke": {
+              "gray": {
+                "value": "{basic.grey.3}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{basic.brand.6}",
+                "type": "color"
+              }
+            },
+            "icon": {
+              "gray": {
+                "value": "{basic.grey.3}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{opacity.white.100}",
+                "type": "color"
+              }
+            },
+            "full": {
+              "gray": {
+                "value": "{basic.grey.9}",
+                "type": "color"
+              },
+              "purple": {
+                "value": "{basic.brand.6}",
+                "type": "color"
+              }
+            }
+          },
+          "bg": {
+            "select": {
+              "value": "{opacity.white.4}",
+              "type": "color"
+            }
           }
         }
       }
