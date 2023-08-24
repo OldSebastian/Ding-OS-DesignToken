@@ -1042,10 +1042,6 @@
       "3": {
         "value": "linear-gradient(180deg, #0A1732 0%, #132C57 100%);",
         "type": "color"
-      },
-      "4": {
-        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
-        "type": "color"
       }
     },
     "dimension": {
@@ -2131,6 +2127,36 @@
         }
       }
     },
+    "popwin": {
+      "color": {
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          }
+        },
+        "button": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          }
+        }
+      }
+    },
     "list": {
       "color": {
         "bg": {
@@ -3202,7 +3228,7 @@
       }
     }
   },
-  "深色鼎呱呱": {
+  "黑": {
     "gw": {
       "gwbt": {
         "value": "{opacity.white.100}",
@@ -3244,7 +3270,7 @@
       }
     }
   },
-  "浅色鼎呱呱": {
+  "白": {
     "gw": {
       "gwbt": {
         "value": "{opacity.black.100}",
@@ -3275,7 +3301,7 @@
         }
       },
       "ds": {
-        "value": "{gradient.4}",
+        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
         "type": "color"
       }
     },
@@ -3293,9 +3319,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "basic": "source",
-        "dark": "enabled",
-        "深色鼎呱呱": "disabled",
-        "浅色鼎呱呱": "disabled"
+        "dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -3346,8 +3370,8 @@
       "dark",
       "style 3",
       "柔和模式",
-      "深色鼎呱呱",
-      "浅色鼎呱呱"
+      "黑",
+      "白"
     ]
   }
 }
