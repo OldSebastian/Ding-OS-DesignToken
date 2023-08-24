@@ -2482,7 +2482,7 @@
         "chat_bubbles": {
           "other": {
             "bg": {
-              "value": "{opacity.white.12}",
+              "value": "{opacity.white.7}",
               "type": "color"
             },
             "border": {
@@ -2536,11 +2536,11 @@
           },
           "own": {
             "bg": {
-              "value": "{opacity.white.88}",
+              "value": "{opacity.white.24}",
               "type": "color"
             },
             "text": {
-              "value": "{basic.grey.8}",
+              "value": "{conversation.color.text.title}",
               "type": "color"
             },
             "link": {
