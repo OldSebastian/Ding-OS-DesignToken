@@ -2166,6 +2166,13 @@
         "entry_popwin": {
           "value": "{borderRadius.8}",
           "type": "borderRadius"
+        },
+        "chat_bubbles": {
+          "tag": {
+            "value": "{borderRadius.6}",
+            "type": "borderRadius",
+            "description": "标签🏷️"
+          }
         }
       }
     },
@@ -2684,6 +2691,13 @@
         "titlebar": {
           "value": "{borderRadius.0}",
           "type": "borderRadius"
+        },
+        "chat_bubbles": {
+          "tag": {
+            "value": "{borderRadius.6}",
+            "type": "borderRadius",
+            "description": "标签🏷️"
+          }
         }
       }
     },
