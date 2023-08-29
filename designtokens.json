@@ -2073,6 +2073,18 @@
             "type": "sizing",
             "description": "会话列表弹窗折叠宽度"
           }
+        },
+        "contact_list": {
+          "expand": {
+            "value": "280px",
+            "type": "sizing",
+            "description": "会话列表弹窗展开宽度"
+          },
+          "fold": {
+            "value": "94px",
+            "type": "sizing",
+            "description": "会话列表弹窗折叠宽度"
+          }
         }
       }
     },
@@ -2278,11 +2290,11 @@
         },
         "icon": {
           "select": {
-            "value": "{basic.grey.3}",
+            "value": "{opacity.white.88}",
             "type": "color"
           },
           "disabled": {
-            "value": "{basic.grey.7}",
+            "value": "{opacity.white.24}",
             "type": "color"
           }
         }
@@ -2308,6 +2320,20 @@
             "value": "94px",
             "type": "sizing",
             "description": "会话列表弹窗折叠宽度"
+          }
+        },
+        "contact_list": {
+          "width": {
+            "expand": {
+              "value": "360px",
+              "type": "sizing",
+              "description": "联系人列表展开宽度"
+            },
+            "fold": {
+              "value": "80px",
+              "type": "sizing",
+              "description": "联系人列表折叠宽度"
+            }
           }
         }
       },
@@ -2512,7 +2538,7 @@
             "type": "color"
           },
           "Input_box": {
-            "value": "{basic.grey.6}",
+            "value": "{opacity.white.64}",
             "type": "color"
           }
         }
@@ -3412,6 +3438,20 @@
           "Input_box": {
             "value": "{basic.grey.2}",
             "type": "color"
+          }
+        }
+      },
+      "size": {
+        "contact_list": {
+          "expand": {
+            "value": "280px",
+            "type": "sizing",
+            "description": "会话列表弹窗展开宽度"
+          },
+          "fold": {
+            "value": "94px",
+            "type": "sizing",
+            "description": "会话列表弹窗折叠宽度"
           }
         }
       }
