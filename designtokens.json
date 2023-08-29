@@ -2247,11 +2247,13 @@
       "color": {
         "border": {
           "value": "{opacity.black.16}",
-          "type": "color"
+          "type": "color",
+          "description": "权限申请描边"
         },
         "bg": {
-          "value": "{opacity.white.20}",
-          "type": "color"
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "权限申请背景色"
         },
         "text": {
           "body": {
@@ -2282,7 +2284,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{opacity.white.100}",
+          "value": "{opacity.black.4}",
           "type": "color",
           "description": "权限申请弹窗按钮hover颜色"
         }
