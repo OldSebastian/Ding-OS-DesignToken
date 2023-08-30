@@ -2302,7 +2302,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{gradient.3}",
+            "value": "none",
             "type": "color"
           }
         },
@@ -2731,7 +2731,7 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{basic.grey.9}",
+          "value": "{gradient.3}",
           "type": "color"
         }
       }
