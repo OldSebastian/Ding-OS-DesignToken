@@ -2329,6 +2329,15 @@
             "value": "48px",
             "type": "sizing"
           }
+},
+        "frame": {
+          "width": {
+            "normal": {
+              "value": "80px",
+              "type": "sizing",
+              "description": "导航栏宽度"
+            }
+          }
         }
       }
     },
@@ -2711,6 +2720,26 @@
             "select": {
               "value": "{opacity.white.4}",
               "type": "color"
+            }
+          }
+        }
+},
+      "size": {
+        "frame": {
+          "width": {
+            "normal": {
+              "value": "360px",
+              "type": "sizing",
+              "description": "联系人列表展开宽度"
+            }
+          }
+        },
+        "selected": {
+          "width": {
+            "normal": {
+              "value": "344px",
+              "type": "sizing",
+              "description": "联系人悬停背景展开宽度"
             }
           }
         }
@@ -3500,6 +3529,48 @@
             "value": "94px",
             "type": "sizing",
             "description": "会话列表弹窗折叠宽度"
+},
+          "frame": {
+            "width": {
+              "expand": {
+                "value": "360px",
+                "type": "sizing",
+                "description": "联系人列表展开宽度"
+              },
+              "fold": {
+                "value": "80px",
+                "type": "sizing",
+                "description": "联系人列表折叠宽度"
+          }
+        }
+},
+          "selected": {
+            "width": {
+              "expand": {
+                "value": "344px",
+                "type": "sizing",
+                "description": "联系人悬停背景展开宽度"
+              },
+              "fold": {
+                "value": "64px",
+                "type": "sizing",
+                "description": "联系人悬停背景收起宽度"
+              }
+            }
+          }
+        },
+        "frame": {
+          "width": {
+            " normal": {
+              "value": "360px",
+              "type": "sizing",
+              "description": "联系人列表展开宽度"
+            },
+            "fold": {
+              "value": "80px",
+              "type": "sizing",
+              "description": "联系人列表折叠宽度"
+            }
           }
         }
       }
@@ -3712,6 +3783,30 @@
       }
     }
   },
+"mini list": {
+    "list": {
+      "size": {
+        "frame": {
+          "width": {
+            "normal": {
+              "value": "80px",
+              "type": "sizing",
+              "description": "联系人列表展开宽度"
+            }
+          }
+        },
+        "selected": {
+          "width": {
+            "normal": {
+              "value": "64px",
+              "type": "sizing",
+              "description": "联系人悬停背景展开宽度"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
@@ -3760,7 +3855,29 @@
         "win_titlebar.color.text": "91b898384343514b1daf521f1873f25f75ee9921"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
-      "$figmaModeId": "149:1"
+      "$figmaModeId": "149:1",
+      "group": "基础模式"
+    },
+    {
+      "id": "868ce26e14ffb2f70d34cd7d9f7901fb35e24801",
+      "name": "light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "basic": "source",
+        "light": "enabled"
+      },
+      "group": "基础模式"
+    },
+    {
+      "id": "21f94b18518fa8c6b8b354674cfa2980089d15ef",
+      "name": "柔和模式",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "basic": "source",
+        "light": "enabled",
+        "柔和模式": "enabled"
+      },
+      "group": "基础模式"
     }
   ],
   "$metadata": {
@@ -3771,7 +3888,8 @@
       "style 3",
       "柔和模式",
       "黑",
-      "白"
+      "白",
+      "mini list"
     ]
   }
 }
