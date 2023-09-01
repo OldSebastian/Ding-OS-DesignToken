@@ -1147,10 +1147,6 @@
         "value": "4px",
         "type": "borderRadius"
       },
-      "6": {
-        "value": "6px",
-        "type": "borderRadius"
-      },
       "8": {
         "value": "8px",
         "type": "borderRadius"
@@ -1912,46 +1908,6 @@
               "value": "{basic.blue.5}",
               "type": "color"
             }
-          },
-          "disable": {
-            "bg": {
-              "value": "{basic.grey.1}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{basic.grey.2}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "tag": {
-            "quote": {
-              "bg": {
-                "value": "{basic.blue.1}",
-                "type": "color",
-                "description": "引用标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.blue.6}",
-                "type": "color",
-                "description": "引用标签🏷️文字"
-              }
-            },
-            "optimize": {
-              "bg": {
-                "value": "{basic.cyan.1}",
-                "type": "color",
-                "description": "优化标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.cyan.6}",
-                "type": "color",
-                "description": "优化标签🏷️文字"
-              }
-            }
           }
         },
         "border": {
@@ -2008,99 +1964,6 @@
           "Input_box": {
             "value": "{basic.grey.2}",
             "type": "color"
-          }
-        },
-        "entry": {
-          "bg": {
-            "value": "{opacity.white.24}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{opacity.white.48}",
-            "type": "color"
-          },
-          "icon": {
-            "value": "{basic.blue.5}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{basic.blue.5}",
-            "type": "color"
-          },
-          "hover": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color",
-              "description": "消息按钮悬停背景"
-            },
-            "border": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "消息按钮悬停描边"
-            }
-          }
-        },
-        "entry_popwin": {
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "对话列表弹窗背景色"
-          },
-          "select_bg": {
-            "value": "{opacity.black.7}",
-            "type": "color",
-            "description": "对话列表弹窗选中色"
-          },
-          "title": {
-            "value": "{basic.grey.9}",
-            "type": "color",
-            "description": "对话列表弹窗文字🦟"
-          },
-          "body": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗正文"
-          },
-          "time": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗时间日期📅"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color",
-            "description": "对话列表弹窗描边"
-          },
-          "hover": {
-            "value": "{opacity.black.4}",
-            "type": "color",
-            "description": "对话列表悬停"
-          }
-        }
-      },
-      "size": {
-        "entry_popwin": {
-          "expand": {
-            "value": "280px",
-            "type": "sizing",
-            "description": "会话列表弹窗展开宽度"
-          },
-          "fold": {
-            "value": "94px",
-            "type": "sizing",
-            "description": "会话列表弹窗折叠宽度"
-          }
-        },
-        "contact_list": {
-          "expand": {
-            "value": "280px",
-            "type": "sizing",
-            "description": "会话列表弹窗展开宽度"
-          },
-          "fold": {
-            "value": "94px",
-            "type": "sizing",
-            "description": "会话列表弹窗折叠宽度"
           }
         }
       }
@@ -2187,22 +2050,12 @@
         "inputbox": {
           "value": "{borderRadius.0}",
           "type": "borderRadius"
-        },
-        "entry_popwin_select": {
-          "value": "{borderRadius.6}",
-          "type": "borderRadius"
-        },
-        "entry_popwin": {
-          "value": "{borderRadius.8}",
-          "type": "borderRadius"
-        },
-        "chat_bubbles": {
-          "tag": {
-            "value": "{borderRadius.6}",
-            "type": "borderRadius",
-            "description": "标签🏷️"
-          }
         }
+      },
+      "subservice": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius",
+        "description": "子服务区圆角"
       }
     },
     "inner_spacing": {
@@ -2243,56 +2096,55 @@
       "value": "none",
       "type": "boxShadow"
     },
-    "popwin": {
+    "subservice": {
       "color": {
-        "border": {
-          "value": "{opacity.black.16}",
-          "type": "color",
-          "description": "权限申请描边"
-        },
         "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color",
-          "description": "权限申请背景色"
-        },
-        "text": {
-          "body": {
-            "value": "{opacity.black.88}",
-            "type": "color"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color"
-          },
-          "title": {
-            "value": "{opacity.black.100}",
-            "type": "color"
+          "frame": {
+            "value": "{list.color.bg.frame}",
+            "type": "color",
+            "description": "子服务空间背景颜色"
           }
-        }
-      },
-      "button": {
-        "border": {
-          "value": "{opacity.black.24}",
-          "type": "color"
         },
-        "bg": {
-          "value": "{opacity.white.7}",
-          "type": "color"
+        "tabbar": {
+          "tab": {
+            "selected_bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时背景颜色"
+            },
+            "selected_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时文字颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_frame": {
+              "value": "n'o'n'e",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            }
+          }
         },
-        "text": {
-          "value": "{opacity.black.100}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{opacity.black.4}",
-          "type": "color",
-          "description": "权限申请弹窗按钮hover颜色"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
+        "toolbar": {
+          "icon": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "工具栏图标颜色"
+          },
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "工具栏图标颜色"
+          }
         }
       }
     }
@@ -2315,11 +2167,13 @@
         "icon": {
           "select": {
             "value": "{opacity.white.88}",
-            "type": "color"
+            "type": "color",
+            "description": "导航栏图标选中状态"
           },
           "disabled": {
             "value": "{opacity.white.24}",
-            "type": "color"
+            "type": "color",
+            "description": "导航栏图标未选中状态"
           }
         }
       },
@@ -2329,329 +2183,6 @@
             "value": "48px",
             "type": "sizing"
           }
-        },
-        "frame": {
-          "width": {
-            "normal": {
-              "value": "80px",
-              "type": "sizing",
-              "description": "导航栏宽度"
-            }
-          }
-        }
-      }
-    },
-    "conversation": {
-      "size": {
-        "entry_popwin": {
-          "expand": {
-            "value": "280px",
-            "type": "sizing",
-            "description": "会话列表弹窗展开宽度"
-          },
-          "fold": {
-            "value": "94px",
-            "type": "sizing",
-            "description": "会话列表弹窗折叠宽度"
-          }
-        },
-        "contact_list": {
-          "width": {
-            "expand": {
-              "value": "360px",
-              "type": "sizing",
-              "description": "联系人列表展开宽度"
-            },
-            "fold": {
-              "value": "80px",
-              "type": "sizing",
-              "description": "联系人列表折叠宽度"
-            }
-          }
-        }
-      },
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{basic.brand.5}",
-            "type": "color"
-          },
-          "titlebar": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "messages": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "Inputbox": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "new_messages": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "新消息提示",
-            "$extensions": {}
-          }
-        },
-        "entry": {
-          "bg": {
-            "value": "{opacity.white.7}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "icon": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "hover": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color",
-              "description": "消息按钮悬停背景"
-            },
-            "border": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "消息按钮悬停描边"
-            }
-          }
-        },
-        "entry_popwin": {
-          "bg": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "对话列表弹窗背景色"
-          },
-          "select_bg": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "对话列表弹窗选中色"
-          },
-          "title": {
-            "value": "{basic.grey.0}",
-            "type": "color",
-            "description": "对话列表弹窗文字🦟"
-          },
-          "body": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗正文"
-          },
-          "time": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗时间日期📅"
-          },
-          "border": {
-            "value": "o",
-            "type": "color",
-            "description": "对话列表弹窗描边"
-          },
-          "hover": {
-            "value": "{opacity.white.4}",
-            "type": "color",
-            "description": "对话列表悬停"
-          }
-        },
-        "chat_bubbles": {
-          "other": {
-            "bg": {
-              "value": "{opacity.white.7}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.white.24}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            }
-          },
-          "tag": {
-            "quote": {
-              "bg": {
-                "value": "{basic.blue.1}",
-                "type": "color",
-                "description": "引用标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.blue.6}",
-                "type": "color",
-                "description": "引用标签🏷️文字"
-              }
-            },
-            "optimize": {
-              "bg": {
-                "value": "{basic.cyan.1}",
-                "type": "color",
-                "description": "优化标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.cyan.6}",
-                "type": "color",
-                "description": "优化标签🏷️文字"
-              }
-            }
-          },
-          "disable": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.white.12}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{basic.grey.5}",
-              "type": "color"
-            }
-          },
-          "own": {
-            "bg": {
-              "value": "{opacity.white.24}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "link": {
-              "value": "{basic.light-blue.5}",
-              "type": "color"
-            }
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "avatar": {
-          "stroke": {
-            "gray": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.4}",
-              "type": "color"
-            }
-          },
-          "icon": {
-            "gray": {
-              "value": "{basic.grey.6}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          },
-          "describe": {
-            "value": "{list.color.item.text.describe}",
-            "type": "color"
-          },
-          "prompt": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{basic.grey.3}",
-            "type": "color"
-          },
-          "Input_box": {
-            "value": "{opacity.white.64}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "popwin": {
-      "color": {
-        "bg": {
-          "value": "{opacity.white.12}",
-          "type": "color",
-          "description": "权限申请弹窗底色\n",
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "frame": {
-            "value": "{opacity.black.20}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color"
-          }
-        }
-      },
-      "button": {
-        "hover": {
-          "value": "{opacity.white.20}",
-          "type": "color",
-          "description": "权限申请弹窗按钮hover颜色"
-        },
-        "bg": {
-          "value": "{opacity.white.7}",
-          "type": "color",
-          "description": "权限申请弹窗按钮默认颜色"
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
         }
       }
     },
@@ -2723,24 +2254,122 @@
             }
           }
         }
-      },
-      "size": {
-        "frame": {
-          "width": {
-            "normal": {
-              "value": "360px",
-              "type": "sizing",
-              "description": "联系人列表展开宽度"
+      }
+    },
+    "conversation": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "{opacity.black.16}",
+            "type": "color"
+          },
+          "botton": {
+            "value": "{basic.brand.5}",
+            "type": "color"
+          },
+          "titlebar": {
+            "value": "{opacity.black.16}",
+            "type": "color"
+          },
+          "messages": {
+            "value": "{opacity.black.16}",
+            "type": "color"
+          },
+          "Inputbox": {
+            "value": "{opacity.black.16}",
+            "type": "color"
+          },
+          "new_messages": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "新消息提示",
+            "$extensions": {}
+          }
+        },
+        "chat_bubbles": {
+          "other": {
+            "bg": {
+              "value": "{opacity.white.12}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{conversation.color.text.title}",
+              "type": "color"
+            }
+          },
+          "own": {
+            "bg": {
+              "value": "{opacity.white.88}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{basic.grey.8}",
+              "type": "color"
+            },
+            "link": {
+              "value": "{basic.light-blue.5}",
+              "type": "color"
             }
           }
         },
-        "selected": {
-          "width": {
-            "normal": {
-              "value": "344px",
-              "type": "sizing",
-              "description": "联系人悬停背景展开宽度"
+        "border": {
+          "7": {
+            "value": "{nav.color.border.7}",
+            "type": "color"
+          }
+        },
+        "avatar": {
+          "stroke": {
+            "gray": {
+              "value": "{basic.grey.3}",
+              "type": "color"
+            },
+            "purple": {
+              "value": "{basic.brand.4}",
+              "type": "color"
             }
+          },
+          "icon": {
+            "gray": {
+              "value": "{basic.grey.6}",
+              "type": "color"
+            },
+            "purple": {
+              "value": "{basic.brand.6}",
+              "type": "color"
+            }
+          }
+        },
+        "text": {
+          "title": {
+            "value": "{list.color.item.text.title}",
+            "type": "color"
+          },
+          "describe": {
+            "value": "{list.color.item.text.describe}",
+            "type": "color"
+          },
+          "prompt": {
+            "value": "{basic.grey.2}",
+            "type": "color"
+          },
+          "botton": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "title_bar": {
+            "value": "{basic.grey.3}",
+            "type": "color"
+          },
+          "Input_box": {
+            "value": "{basic.grey.6}",
+            "type": "color"
           }
         }
       }
@@ -2760,7 +2389,7 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{gradient.3}",
+          "value": "{basic.grey.9}",
           "type": "color"
         }
       }
@@ -2779,14 +2408,6 @@
           "value": "{borderRadius.0}",
           "type": "borderRadius"
         },
-        "entry_popwin": {
-          "value": "{borderRadius.8}",
-          "type": "borderRadius"
-        },
-        "entry_popwin_select": {
-          "value": "{borderRadius.6}",
-          "type": "borderRadius"
-        },
         "inputbox": {
           "value": "{borderRadius.0}",
           "type": "borderRadius"
@@ -2794,14 +2415,12 @@
         "titlebar": {
           "value": "{borderRadius.0}",
           "type": "borderRadius"
-        },
-        "chat_bubbles": {
-          "tag": {
-            "value": "{borderRadius.6}",
-            "type": "borderRadius",
-            "description": "标签🏷️"
-          }
         }
+      },
+      "subservice": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius",
+        "description": "子服务区圆角"
       }
     },
     "inner_spacing": {
@@ -2887,6 +2506,58 @@
           "title_bar": {
             "value": "{conversation.color.icon.title_bar}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "subservice": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "{list.color.bg.frame}",
+            "type": "color",
+            "description": "子服务空间背景颜色"
+          }
+        },
+        "tabbar": {
+          "tab": {
+            "selected_bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时背景颜色"
+            },
+            "selected_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时文字颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_frame": {
+              "value": "n'o'n'e",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            }
+          }
+        },
+        "toolbar": {
+          "icon": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "工具栏图标颜色"
+          },
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "工具栏图标颜色"
           }
         }
       }
@@ -3137,62 +2808,6 @@
             "type": "color"
           }
         }
-      },
-      "size": {
-        "contact_list": {
-          "expand": {
-            "value": "280px",
-            "type": "sizing",
-            "description": "会话列表弹窗展开宽度"
-          },
-          "fold": {
-            "value": "94px",
-            "type": "sizing",
-            "description": "会话列表弹窗折叠宽度"
-          },
-          "frame": {
-            "width": {
-              "expand": {
-                "value": "360px",
-                "type": "sizing",
-                "description": "联系人列表展开宽度"
-              },
-              "fold": {
-                "value": "80px",
-                "type": "sizing",
-                "description": "联系人列表折叠宽度"
-              }
-            }
-          },
-          "selected": {
-            "width": {
-              "expand": {
-                "value": "344px",
-                "type": "sizing",
-                "description": "联系人悬停背景展开宽度"
-              },
-              "fold": {
-                "value": "64px",
-                "type": "sizing",
-                "description": "联系人悬停背景收起宽度"
-              }
-            }
-          }
-        },
-        "frame": {
-          "width": {
-            " normal": {
-              "value": "360px",
-              "type": "sizing",
-              "description": "联系人列表展开宽度"
-            },
-            "fold": {
-              "value": "80px",
-              "type": "sizing",
-              "description": "联系人列表折叠宽度"
-            }
-          }
-        }
       }
     },
     "win_titlebar": {
@@ -3215,6 +2830,11 @@
       "nav": {
         "value": "{borderRadius.16}",
         "type": "borderRadius"
+      },
+      "subservice": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius",
+        "description": "子服务区圆角"
       },
       "conversation": {
         "message": {
@@ -3317,6 +2937,58 @@
           }
         }
       }
+    },
+    "subservice": {
+      "color": {
+        "bg": {
+          "frame": {
+            "value": "{list.color.bg.frame}",
+            "type": "color",
+            "description": "子服务空间背景颜色"
+          }
+        },
+        "tabbar": {
+          "tab": {
+            "selected_bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时背景颜色"
+            },
+            "selected_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时文字颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_frame": {
+              "value": "none",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时填充"
+            }
+          }
+        },
+        "toolbar": {
+          "icon": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "工具栏图标颜色"
+          },
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "工具栏图标颜色"
+          }
+        }
+      }
     }
   },
   "黑": {
@@ -3403,39 +3075,17 @@
       }
     }
   },
-  "mini list": {
-    "list": {
-      "size": {
-        "frame": {
-          "width": {
-            "normal": {
-              "value": "80px",
-              "type": "sizing",
-              "description": "联系人列表展开宽度"
-            }
-          }
-        },
-        "selected": {
-          "width": {
-            "normal": {
-              "value": "64px",
-              "type": "sizing",
-              "description": "联系人悬停背景展开宽度"
-            }
-          }
-        }
-      }
-    }
-  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
       "name": "dark",
+      "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "basic": "source",
         "dark": "enabled"
       },
-      "$figmaStyleReferences": {},
+      "$figmaCollectionId": "VariableCollectionId:149:1035",
+      "$figmaModeId": "149:1",
       "$figmaVariableReferences": {
         "nav.color.bg.frame": "09aed1a9b21252628e9cc8ffb752edfc6073594d",
         "nav.color.icon.select": "e80611733092fc36fe50f3f5a481758aadf5f09d",
@@ -3473,31 +3123,7 @@
         "conversation.color.chat_bubbles.other.border": "a7e058e56766fdf909bf6fd940a6ff510311fd99",
         "win_titlebar.color.bg": "f3ce72957c434a5d788347037fe558a572928fcb",
         "win_titlebar.color.text": "91b898384343514b1daf521f1873f25f75ee9921"
-      },
-      "$figmaCollectionId": "VariableCollectionId:149:1035",
-      "$figmaModeId": "149:1",
-      "group": "基础模式"
-    },
-    {
-      "id": "868ce26e14ffb2f70d34cd7d9f7901fb35e24801",
-      "name": "light",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "basic": "source",
-        "light": "enabled"
-      },
-      "group": "基础模式"
-    },
-    {
-      "id": "21f94b18518fa8c6b8b354674cfa2980089d15ef",
-      "name": "柔和模式",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "basic": "source",
-        "light": "enabled",
-        "柔和模式": "enabled"
-      },
-      "group": "基础模式"
+      }
     }
   ],
   "$metadata": {
@@ -3507,8 +3133,7 @@
       "dark",
       "柔和模式",
       "黑",
-      "白",
-      "mini list"
+      "白"
     ]
   }
 }
