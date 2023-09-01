@@ -2329,7 +2329,7 @@
             "value": "48px",
             "type": "sizing"
           }
-},
+        },
         "frame": {
           "width": {
             "normal": {
@@ -2723,7 +2723,7 @@
             }
           }
         }
-},
+      },
       "size": {
         "frame": {
           "width": {
@@ -2847,386 +2847,6 @@
         "bg": {
           "frame": {
             "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "brand": {
-          "icon": {
-            "value": "{conversation.color.text.title}",
-            "type": "color"
-          },
-          "select": {
-            "value": "{sum.color.brand.icon}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{conversation.color.text.describe}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{conversation.color.text.prompt}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{conversation.color.icon.title_bar}",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
-  "style 3": {
-    "nav": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{opacity.black.7}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "select": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        }
-      },
-      "size": {
-        "avatar": {
-          "normal": {
-            "value": "48px",
-            "type": "sizing"
-          }
-        }
-      },
-      "text": {
-        "icon_text": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "win": {
-      "color": {
-        "bg": {
-          "value": "{gradient.1}",
-          "type": "color"
-        }
-      }
-    },
-    "list": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "12": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "item": {
-          "text": {
-            "title": {
-              "value": "{basic.grey.8}",
-              "type": "color"
-            },
-            "describe": {
-              "value": "{basic.grey.5}",
-              "type": "color"
-            },
-            "date": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "avatar": {
-            "stroke": {
-              "gray": {
-                "value": "{basic.grey.6}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            },
-            "icon": {
-              "gray": {
-                "value": "{basic.grey.6}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            },
-            "full": {
-              "gray": {
-                "value": "{basic.grey.0}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.0}",
-                "type": "color"
-              }
-            }
-          },
-          "bg": {
-            "select": {
-              "value": "{basic.brand.0}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "text": {
-        "title": {
-          "value": "{headLine.cn.18}",
-          "type": "typography"
-        },
-        "details": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "conversation": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "none",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{basic.brand.5}",
-            "type": "color"
-          },
-          "titlebar": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "Inputbox": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "messages": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "new_messages": {
-            "value": "{conversation.color.bg.titlebar}",
-            "type": "color",
-            "description": "新消息提示",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "1",
-                  "space": "srgb",
-                  "color": "{opacity.black.7}"
-                }
-              }
-            }
-          }
-        },
-        "chat_bubbles": {
-          "other": {
-            "bg": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.black.12}",
-              "type": "color"
-            }
-          },
-          "own": {
-            "bg": {
-              "value": "{basic.brand.1}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "link": {
-              "value": "{basic.blue.5}",
-              "type": "color"
-            }
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "avatar": {
-          "stroke": {
-            "gray": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.4}",
-              "type": "color"
-            }
-          },
-          "icon": {
-            "gray": {
-              "value": "{basic.grey.6}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{basic.grey.8}",
-            "type": "color"
-          },
-          "describe": {
-            "value": "{basic.grey.5}",
-            "type": "color"
-          },
-          "prompt": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          },
-          "Input_box": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "win_titlebar": {
-      "color": {
-        "bg": {
-          "value": "{basic.grey.1}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{basic.grey.8}",
-          "type": "color"
-        }
-      }
-    },
-    "radius": {
-      "list": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius"
-      },
-      "nav": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius"
-      },
-      "conversation": {
-        "message": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        },
-        "titlebar": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        },
-        "inputbox": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        }
-      }
-    },
-    "inner_spacing": {
-      "win": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "nav_list": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "conversation": {
-        "titlebar_messages": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        },
-        "chatpanel": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        }
-      },
-      "nav": {
-        "avatar_icon": {
-          "value": "{spacing.24}",
-          "type": "spacing"
-        }
-      }
-    },
-    "nav_shadow": {
-      "value": "{elevation.theme_light.e3}",
-      "type": "boxShadow"
-    },
-    "list_shadow": {
-      "value": "{elevation.theme_light.e3}",
-      "type": "boxShadow"
-    },
-    "conversation_shadow": {
-      "value": "{elevation.theme_light.e3}",
-      "type": "boxShadow"
-    },
-    "sum": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{basic.grey.1}",
             "type": "color"
           }
         },
@@ -3529,7 +3149,7 @@
             "value": "94px",
             "type": "sizing",
             "description": "会话列表弹窗折叠宽度"
-},
+          },
           "frame": {
             "width": {
               "expand": {
@@ -3541,9 +3161,9 @@
                 "value": "80px",
                 "type": "sizing",
                 "description": "联系人列表折叠宽度"
-          }
-        }
-},
+              }
+            }
+          },
           "selected": {
             "width": {
               "expand": {
@@ -3783,7 +3403,7 @@
       }
     }
   },
-"mini list": {
+  "mini list": {
     "list": {
       "size": {
         "frame": {
@@ -3885,7 +3505,6 @@
       "basic",
       "light",
       "dark",
-      "style 3",
       "柔和模式",
       "黑",
       "白",
