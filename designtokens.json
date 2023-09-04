@@ -714,6 +714,48 @@
           "value": "#294616",
           "type": "color"
         }
+      },
+      "dark-blue": {
+        "0": {
+          "value": "#E1E6ED",
+          "type": "color"
+        },
+        "1": {
+          "value": "#BECADB",
+          "type": "color"
+        },
+        "2": {
+          "value": "#8699B9",
+          "type": "color"
+        },
+        "3": {
+          "value": "#586E96",
+          "type": "color"
+        },
+        "4": {
+          "value": "#344975",
+          "type": "color"
+        },
+        "5": {
+          "value": "#192B54",
+          "type": "color"
+        },
+        "6": {
+          "value": "#122041",
+          "type": "color"
+        },
+        "7": {
+          "value": "#0A142C",
+          "type": "color"
+        },
+        "8": {
+          "value": "#040A19",
+          "type": "color"
+        },
+        "9": {
+          "value": "#010205",
+          "type": "color"
+        }
       }
     },
     "elevation": {
@@ -1965,6 +2007,18 @@
             "value": "{basic.grey.2}",
             "type": "color"
           }
+        },
+        "mention": {
+          "bg": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天背景"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天边框"
+          }
         }
       }
     },
@@ -2370,6 +2424,18 @@
           "Input_box": {
             "value": "{basic.grey.6}",
             "type": "color"
+          }
+        },
+        "mention": {
+          "bg": {
+            "value": "{basic.dark-blue.5}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天背景"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天边框"
           }
         }
       }
@@ -2806,6 +2872,18 @@
           "Input_box": {
             "value": "{basic.grey.2}",
             "type": "color"
+          }
+        },
+        "mention": {
+          "bg": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天背景"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "输入框内@人时弹窗聊天边框"
           }
         }
       }
