@@ -2201,6 +2201,67 @@
           }
         }
       }
+    },
+    "popwin": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "description": "权限申请弹窗底色\n",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "hover": {
+          "value": "{opacity.white.20}",
+          "type": "color",
+          "description": "权限申请弹窗按钮hover颜色"
+        },
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "description": "权限申请弹窗按钮默认颜色"
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
@@ -2455,7 +2516,7 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{basic.grey.9}",
+          "value": "{gradient.3}",
           "type": "color"
         }
       }
@@ -2625,6 +2686,67 @@
             "type": "color",
             "description": "工具栏图标颜色"
           }
+        }
+      }
+    },
+    "popwin": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "description": "权限申请弹窗底色\n",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "hover": {
+          "value": "{opacity.white.20}",
+          "type": "color",
+          "description": "权限申请弹窗按钮hover颜色"
+        },
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "description": "权限申请弹窗按钮默认颜色"
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
         }
       }
     }
@@ -3065,6 +3187,67 @@
             "type": "color",
             "description": "工具栏图标颜色"
           }
+        }
+      }
+    },
+    "popwin": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "description": "权限申请弹窗底色\n",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color"
+          },
+          "body": {
+            "value": "{opacity.white.88}",
+            "type": "color"
+          },
+          "link": {
+            "value": "{basic.blue.4}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "hover": {
+          "value": "{opacity.white.20}",
+          "type": "color",
+          "description": "权限申请弹窗按钮hover颜色"
+        },
+        "bg": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "description": "权限申请弹窗按钮默认颜色"
+        },
+        "border": {
+          "value": "{opacity.white.16}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
         }
       }
     }
