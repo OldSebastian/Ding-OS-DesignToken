@@ -1950,6 +1950,43 @@
               "value": "{basic.blue.5}",
               "type": "color"
             }
+          },
+          "file": {
+            "bg": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "filez文件标题"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "filez文件描边"
+            },
+            "filez_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "复制icon颜色\n"
+            },
+            "describe": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "描述文本"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "链接"
+            }
           }
         },
         "border": {
@@ -2018,6 +2055,77 @@
             "value": "{opacity.white.16}",
             "type": "color",
             "description": "输入框内@人时弹窗聊天边框"
+          }
+        },
+        "entry": {
+          "bg": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "消息按钮底色"
+          },
+          "border": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "消息按钮描边\n"
+          },
+          "icon": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "icon颜色"
+          },
+          "text": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "文字颜色\n"
+          },
+          "hover": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "消息按钮悬停背景"
+            },
+            "border": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "消息按钮悬停描边"
+            }
+          }
+        },
+        "entry_popwin": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "select_bg": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "对话列表弹窗选中色"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "border": {
+            "value": "o",
+            "type": "color",
+            "description": "对话列表弹窗描边"
+          },
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "对话列表悬停"
           }
         }
       }
@@ -2205,9 +2313,8 @@
     "popwin": {
       "color": {
         "bg": {
-          "value": "{opacity.white.12}",
+          "value": "{opacity.white.100}",
           "type": "color",
-          "description": "权限申请弹窗底色\n",
           "border": {
             "value": "{opacity.white.16}",
             "type": "color"
@@ -2215,45 +2322,52 @@
           "frame": {
             "value": "{opacity.black.20}",
             "type": "color"
-          }
+          },
+          "description": "权限申请弹窗底色\n"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{opacity.black.24}",
+          "type": "color",
+          "description": "权限弹窗描边\n"
         },
         "text": {
           "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "标题\n"
           },
           "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "次文本\n"
           },
           "link": {
             "value": "{basic.blue.4}",
-            "type": "color"
+            "type": "color",
+            "description": "文件名"
           }
         }
       },
       "button": {
         "hover": {
-          "value": "{opacity.white.20}",
+          "value": "{opacity.black.4}",
           "type": "color",
           "description": "权限申请弹窗按钮hover颜色"
         },
         "bg": {
-          "value": "{opacity.white.7}",
+          "value": "{opacity.white.100}",
           "type": "color",
           "description": "权限申请弹窗按钮默认颜色"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "按钮描边"
         },
         "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "按钮文字颜色"
         }
       },
       "icon": {
@@ -2372,6 +2486,34 @@
       }
     },
     "conversation": {
+      "size": {
+        "entry_popwin": {
+          "expand": {
+            "value": "280px",
+            "type": "sizing",
+            "description": "会话列表弹窗展开宽度"
+          },
+          "fold": {
+            "value": "94px",
+            "type": "sizing",
+            "description": "会话列表弹窗折叠宽度"
+          }
+        },
+        "contact_list": {
+          "width": {
+            "expand": {
+              "value": "360px",
+              "type": "sizing",
+              "description": "联系人列表展开宽度"
+            },
+            "fold": {
+              "value": "80px",
+              "type": "sizing",
+              "description": "联系人列表折叠宽度"
+            }
+          }
+        }
+      },
       "color": {
         "bg": {
           "frame": {
@@ -2401,6 +2543,73 @@
             "$extensions": {}
           }
         },
+        "entry": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{basic.grey.0}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{basic.grey.0}",
+            "type": "color"
+          },
+          "hover": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "消息按钮悬停背景"
+            },
+            "border": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "消息按钮悬停描边"
+            }
+          }
+        },
+        "entry_popwin": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "select_bg": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "对话列表弹窗选中色"
+          },
+          "title": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "border": {
+            "value": "o",
+            "type": "color",
+            "description": "对话列表弹窗描边"
+          },
+          "hover": {
+            "value": "{opacity.white.4}",
+            "type": "color",
+            "description": "对话列表悬停"
+          }
+        },
         "chat_bubbles": {
           "other": {
             "bg": {
@@ -2416,6 +2625,46 @@
               "type": "color"
             }
           },
+          "tag": {
+            "quote": {
+              "bg": {
+                "value": "{basic.blue.1}",
+                "type": "color",
+                "description": "引用标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.blue.6}",
+                "type": "color",
+                "description": "引用标签🏷️文字"
+              }
+            },
+            "optimize": {
+              "bg": {
+                "value": "{basic.cyan.1}",
+                "type": "color",
+                "description": "优化标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.cyan.6}",
+                "type": "color",
+                "description": "优化标签🏷️文字"
+              }
+            }
+          },
+          "disable": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.white.12}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{basic.grey.5}",
+              "type": "color"
+            }
+          },
           "own": {
             "bg": {
               "value": "{opacity.white.88}",
@@ -2428,6 +2677,43 @@
             "link": {
               "value": "{basic.light-blue.5}",
               "type": "color"
+            }
+          },
+          "file": {
+            "bg": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "filez文件描边"
+            },
+            "filez_bg": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "复制icon颜色\n"
+            },
+            "title": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "description": "filez文件标题"
+            },
+            "describe": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "描述文本"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "链接"
             }
           }
         },
@@ -3007,6 +3293,77 @@
             "type": "color",
             "description": "输入框内@人时弹窗聊天边框"
           }
+        },
+        "entry": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "消息按钮底色"
+          },
+          "border": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "消息按钮描边\n"
+          },
+          "icon": {
+            "value": "{basic.green.8}",
+            "type": "color",
+            "description": "icon颜色"
+          },
+          "text": {
+            "value": "{basic.green.8}",
+            "type": "color",
+            "description": "文字颜色\n"
+          },
+          "hover": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "消息按钮悬停背景"
+            },
+            "border": {
+              "value": "{basic.green.8}",
+              "type": "color",
+              "description": "消息按钮悬停描边"
+            }
+          }
+        },
+        "entry_popwin": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "select_bg": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "对话列表弹窗选中色"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "border": {
+            "value": "o",
+            "type": "color",
+            "description": "对话列表弹窗描边"
+          },
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "对话列表悬停"
+          }
         }
       }
     },
@@ -3193,9 +3550,8 @@
     "popwin": {
       "color": {
         "bg": {
-          "value": "{opacity.white.12}",
+          "value": "{opacity.white.100}",
           "type": "color",
-          "description": "权限申请弹窗底色\n",
           "border": {
             "value": "{opacity.white.16}",
             "type": "color"
@@ -3203,45 +3559,52 @@
           "frame": {
             "value": "{opacity.black.20}",
             "type": "color"
-          }
+          },
+          "description": "权限申请弹窗底色\n"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{opacity.black.24}",
+          "type": "color",
+          "description": "权限弹窗描边\n"
         },
         "text": {
           "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "标题\n"
           },
           "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "次文本\n"
           },
           "link": {
             "value": "{basic.blue.4}",
-            "type": "color"
+            "type": "color",
+            "description": "文件名"
           }
         }
       },
       "button": {
         "hover": {
-          "value": "{opacity.white.20}",
+          "value": "{opacity.black.4}",
           "type": "color",
           "description": "权限申请弹窗按钮hover颜色"
         },
         "bg": {
-          "value": "{opacity.white.7}",
+          "value": "{opacity.white.100}",
           "type": "color",
           "description": "权限申请弹窗按钮默认颜色"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "按钮描边"
         },
         "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "按钮文字颜色"
         }
       },
       "icon": {
