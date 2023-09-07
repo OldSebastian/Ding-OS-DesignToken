@@ -2696,12 +2696,12 @@
           },
           "disable": {
             "bg": {
-              "value": "{opacity.white.16}",
+              "value": "{opacity.black.20}",
               "type": "color",
               "description": "警用底色"
             },
             "border": {
-              "value": "{basic.grey.5}",
+              "value": "{opacity.white.20}",
               "type": "color",
               "description": "警用描边\n"
             },
