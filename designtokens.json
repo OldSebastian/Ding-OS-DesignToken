@@ -1987,6 +1987,49 @@
               "type": "color",
               "description": "链接"
             }
+          },
+          "tag": {
+            "quote": {
+              "bg": {
+                "value": "{basic.blue.1}",
+                "type": "color",
+                "description": "引用标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.blue.6}",
+                "type": "color",
+                "description": "引用标签🏷️文字"
+              }
+            },
+            "optimize": {
+              "bg": {
+                "value": "{basic.cyan.1}",
+                "type": "color",
+                "description": "优化标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.cyan.6}",
+                "type": "color",
+                "description": "优化标签🏷️文字"
+              }
+            }
+          },
+          "disable": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "警用底色\n"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "警用描边\n"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "警用文字色"
+            }
           }
         },
         "border": {
@@ -2654,11 +2697,13 @@
           "disable": {
             "bg": {
               "value": "{opacity.white.16}",
-              "type": "color"
+              "type": "color",
+              "description": "警用底色"
             },
             "border": {
-              "value": "{opacity.white.12}",
-              "type": "color"
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "警用描边\n"
             },
             "text": {
               "value": "{basic.grey.5}",
@@ -3223,6 +3268,49 @@
             "link": {
               "value": "{basic.green.2}",
               "type": "color"
+            }
+          },
+          "tag": {
+            "quote": {
+              "bg": {
+                "value": "{basic.blue.1}",
+                "type": "color",
+                "description": "引用标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.blue.6}",
+                "type": "color",
+                "description": "引用标签🏷️文字"
+              }
+            },
+            "optimize": {
+              "bg": {
+                "value": "{basic.cyan.1}",
+                "type": "color",
+                "description": "优化标签🏷️背景"
+              },
+              "text": {
+                "value": "{basic.cyan.6}",
+                "type": "color",
+                "description": "优化标签🏷️文字"
+              }
+            }
+          },
+          "disable": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "警用底色\n"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "警用描边\n"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "警用文字色"
             }
           }
         },
