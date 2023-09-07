@@ -2107,7 +2107,7 @@
             "description": "消息按钮底色"
           },
           "border": {
-            "value": "{opacity.white.48}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "消息按钮描边\n"
           },
