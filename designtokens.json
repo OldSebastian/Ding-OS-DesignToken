@@ -3312,6 +3312,43 @@
               "type": "color",
               "description": "警用文字色"
             }
+          },
+          "file": {
+            "bg": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "filez文件标题"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "filez文件描边"
+            },
+            "filez_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "复制icon颜色\n"
+            },
+            "describe": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "描述文本"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "链接"
+            }
           }
         },
         "border": {
