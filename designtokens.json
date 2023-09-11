@@ -3315,7 +3315,7 @@
           },
           "file": {
             "bg": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "filez文件底色"
             },
