@@ -1953,7 +1953,7 @@
           },
           "file": {
             "bg": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "filez文件底色"
             },
@@ -3832,8 +3832,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "basic": "source",
-        "dark": "enabled",
-        "窗管": "disabled"
+        "dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
