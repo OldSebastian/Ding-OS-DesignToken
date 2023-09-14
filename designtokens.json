@@ -1084,6 +1084,14 @@
       "3": {
         "value": "linear-gradient(180deg, #0A1732 0%, #132C57 100%);",
         "type": "color"
+      },
+      "4": {
+        "value": "linear-gradient(85deg, #8088E3 8.78%, #9196EE 38.84%, #BAB5F9 86.77%);",
+        "type": "color"
+      },
+      "5": {
+        "value": "linear-gradient(86deg, #2DA37B 8.91%, #4CB2A1 53.18%, #7DBDC3 100.3%);",
+        "type": "color"
       }
     },
     "dimension": {
@@ -2419,6 +2427,78 @@
           "type": "color"
         }
       }
+    },
+    "idcard": {
+      "color": {
+        "head": {
+          "value": "{gradient.4}",
+          "type": "color",
+          "description": "个人信息卡片head底色"
+        },
+        "imformation_bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片信息区域颜色"
+        },
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片整体底色"
+        }
+      },
+      "button": {
+        "hover": {
+          "value": "{basic.brand.4}",
+          "type": "color",
+          "description": "个人信息卡片按钮hover颜色"
+        },
+        "bg": {
+          "value": "{basic.brand.5}",
+          "type": "color",
+          "description": "个人信息卡片按钮颜色"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片按钮文本颜色"
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{basic.grey.3}",
+          "type": "color",
+          "description": "个人信息卡片题目文字颜色"
+        },
+        "body": {
+          "value": "{basic.grey.6}",
+          "type": "color"
+        },
+        "link": {
+          "value": "{basic.light-blue.5}",
+          "type": "color"
+        },
+        "name": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "imformation": {
+          "value": "{basic.grey.1}",
+          "type": "color",
+          "description": "个人信息卡片信息区域描边"
+        },
+        "head": {
+          "value": "none",
+          "type": "color",
+          "description": "个人信息卡片head描边"
+        }
+      }
+    },
+    "idcard_shadow": {
+      "value": "{elevation.theme_light.e4}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
     }
   },
   "dark": {
@@ -3080,6 +3160,150 @@
           "type": "color"
         }
       }
+    },
+    "idcard": {
+      "color": {
+        "head": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片head底色"
+        },
+        "bg": {
+          "value": "{basic.dark-blue.6}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片整体底色"
+        },
+        "imformation_bg": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片信息区域颜色"
+        }
+      },
+      "button": {
+        "bg": {
+          "value": "{basic.brand.4}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片按钮颜色"
+        },
+        "hover": {
+          "value": "{basic.brand.3}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片按钮hover颜色"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片按钮文本颜色"
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{basic.grey.2}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片题目文字颜色"
+        },
+        "body": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        },
+        "link": {
+          "value": "{basic.blue.4}",
+          "type": "color"
+        },
+        "name": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "imformation": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片信息区域颜色"
+        },
+        "head": {
+          "value": "none",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "个人信息卡片head描边"
+        }
+      }
+    },
+    "idcard_shadow": {
+      "value": "{elevation.theme_dark.e4}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
     }
   },
   "柔和模式": {
@@ -3571,6 +3795,11 @@
       "value": "{elevation.theme_light.e3}",
       "type": "boxShadow"
     },
+    "idcard_shadow": {
+      "value": "{elevation.theme_light.e4}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
+    },
     "sum": {
       "color": {
         "bg": {
@@ -3736,6 +3965,73 @@
         "bg": {
           "value": "{basic.grey.4}",
           "type": "color"
+        }
+      }
+    },
+    "idcard": {
+      "color": {
+        "head": {
+          "value": "{gradient.5}",
+          "type": "color",
+          "description": "个人信息卡片head底色"
+        },
+        "imformation_bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片信息区域颜色"
+        },
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片整体底色"
+        }
+      },
+      "button": {
+        "hover": {
+          "value": "{basic.green.4}",
+          "type": "color",
+          "description": "个人信息卡片按钮hover颜色"
+        },
+        "bg": {
+          "value": "{basic.green.6}",
+          "type": "color",
+          "description": "个人信息卡片按钮颜色"
+        },
+        "text": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "个人信息卡片按钮文本颜色"
+        }
+      },
+      "text": {
+        "title": {
+          "value": "{basic.grey.3}",
+          "type": "color",
+          "description": "个人信息卡片题目文字颜色"
+        },
+        "body": {
+          "value": "{basic.grey.6}",
+          "type": "color"
+        },
+        "link": {
+          "value": "{basic.blue.4}",
+          "type": "color"
+        },
+        "name": {
+          "value": "{opacity.white.100}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "imformation": {
+          "value": "{basic.grey.1}",
+          "type": "color",
+          "description": "个人信息卡片信息描边"
+        },
+        "head": {
+          "value": "none",
+          "type": "color",
+          "description": "个人信息卡片head描边"
         }
       }
     }
