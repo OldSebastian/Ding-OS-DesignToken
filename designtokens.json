@@ -3186,6 +3186,33 @@
               "type": "color",
               "description": "通讯录列表头像内图标色"
             }
+          },
+          "hover": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "选中效果"
+          }
+        },
+        "text": {
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "公司名称、列表内文字、面包屑选中"
+          },
+          "breadcrumb": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "面包屑未选中"
+          },
+          "breadcrumb_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "面包屑悬停"
           }
         }
       }
