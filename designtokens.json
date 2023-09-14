@@ -1092,6 +1092,10 @@
       "5": {
         "value": "linear-gradient(86deg, #2DA37B 8.91%, #4CB2A1 53.18%, #7DBDC3 100.3%);",
         "type": "color"
+      },
+      "6": {
+        "value": "linear-gradient(359deg, #E0EAFC 1.11%, #CFDEF3 98.7%);",
+        "type": "color"
       }
     },
     "dimension": {
@@ -2499,6 +2503,71 @@
       "value": "{elevation.theme_light.e4}",
       "type": "boxShadow",
       "description": "个人信息卡片投影"
+    },
+    "emoji": {
+      "color": {
+        "subspace": {
+          "bg": {
+            "value": "{gradient.6}",
+            "type": "color",
+            "description": "子服务空间内浅色背景色"
+          },
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "子服务空间内标题颜色"
+          },
+          "name": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "子服务空间内表情包名称"
+          },
+          "tag": {
+            "value": "{basic.blue.1}",
+            "type": "color",
+            "description": "子服务空间内底部标签底色"
+          },
+          "Select": {
+            "value": "{basic.blue.4}",
+            "type": "color",
+            "description": "子服务空间内底部标签选中色"
+          }
+        },
+        "float": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "minichat内浅色背景色"
+          },
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内浅色描边"
+          },
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "minichat内表情包悬停"
+          }
+        },
+        "more": {
+          "bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内浅色更多背景色"
+          },
+          "icon": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "minichat内浅色更多icon颜色"
+          },
+          "title": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "minichat内浅色更多标题颜色"
+          }
+        }
+      }
     }
   },
   "dark": {
@@ -3321,6 +3390,135 @@
         }
       }
     },
+    "emoji": {
+      "color": {
+        "subspace": {
+          "bg": {
+            "value": "{basic.dark-blue.6}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "子服务空间内深色背景色"
+          },
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "子服务空间内标题颜色"
+          },
+          "name": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "子服务空间内表情包名称"
+          },
+          "tag": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "子服务空间内底部标签底色"
+          },
+          "Select": {
+            "value": "{basic.dark-blue.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "子服务空间内底部标签选中色"
+          }
+        },
+        "float": {
+          "bg": {
+            "value": "{basic.dark-blue.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "minichat内深色背景色"
+          },
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "minichat内深色描边"
+          },
+          "hover": {
+            "value": "{opacity.black.32}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "minichat内表情包悬停"
+          }
+        },
+        "more": {
+          "icon": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内深色更多icon颜色"
+          },
+          "title": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内深色更多标题颜色"
+          },
+          "bg": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "minichat内深色更多背景色"
+          }
+        }
+      }
+    },
     "idcard_shadow": {
       "value": "{elevation.theme_dark.e4}",
       "type": "boxShadow",
@@ -4053,6 +4251,71 @@
           "value": "none",
           "type": "color",
           "description": "个人信息卡片head描边"
+        }
+      }
+    },
+    "emoji": {
+      "color": {
+        "subspace": {
+          "bg": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "子服务空间内柔和模式背景色"
+          },
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "子服务空间内标题颜色"
+          },
+          "name": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "子服务空间内表情包名称"
+          },
+          "tag": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "子服务空间内底部标签底色"
+          },
+          "Select": {
+            "value": "{basic.green.5}",
+            "type": "color",
+            "description": "子服务空间内底部标签选中色"
+          }
+        },
+        "float": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "minichat内柔和模式背景色"
+          },
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内柔和模式描边"
+          },
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "minichat内表情包悬停"
+          }
+        },
+        "more": {
+          "icon": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "minichat内柔和模式更多icon颜色"
+          },
+          "title": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "minichat内柔和模式更多标题颜色"
+          },
+          "bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "minichat内柔和模式更多背景色"
+          }
         }
       }
     }
