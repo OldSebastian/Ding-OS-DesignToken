@@ -3098,6 +3098,27 @@
             "description": "工具栏图标颜色"
           }
         }
+      },
+      "address_book": {
+        "list": {
+          "avatar": {
+            "bg": {
+              "value": "{basic.dark-blue.7}",
+              "type": "color",
+              "description": "通讯录列表图标背景色"
+            },
+            "broder": {
+              "value": "{basic.light-blue.2}",
+              "type": "color",
+              "description": "通讯录列表图标描边色"
+            },
+            "icon": {
+              "value": "{basic.light-blue.2}",
+              "type": "color",
+              "description": "通讯录列表头像内图标色"
+            }
+          }
+        }
       }
     },
     "popwin": {
