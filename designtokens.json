@@ -2363,6 +2363,59 @@
             "description": "工具栏图标颜色"
           }
         }
+      },
+      "address_book": {
+        "list": {
+          "avatar": {
+            "bg-copy": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "通讯录列表图标背景色"
+            },
+            "broder": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "通讯录列表图标描边色"
+            },
+            "icon": {
+              "value": "{basic.grey.6}",
+              "type": "color",
+              "description": "通讯录列表头像内图标色"
+            }
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "列表hover效果"
+          }
+        },
+        "text": {
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "公司名称、列表内文字"
+          },
+          "breadcrumb": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "面包屑未选中、标签未选中"
+          },
+          "breadcrumb_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "面包屑悬停、标签悬停"
+          },
+          "breadcrumb_selected": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "面包屑选中、标签选中"
+          }
+        }
       }
     },
     "popwin": {
@@ -3213,6 +3266,11 @@
             "value": "{basic.grey.2}",
             "type": "color",
             "description": "面包屑悬停"
+          },
+          "breadcrumb_selected": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "面包屑选中"
           }
         }
       }
@@ -4143,6 +4201,59 @@
             "value": "{opacity.white.100}",
             "type": "color",
             "description": "工具栏图标颜色"
+          }
+        }
+      },
+      "address_book": {
+        "list": {
+          "avatar": {
+            "bg-copy": {
+              "value": "{basic.dark-blue.7}",
+              "type": "color",
+              "description": "通讯录列表图标背景色"
+            },
+            "broder": {
+              "value": "{basic.light-blue.2}",
+              "type": "color",
+              "description": "通讯录列表图标描边色"
+            },
+            "icon": {
+              "value": "{basic.light-blue.2}",
+              "type": "color",
+              "description": "通讯录列表头像内图标色"
+            }
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "列表hover效果"
+          }
+        },
+        "text": {
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "公司名称、列表内文字"
+          },
+          "breadcrumb": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "面包屑未选中、标签未选中"
+          },
+          "breadcrumb_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "面包屑悬停、标签悬停"
+          },
+          "breadcrumb_selected": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "面包屑选中"
           }
         }
       }
