@@ -3273,6 +3273,76 @@
             "description": "面包屑选中"
           }
         }
+      },
+      "forward": {
+        "quote": {
+          "text_title": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "转发以下内容标题颜色"
+          },
+          "text_body": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "引用的文字颜色"
+          },
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "text_button_hover": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "文字按钮hover"
+          },
+          "quote_bg": {
+            "value": "{opacity.black.48}",
+            "type": "color",
+            "description": "引用内容背景"
+          }
+        },
+        "select_area": {
+          "select": {
+            "text_title": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "选择器边框"
+            },
+            "text_normal": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "初始输入框文字"
+            },
+            "text_typing": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入中输入框文字"
+            },
+            "tag": {
+              "bg": {
+                "value": "{opacity.white.7}",
+                "type": "color",
+                "description": "标签胶囊背景"
+              },
+              "text": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "description": "标签胶囊名字"
+              },
+              "button": {
+                "value": "{basic.grey.4}",
+                "type": "color",
+                "description": "标签胶囊关闭按钮"
+              }
+            }
+          }
+        }
       }
     },
     "popwin": {
