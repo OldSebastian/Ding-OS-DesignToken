@@ -2621,6 +2621,53 @@
               "description": "禁用按钮文字"
             }
           }
+        },
+        "popwin": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "转发弹层背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "转发弹层描边"
+          },
+          "text_title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "转发记录标题"
+          },
+          "text_subtitle": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "转发记录副标题"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "转发记录列表文字"
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "转发记录列表hover"
+          },
+          "icon": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "打开文件的图标"
+          },
+          "divider": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "description": "分割线"
+          },
+          "close": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "关闭按钮"
+          }
         }
       }
     },
@@ -3902,6 +3949,53 @@
               "type": "color",
               "description": "禁用按钮文字"
             }
+          }
+        },
+        "popwin": {
+          "bg": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "转发弹层背景色"
+          },
+          "border": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "转发弹层描边"
+          },
+          "text_title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "转发记录标题"
+          },
+          "text_subtitle": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "转发记录副标题"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "转发记录列表文字"
+          },
+          "hover": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "转发记录列表hover"
+          },
+          "icon": {
+            "value": "{basic.grey.7}",
+            "type": "color",
+            "description": "打开文件的图标"
+          },
+          "divider": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "分割线"
+          },
+          "close": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "关闭按钮"
           }
         }
       }
@@ -5310,6 +5404,53 @@
               "type": "color",
               "description": "禁用按钮文字"
             }
+          }
+        },
+        "popwin": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "转发弹层背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "转发弹层描边"
+          },
+          "text_title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "转发记录标题"
+          },
+          "text_subtitle": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "转发记录副标题"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "转发记录列表文字"
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "转发记录列表hover"
+          },
+          "icon": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "打开文件的图标"
+          },
+          "divider": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "description": "分割线"
+          },
+          "close": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "关闭按钮"
           }
         }
       }
