@@ -2601,9 +2601,14 @@
               "description": "按钮禁用"
             },
             "border": {
-              "value": "{basic.grey.2}",
+              "value": "{opacity.white.32}",
               "type": "color",
               "description": "按钮描边"
+            },
+            "border_disable": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "禁用按钮描边"
             },
             "text": {
               "value": "{opacity.white.100}",
@@ -3881,6 +3886,11 @@
               "value": "{opacity.white.32}",
               "type": "color",
               "description": "按钮描边"
+            },
+            "border_disable": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "禁用按钮描边"
             },
             "text": {
               "value": "{opacity.white.100}",
@@ -5281,9 +5291,14 @@
               "description": "按钮禁用"
             },
             "border": {
-              "value": "{basic.grey.2}",
+              "value": "{opacity.white.32}",
               "type": "color",
               "description": "按钮描边"
+            },
+            "border_disable": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "禁用按钮描边"
             },
             "text": {
               "value": "{opacity.white.100}",
