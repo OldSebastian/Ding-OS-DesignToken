@@ -2674,6 +2674,84 @@
             "description": "关闭按钮"
           }
         }
+      },
+      "optimize": {
+        "text": {
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "优化以下内容标题颜色"
+          },
+          "source_text": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "优化服务下目标文本"
+          },
+          "new_writing": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "优化服务下优化文本"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "优化服务下展开收起"
+          },
+          "high_dose": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化服务下优化文本高亮颜色"
+          }
+        },
+        "inputbox": {
+          "bg": {
+            "value": "{basic.blue.0}",
+            "type": "color",
+            "description": "优化文本输入框"
+          },
+          "border": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化文本输入框描边颜色"
+          }
+        },
+        "button": {
+          "forbidden_bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "优化服务按钮禁用底色"
+          },
+          "bg": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "优化服务按钮底色"
+          },
+          "border": {
+            "value": "{opacity.white.32}",
+            "type": "color",
+            "description": "优化服务按钮描边"
+          },
+          "forbidden_border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "优化服务按钮禁用描边"
+          },
+          "forbidden_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "优化服务按钮禁用文字"
+          },
+          "forbidden_text-copy": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "优化服务按钮禁用文字"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化服务按钮文字"
+          }
+        }
       }
     },
     "popwin": {
@@ -4006,6 +4084,88 @@
             "value": "{basic.grey.4}",
             "type": "color",
             "description": "关闭按钮"
+          }
+        }
+      },
+      "optimize": {
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化以下内容标题颜色"
+          },
+          "source_text": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "优化服务下目标文本"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "优化服务下展开收起"
+          },
+          "new_writing": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化服务下优化文本"
+          },
+          "high_dose": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化服务下优化文本高亮颜色"
+          }
+        },
+        "inputbox": {
+          "bg": {
+            "value": "{basic.cyan.9}",
+            "type": "color",
+            "description": "优化文本输入框",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.3",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "border": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化文本输入框描边颜色"
+          }
+        },
+        "button": {
+          "forbidden_bg": {
+            "value": "{opacity.white.32}",
+            "type": "color",
+            "description": "优化服务按钮禁用底色"
+          },
+          "forbidden_border": {
+            "value": "{opacity.white.32}",
+            "type": "color",
+            "description": "优化服务按钮禁用描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化服务按钮禁用文字"
+          },
+          "bg": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "优化服务按钮底色"
+          },
+          "border": {
+            "value": "{opacity.white.32}",
+            "type": "color",
+            "description": "优化服务按钮描边"
+          },
+          "forbidden_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化服务按钮禁用文字"
           }
         }
       }
@@ -5466,6 +5626,79 @@
             "value": "{basic.grey.4}",
             "type": "color",
             "description": "关闭按钮"
+          }
+        }
+      },
+      "optimize": {
+        "text": {
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "优化以下内容标题颜色"
+          },
+          "source_text": {
+            "value": "{basic.grey.5}",
+            "type": "color",
+            "description": "优化服务下目标文本"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "优化服务下展开收起"
+          },
+          "new_writing": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "优化服务下优化文本"
+          },
+          "high_dose": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化服务下优化文本高亮颜色"
+          }
+        },
+        "inputbox": {
+          "bg": {
+            "value": "{basic.blue.0}",
+            "type": "color",
+            "description": "优化文本输入框"
+          },
+          "border": {
+            "value": "{basic.teal.4}",
+            "type": "color",
+            "description": "优化文本输入框描边颜色"
+          }
+        },
+        "button": {
+          "forbidden_bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "优化服务按钮禁用底色"
+          },
+          "forbidden_border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "优化服务按钮禁用描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "优化服务按钮文字"
+          },
+          "bg": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "优化服务按钮底色"
+          },
+          "border": {
+            "value": "{opacity.white.32}",
+            "type": "color",
+            "description": "优化服务按钮描边"
+          },
+          "forbidden_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "优化服务按钮禁用文字"
           }
         }
       }
