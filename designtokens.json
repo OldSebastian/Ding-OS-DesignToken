@@ -2416,6 +2416,207 @@
             "description": "面包屑选中、标签选中"
           }
         }
+      },
+      "forward": {
+        "quote": {
+          "text_title": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "转发以下内容标题颜色"
+          },
+          "text_body": {
+            "value": "{basic.dark-blue.2}",
+            "type": "color",
+            "description": "引用的文字颜色"
+          },
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "text_button_hover": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "文字按钮hover"
+          },
+          "quote_bg": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "引用内容背景"
+          }
+        },
+        "select_area": {
+          "select": {
+            "text_title": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "选择器边框"
+            },
+            "border_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "选择器选中边框"
+            },
+            "text_normal": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "初始输入框文字"
+            },
+            "text_typing": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入中输入框文字"
+            },
+            "clearbutton_bg": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "清除按钮背景"
+            },
+            "clearbutton_icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "清除按钮图标颜色"
+            },
+            "tag": {
+              "bg": {
+                "value": "{opacity.white.48}",
+                "type": "color",
+                "description": "标签胶囊背景"
+              },
+              "text": {
+                "value": "{basic.grey.9}",
+                "type": "color",
+                "description": "标签胶囊名字"
+              },
+              "button": {
+                "value": "{basic.grey.4}",
+                "type": "color",
+                "description": "标签胶囊关闭按钮"
+              }
+            }
+          },
+          "tab": {
+            "text_normal": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "tab页文字默认样式"
+            },
+            "text_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "tab页文字选中"
+            },
+            "text_hover": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "tab页文字hover"
+            }
+          },
+          "list": {
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "选择列表hpver"
+            },
+            "selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "选择列表选中",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "checkbox": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "多选框",
+              "$extensions": {}
+            },
+            "checkbox_selected_bg": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "多选框选中底色",
+              "$extensions": {}
+            },
+            "checkbox_selected_icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "多选框选中对勾✅",
+              "$extensions": {}
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "列表人名颜色",
+              "$extensions": {}
+            }
+          },
+          "input": {
+            "border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "留言框初始"
+            },
+            "border_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "留言框选中"
+            },
+            "text_normal": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "留言框文字初始样式"
+            },
+            "text_typing": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "留言框文字输入中样式"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "按钮默认"
+            },
+            "hover": {
+              "value": "{basic.light-blue.4}",
+              "type": "color",
+              "description": "按钮悬停"
+            },
+            "disable": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "按钮禁用"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "按钮描边"
+            },
+            "text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "按钮文字"
+            },
+            "text_disable": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "禁用按钮文字"
+            }
+          }
+        }
       }
     },
     "popwin": {
@@ -3340,6 +3541,21 @@
                 "type": "color",
                 "description": "标签胶囊关闭按钮"
               }
+            },
+            "border_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "选择器选中边框"
+            },
+            "clearbutton_bg": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "清除按钮背景"
+            },
+            "clearbutton_icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "清除按钮图标颜色"
             }
           },
           "tab": {
@@ -4440,6 +4656,207 @@
             "value": "{basic.light-blue.5}",
             "type": "color",
             "description": "面包屑选中"
+          }
+        }
+      },
+      "forward": {
+        "quote": {
+          "text_title": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "转发以下内容标题颜色"
+          },
+          "text_body": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "引用的文字颜色"
+          },
+          "text_button": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "文字按钮"
+          },
+          "text_button_hover": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "文字按钮hover"
+          },
+          "quote_bg": {
+            "value": "{opacity.black.48}",
+            "type": "color",
+            "description": "引用内容背景"
+          }
+        },
+        "select_area": {
+          "select": {
+            "text_title": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "选择器边框"
+            },
+            "text_normal": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "初始输入框文字"
+            },
+            "text_typing": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入中输入框文字"
+            },
+            "tag": {
+              "bg": {
+                "value": "{opacity.white.7}",
+                "type": "color",
+                "description": "标签胶囊背景"
+              },
+              "text": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "description": "标签胶囊名字"
+              },
+              "button": {
+                "value": "{basic.grey.4}",
+                "type": "color",
+                "description": "标签胶囊关闭按钮"
+              }
+            },
+            "border_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "选择器选中边框"
+            },
+            "clearbutton_bg": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "清除按钮背景"
+            },
+            "clearbutton_icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "清除按钮图标颜色"
+            }
+          },
+          "tab": {
+            "text_normal": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "tab页文字默认样式"
+            },
+            "text_selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "tab页文字选中"
+            },
+            "text_hover": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "tab页文字hover"
+            }
+          },
+          "list": {
+            "hover": {
+              "value": "{opacity.white.7}",
+              "type": "color",
+              "description": "选择列表hpver"
+            },
+            "selected": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "选择列表选中",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "checkbox": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "多选框",
+              "$extensions": {}
+            },
+            "checkbox_selected_bg": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "多选框选中底色",
+              "$extensions": {}
+            },
+            "checkbox_selected_icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "多选框选中对勾✅",
+              "$extensions": {}
+            },
+            "text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "列表人名颜色",
+              "$extensions": {}
+            }
+          },
+          "input": {
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "留言框初始"
+            },
+            "border_selected": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "留言框选中"
+            },
+            "text_normal": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "留言框文字初始样式"
+            },
+            "text_typing": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "留言框文字输入中样式"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.light-blue.5}",
+              "type": "color",
+              "description": "按钮默认"
+            },
+            "hover": {
+              "value": "{basic.light-blue.4}",
+              "type": "color",
+              "description": "按钮悬停"
+            },
+            "disable": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "按钮禁用"
+            },
+            "border": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "按钮描边"
+            },
+            "text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "按钮文字"
+            },
+            "text_disable": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "禁用按钮文字"
+            }
           }
         }
       }
