@@ -4087,6 +4087,108 @@
           }
         }
       },
+      "calendar": {
+        "head": {
+          "title": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "标题文字"
+          },
+          "shiftbutton": {
+            "icon": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "line": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "border": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "切换按钮描边"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            },
+            "text": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "选择器标题"
+            }
+          }
+        },
+        "timeline": {
+          "text_name": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "时间轴姓名文字颜色"
+          },
+          "text_time": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "时间轴时间文字颜色"
+          },
+          "selected": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "时间轴时间选中颜色"
+          },
+          "line": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "时间轴线条颜色"
+          }
+        },
+        "selectedarea": {
+          "bg": {
+            "value": "{basic.cyan.1}",
+            "type": "color",
+            "description": "选中区域背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.4",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "border": {
+            "value": "{basic.cyan.2}",
+            "type": "color",
+            "description": "选中区域描边",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.2",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "text_title": {
+            "value": "{basic.cyan.5}",
+            "type": "color",
+            "description": "选中区域title",
+            "$extensions": {}
+          },
+          "text_time": {
+            "value": "{basic.cyan.4}",
+            "type": "color",
+            "description": "选中区域时间",
+            "$extensions": {}
+          }
+        }
+      },
       "optimize": {
         "text": {
           "title": {
