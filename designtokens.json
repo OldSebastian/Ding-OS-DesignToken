@@ -4090,58 +4090,63 @@
       "calendar": {
         "head": {
           "title": {
-            "value": "{opacity.white.48}",
+            "value": "{opacity.white.100}",
             "type": "color",
-            "description": "标题文字"
+            "description": "大盒子背景"
           },
           "shiftbutton": {
             "icon": {
-              "value": "{opacity.white.48}",
+              "value": "{basic.grey.2}",
               "type": "color",
-              "description": "选择器标题"
+              "description": "切换按钮图标"
             },
             "line": {
-              "value": "{opacity.white.48}",
+              "value": "{opacity.white.16}",
               "type": "color",
-              "description": "选择器标题"
+              "description": "切换按钮中线"
             },
             "border": {
-              "value": "{opacity.white.48}",
+              "value": "{basic.grey.2}",
               "type": "color",
               "description": "切换按钮描边"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "切换按钮背景"
             }
           },
           "button": {
             "bg": {
-              "value": "{opacity.white.48}",
+              "value": "{basic.teal.2}",
               "type": "color",
-              "description": "选择器标题"
+              "description": "创建会议按钮bg"
             },
             "text": {
-              "value": "{opacity.white.48}",
+              "value": "{basic.teal.5}",
               "type": "color",
-              "description": "选择器标题"
+              "description": "创建会议按钮文字"
             }
           }
         },
         "timeline": {
           "text_name": {
-            "value": "{opacity.white.48}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "时间轴姓名文字颜色"
           },
           "text_time": {
-            "value": "{opacity.white.48}",
+            "value": "{basic.grey.3}",
             "type": "color",
             "description": "时间轴时间文字颜色"
           },
           "selected": {
-            "value": "{opacity.white.48}",
+            "value": "{basic.red.5}",
             "type": "color",
             "description": "时间轴时间选中颜色"
           },
           "line": {
-            "value": "{opacity.white.48}",
+            "value": "{basic.grey.1}",
             "type": "color",
             "description": "时间轴线条颜色"
           }
