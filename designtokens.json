@@ -3403,7 +3403,7 @@
       "color": {
         "popwin": {
           "bg-": {
-            "value": "{basic.dark-blue.7}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3413,10 +3413,10 @@
               "value": "{opacity.black.20}",
               "type": "color"
             },
-            "description": "子服务空间内深色背景色"
+            "description": "浮层背景色"
           },
           "border": {
-            "value": "{basic.cyan.8}",
+            "value": "{basic.blue.2}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3429,7 +3429,7 @@
             "description": "文生图浮层描边"
           },
           "text": {
-            "value": "{opacity.white.100}",
+            "value": "{opacity.black.100}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3441,8 +3441,21 @@
             },
             "description": "文字颜色"
           },
+          "subtitle_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "描述文字颜色"
+          },
           "text_highlight": {
-            "value": "{basic.cyan.4}",
+            "value": "{basic.blue.4}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3469,7 +3482,7 @@
           },
           "card": {
             "bg": {
-              "value": "{opacity.white.16}",
+              "value": "{basic.blue.1}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -3479,7 +3492,16 @@
                 "value": "{opacity.black.20}",
                 "type": "color"
               },
-              "description": "卡片背景"
+              "description": "卡片背景",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.4",
+                    "space": "srgb"
+                  }
+                }
+              }
             },
             "border": {
               "value": "{opacity.white.32}",
@@ -3498,7 +3520,7 @@
         },
         "input": {
           "icon": {
-            "value": "{basic.cyan.4}",
+            "value": "{basic.blue.4}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3511,7 +3533,7 @@
             "description": "输入区域图标颜色"
           },
           "bg": {
-            "value": "{basic.grey.5}",
+            "value": "{basic.blue.1}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3524,7 +3546,7 @@
             "description": "输入区域指令背景色"
           },
           "border": {
-            "value": "{basic.light-blue.2}",
+            "value": "{basic.light-blue.3}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -3537,7 +3559,7 @@
             "description": "输入区域指令描边"
           },
           "text_typing": {
-            "value": "{basic.grey.1}",
+            "value": "{basic.grey.9}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -5117,7 +5139,7 @@
               "value": "{opacity.black.20}",
               "type": "color"
             },
-            "description": "子服务空间内深色背景色"
+            "description": "浮层背景色"
           },
           "border": {
             "value": "{basic.cyan.8}",
@@ -5170,6 +5192,11 @@
               "type": "color"
             },
             "description": "关闭按钮"
+          },
+          "subtitle_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "文字颜色"
           },
           "card": {
             "bg": {
@@ -7104,7 +7131,7 @@
       "color": {
         "popwin": {
           "bg-": {
-            "value": "{basic.dark-blue.7}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7114,10 +7141,10 @@
               "value": "{opacity.black.20}",
               "type": "color"
             },
-            "description": "子服务空间内深色背景色"
+            "description": "浮层背景色"
           },
           "border": {
-            "value": "{basic.cyan.8}",
+            "value": "{basic.green.2}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7130,7 +7157,7 @@
             "description": "文生图浮层描边"
           },
           "text": {
-            "value": "{opacity.white.100}",
+            "value": "{opacity.black.100}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7142,8 +7169,13 @@
             },
             "description": "文字颜色"
           },
+          "subtitle_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "文字颜色"
+          },
           "text_highlight": {
-            "value": "{basic.cyan.4}",
+            "value": "{basic.green.7}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7170,7 +7202,7 @@
           },
           "card": {
             "bg": {
-              "value": "{opacity.white.16}",
+              "value": "{basic.green.2}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -7180,7 +7212,16 @@
                 "value": "{opacity.black.20}",
                 "type": "color"
               },
-              "description": "卡片背景"
+              "description": "卡片背景",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.4",
+                    "space": "srgb"
+                  }
+                }
+              }
             },
             "border": {
               "value": "{opacity.white.32}",
@@ -7199,7 +7240,7 @@
         },
         "input": {
           "icon": {
-            "value": "{basic.cyan.4}",
+            "value": "{basic.light-green.7}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7212,7 +7253,7 @@
             "description": "输入区域图标颜色"
           },
           "bg": {
-            "value": "{basic.grey.5}",
+            "value": "{basic.light-green.0}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7225,7 +7266,7 @@
             "description": "输入区域指令背景色"
           },
           "border": {
-            "value": "{basic.light-blue.2}",
+            "value": "{basic.green.7}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -7238,7 +7279,7 @@
             "description": "输入区域指令描边"
           },
           "text_typing": {
-            "value": "{basic.grey.1}",
+            "value": "{basic.grey.9}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
