@@ -2752,6 +2752,143 @@
             "description": "优化服务按钮文字"
           }
         }
+      },
+      "abstract": {
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下内容标题颜色"
+          },
+          "subtext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下内容次文本颜色"
+          },
+          "text_button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "摘要服务以下按钮文字颜色"
+          }
+        },
+        "radio_button": {
+          "bg": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中背景色",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组边框颜色"
+          },
+          "text": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中文字颜色"
+          },
+          "hover_text": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中hover文字颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中文字颜色"
+          }
+        },
+        "attendees": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下参会人背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员名称颜色"
+          }
+        },
+        "content": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下内容背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下内容描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下内容文字颜色"
+          }
+        },
+        "file": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下文件内容背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下文件描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下文件颜色"
+          }
+        },
+        "icon": {
+          "bg": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下icon颜色"
+          }
+        },
+        "tag": {
+          "Select": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务标签选中颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务标签未选中文字颜色"
+          },
+          "Identification": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务标签选中下面横杠杠颜色"
+          }
+        },
+        "dividingline": {
+          "color": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "description": "摘要服务以下分割线颜色"
+          }
+        }
       }
     },
     "popwin": {
@@ -4273,6 +4410,134 @@
             "value": "{opacity.white.100}",
             "type": "color",
             "description": "优化服务按钮禁用文字"
+          }
+        }
+      },
+      "abstract": {
+        "text": {
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下内容标题颜色"
+          },
+          "subtext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下内容次文本颜色"
+          },
+          "text_button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "摘要服务以下按钮文字颜色"
+          }
+        },
+        "radio_button": {
+          "bg": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组边框颜色"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中文字颜色"
+          },
+          "hover_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中hover文字颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中文字颜色"
+          }
+        },
+        "attendees": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下参会人人员背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员名称颜色"
+          }
+        },
+        "content": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下内容背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下内容描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下内容颜色"
+          }
+        },
+        "file": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下文件背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下文件描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "摘要服务以下文件标题颜色"
+          }
+        },
+        "icon": {
+          "bg": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下icon颜色"
+          }
+        },
+        "tag": {
+          "Select": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务标签选中颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务标签未选中文字颜色"
+          },
+          "Identification": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "摘要服务标签选中下面横杠杠颜色"
+          }
+        },
+        "dividingline": {
+          "color": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "摘要服务以下分割线颜色"
           }
         }
       }
@@ -5806,6 +6071,143 @@
             "value": "{basic.grey.3}",
             "type": "color",
             "description": "优化服务按钮禁用文字"
+          }
+        }
+      },
+      "abstract": {
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下内容标题颜色"
+          },
+          "subtext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下内容次文本颜色"
+          },
+          "text_button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "摘要服务以下按钮文字颜色"
+          }
+        },
+        "radio_button": {
+          "bg": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中背景色",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组边框颜色"
+          },
+          "text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组选中文字颜色"
+          },
+          "hover_text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中hover文字颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下单选按钮组未选中文字颜色"
+          }
+        },
+        "attendees": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下参会人背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下参会人人员名称颜色"
+          }
+        },
+        "content": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下内容背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下内容描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下内容文字颜色"
+          }
+        },
+        "file": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "摘要服务以下文件内容背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "摘要服务以下文件描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "摘要服务以下文件颜色"
+          }
+        },
+        "icon": {
+          "bg": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务以下icon颜色"
+          }
+        },
+        "tag": {
+          "Select": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "摘要服务标签选中颜色"
+          },
+          "unchecked_text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "摘要服务标签未选中文字颜色"
+          },
+          "Identification": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "摘要服务标签选中下面横杠杠颜色"
+          }
+        },
+        "dividingline": {
+          "color": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "description": "摘要服务以下分割线颜色"
           }
         }
       }
