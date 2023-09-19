@@ -3703,6 +3703,65 @@
           }
         }
       }
+    },
+    "group_setting": {
+      "color": {
+        "divider": {
+          "value": "{opacity.black.4}",
+          "type": "color",
+          "description": "分割线"
+        },
+        "text_title": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "标题文字颜色、群聊名称颜色"
+        },
+        "close": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "关闭按钮"
+        },
+        "add_button": {
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "添加按钮描边"
+          }
+        },
+        "icon_botton": {
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "编辑按钮颜色"
+          }
+        },
+        "text_button": {
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "人数按钮描边"
+          }
+        },
+        "input": {
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框描边"
+          }
+        },
+        "button": {
+          "bg": {
+            "value": "{basic.red.1}",
+            "type": "color",
+            "description": "解散群聊按钮默认背景"
+          },
+          "border": {
+            "value": "{basic.red.1}",
+            "type": "color",
+            "description": "解散群聊按钮默认描边"
+          }
+        }
+      }
     }
   },
   "dark": {
@@ -5547,6 +5606,25 @@
               "type": "color"
             },
             "description": "输入区域指令文字颜色"
+          }
+        }
+      }
+    },
+    "group_setting": {
+      "color": {
+        "input": {
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "输入框描边"
           }
         }
       }
