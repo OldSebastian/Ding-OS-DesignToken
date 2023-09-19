@@ -2973,6 +2973,136 @@
             "description": "选中区域title",
             "$extensions": {}
           }
+        },
+        "two": {
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下标题文字",
+              "$extensions": {}
+            },
+            "Input_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入颜色",
+              "$extensions": {}
+            },
+            "default_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框默认颜色(未输入)",
+              "$extensions": {}
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框底色",
+              "$extensions": {}
+            },
+            "border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框描边",
+              "$extensions": {}
+            },
+            "tag_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签底色",
+              "$extensions": {}
+            },
+            "tag_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签文字色",
+              "$extensions": {}
+            },
+            "tag_icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签关闭icon颜色",
+              "$extensions": {}
+            },
+            "select_border": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入状态输入框描边色",
+              "$extensions": {}
+            }
+          },
+          "pop_window": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗底色",
+              "$extensions": {}
+            },
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗标题颜色",
+              "$extensions": {}
+            },
+            "paratext": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗副文本颜色",
+              "$extensions": {}
+            },
+            "Select_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字",
+              "$extensions": {}
+            },
+            "hover_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗列表hover颜色",
+              "$extensions": {}
+            },
+            "Select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字底色",
+              "$extensions": {}
+            },
+            "icon": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗icon颜色",
+              "$extensions": {}
+            }
+          },
+          "button": {
+            "main_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮bg",
+              "$extensions": {}
+            },
+            "next_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮bg",
+              "$extensions": {}
+            },
+            "next_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮文字",
+              "$extensions": {}
+            },
+            "main_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮文字",
+              "$extensions": {}
+            }
+          }
         }
       }
     },
@@ -4582,6 +4712,144 @@
             "type": "color",
             "description": "选中区域title",
             "$extensions": {}
+          }
+        },
+        "two": {
+          "text": {
+            "title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下标题文字",
+              "$extensions": {}
+            },
+            "Input_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入颜色",
+              "$extensions": {}
+            },
+            "default_text": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框默认颜色(未输入)",
+              "$extensions": {}
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.4}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框底色",
+              "$extensions": {}
+            },
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框描边",
+              "$extensions": {}
+            },
+            "tag_bg": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签底色",
+              "$extensions": {}
+            },
+            "tag_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签文字色",
+              "$extensions": {}
+            },
+            "tag_icon": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签关闭icon颜色",
+              "$extensions": {}
+            },
+            "select_border": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入状态输入框描边色",
+              "$extensions": {}
+            }
+          },
+          "pop_window": {
+            "bg": {
+              "value": "{opacity.white.4}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗底色",
+              "$extensions": {}
+            },
+            "title": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗标题颜色",
+              "$extensions": {}
+            },
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗icon颜色",
+              "$extensions": {}
+            },
+            "paratext": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗副文本颜色",
+              "$extensions": {}
+            },
+            "Select_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字",
+              "$extensions": {}
+            },
+            "Select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字底色",
+              "$extensions": {}
+            },
+            "hover_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗列表hover颜色",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              }
+            }
+          },
+          "button": {
+            "main_bg": {
+              "value": "{basic.cyan.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮bg",
+              "$extensions": {}
+            },
+            "main_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮文字",
+              "$extensions": {}
+            },
+            "next_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮bg",
+              "$extensions": {}
+            },
+            "next_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮文字",
+              "$extensions": {}
+            }
           }
         }
       },
@@ -6705,6 +6973,136 @@
             "type": "color",
             "description": "选中区域文字",
             "$extensions": {}
+          }
+        },
+        "two": {
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下标题文字",
+              "$extensions": {}
+            },
+            "Input_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入颜色",
+              "$extensions": {}
+            },
+            "default_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框默认颜色(未输入)",
+              "$extensions": {}
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框底色",
+              "$extensions": {}
+            },
+            "border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框描边",
+              "$extensions": {}
+            },
+            "tag_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签底色",
+              "$extensions": {}
+            },
+            "tag_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签文字色",
+              "$extensions": {}
+            },
+            "tag_icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框标签关闭icon颜色",
+              "$extensions": {}
+            },
+            "select_border": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下输入框输入状态输入框描边色",
+              "$extensions": {}
+            }
+          },
+          "pop_window": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗底色",
+              "$extensions": {}
+            },
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗标题颜色",
+              "$extensions": {}
+            },
+            "icon": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗icon颜色",
+              "$extensions": {}
+            },
+            "paratext": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗副文本颜色",
+              "$extensions": {}
+            },
+            "Select_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字",
+              "$extensions": {}
+            },
+            "Select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗选中文字底色",
+              "$extensions": {}
+            },
+            "hover_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "创建会议二级页面以下弹窗列表hover颜色",
+              "$extensions": {}
+            }
+          },
+          "button": {
+            "main_bg": {
+              "value": "{basic.green.7}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮bg",
+              "$extensions": {}
+            },
+            "main_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "创建会议二级页面以下主按钮文字",
+              "$extensions": {}
+            },
+            "next_bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮bg",
+              "$extensions": {}
+            },
+            "next_text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "创建会议二级页面以下次按钮文字",
+              "$extensions": {}
+            }
           }
         }
       }
