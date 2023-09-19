@@ -3271,7 +3271,7 @@
                 "type": "color"
               },
               "purple": {
-                "value": "{basic.brand.6}",
+                "value": "{gradient.4}",
                 "type": "color"
               }
             }
