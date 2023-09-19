@@ -2889,6 +2889,91 @@
             "description": "摘要服务以下分割线颜色"
           }
         }
+      },
+      "calendar-copy": {
+        "head": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "标题"
+          },
+          "shiftbutton": {
+            "icon": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "切换按钮图标"
+            },
+            "line": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "切换按钮中线"
+            },
+            "border": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "切换按钮描边"
+            },
+            "bg": {
+              "value": "{basic.blue.1}",
+              "type": "color",
+              "description": "切换按钮背景"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.blue.2}",
+              "type": "color",
+              "description": "创建会议按钮bg"
+            },
+            "text": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "创建会议按钮文字"
+            }
+          }
+        },
+        "timeline": {
+          "text_name": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "时间轴姓名文字颜色"
+          },
+          "text_time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "时间轴时间文字颜色"
+          },
+          "selected": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "时间轴时间选中颜色"
+          },
+          "line": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "时间轴线条颜色"
+          }
+        },
+        "selectedarea": {
+          "bg": {
+            "value": "{basic.blue.1}",
+            "type": "color",
+            "description": "选中区域背景",
+            "$extensions": {}
+          },
+          "border": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "选中区域描边",
+            "$extensions": {}
+          },
+          "text": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "选中区域title",
+            "$extensions": {}
+          }
+        }
       }
     },
     "popwin": {
@@ -4229,7 +4314,7 @@
           "title": {
             "value": "{opacity.white.100}",
             "type": "color",
-            "description": "大盒子背景"
+            "description": "标题文字"
           },
           "shiftbutton": {
             "icon": {
@@ -4317,16 +4402,10 @@
               }
             }
           },
-          "text_title": {
+          "text": {
             "value": "{basic.cyan.5}",
             "type": "color",
             "description": "选中区域title",
-            "$extensions": {}
-          },
-          "text_time": {
-            "value": "{basic.cyan.4}",
-            "type": "color",
-            "description": "选中区域时间",
             "$extensions": {}
           }
         }
@@ -6208,6 +6287,91 @@
             "value": "{opacity.black.16}",
             "type": "color",
             "description": "摘要服务以下分割线颜色"
+          }
+        }
+      },
+      "calendar-copy": {
+        "head": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "标题文字颜色"
+          },
+          "shiftbutton": {
+            "bg": {
+              "value": "{basic.green.1}",
+              "type": "color",
+              "description": "切换按钮背景"
+            },
+            "icon": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "切换按钮图标"
+            },
+            "border": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "切换按钮描边"
+            },
+            "line": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "切换按钮中线"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.light-green.2}",
+              "type": "color",
+              "description": "创建会议按钮bg"
+            },
+            "text": {
+              "value": "{basic.light-green.7}",
+              "type": "color",
+              "description": "创建会议按钮文字"
+            }
+          }
+        },
+        "timeline": {
+          "text_name": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "时间轴姓名文字颜色"
+          },
+          "text_time": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "时间轴时间文字颜色"
+          },
+          "selected": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "时间轴时间选中颜色"
+          },
+          "line": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "时间轴线条颜色"
+          }
+        },
+        "selectedarea": {
+          "bg": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "选中区域背景",
+            "$extensions": {}
+          },
+          "border": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "选中区域描边",
+            "$extensions": {}
+          },
+          "text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "选中区域文字",
+            "$extensions": {}
           }
         }
       }
