@@ -3719,7 +3719,12 @@
         "text_title": {
           "value": "{basic.grey.9}",
           "type": "color",
-          "description": "标题文字颜色、群聊名称颜色"
+          "description": "标题文字颜色"
+        },
+        "text_groupname": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "群聊名称颜色"
         },
         "close": {
           "icon": {
@@ -3839,15 +3844,6 @@
               }
             }
           }
-        }
-      }
-    },
-    "group_setting-copy": {
-      "color": {
-        "text_groupname": {
-          "value": "{basic.grey.1}",
-          "type": "color",
-          "description": "标题文字颜色、群聊名称颜色"
         }
       }
     }
@@ -5735,7 +5731,7 @@
         "text_title": {
           "value": "{opacity.white.100}",
           "type": "color",
-          "description": "标题文字颜色、群聊名称颜色"
+          "description": "标题文字颜色"
         },
         "text_groupname": {
           "value": "{basic.grey.1}",
@@ -7997,7 +7993,12 @@
         "text_title": {
           "value": "{basic.grey.9}",
           "type": "color",
-          "description": "标题文字颜色、群聊名称颜色"
+          "description": "标题文字颜色"
+        },
+        "text_groupname": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "群聊名称颜色"
         },
         "close": {
           "icon": {
@@ -8126,11 +8127,6 @@
               }
             }
           }
-        },
-        "text_groupname": {
-          "value": "{basic.grey.1}",
-          "type": "color",
-          "description": "标题文字颜色、群聊名称颜色"
         }
       }
     }
