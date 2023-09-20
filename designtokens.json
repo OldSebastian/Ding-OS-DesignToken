@@ -1096,6 +1096,10 @@
       "6": {
         "value": "linear-gradient(359deg, #E0EAFC 1.11%, #CFDEF3 98.7%);",
         "type": "color"
+      },
+      "7": {
+        "value": "linear-gradient(315deg, #344B75 10%, #467B9C 100%)",
+        "type": "color"
       }
     },
     "dimension": {
@@ -2330,6 +2334,11 @@
               "description": "子服务空间标签栏标签选中时背景颜色"
             },
             "selected_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时文字颜色"
+            },
+            "selected_border": {
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "子服务空间标签栏标签选中时文字颜色"
@@ -4407,7 +4416,7 @@
         "tabbar": {
           "tab": {
             "selected_bg": {
-              "value": "{basic.green.6}",
+              "value": "{basic.dark-blue.4}",
               "type": "color",
               "description": "子服务空间标签栏标签选中时背景颜色"
             },
@@ -4416,15 +4425,29 @@
               "type": "color",
               "description": "子服务空间标签栏标签选中时文字颜色"
             },
+            "selected_border": {
+              "value": "{gradient.7}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时描边颜色",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.3",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
             "unchecked_text": {
-              "value": "{basic.grey.9}",
+              "value": "{basic.grey.2}",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时文字颜色"
             },
             "unchecked_border": {
               "value": "{opacity.black.16}",
               "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
+              "description": "子服务空间标签栏标签未选中时描边颜色"
             },
             "unchecked_frame": {
               "value": "n'o'n'e",
@@ -6625,6 +6648,11 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "子服务空间标签栏标签选中时文字颜色"
+            },
+            "selected_border": {
+              "value": "none",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时描边"
             },
             "unchecked_text": {
               "value": "{basic.grey.9}",
