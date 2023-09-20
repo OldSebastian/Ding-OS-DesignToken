@@ -2329,19 +2329,24 @@
         "tabbar": {
           "tab": {
             "selected_bg": {
-              "value": "{basic.green.6}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "子服务空间标签栏标签选中时背景颜色"
             },
             "selected_text": {
-              "value": "{opacity.white.100}",
+              "value": "{basic.grey.9}",
               "type": "color",
               "description": "子服务空间标签栏标签选中时文字颜色"
             },
             "selected_border": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.black.12}",
               "type": "color",
-              "description": "子服务空间标签栏标签选中时文字颜色"
+              "description": "子服务空间标签栏标签选中描边颜色"
+            },
+            "selected_bg_hover": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "子服务空间标签栏hover在选中标签时背景颜色"
             },
             "unchecked_text": {
               "value": "{basic.grey.9}",
@@ -2349,14 +2354,24 @@
               "description": "子服务空间标签栏标签未选中时文字颜色"
             },
             "unchecked_border": {
-              "value": "{opacity.black.16}",
+              "value": "{opacity.white.100}",
               "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
+              "description": "子服务空间标签栏标签未选中时描边颜色"
             },
             "unchecked_frame": {
               "value": "n'o'n'e",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时文字颜色"
+            },
+            "unchecked_frame_hover": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "description": "子服务空间标签栏hover在未选中标签时背景颜色"
+            },
+            "unchecked_border_hover": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "子服务空间标签栏hover未选中时标签描边颜色"
             }
           }
         },
@@ -4420,10 +4435,10 @@
               "type": "color",
               "description": "子服务空间标签栏标签选中时背景颜色"
             },
-            "selected_text": {
-              "value": "{opacity.white.100}",
+            "selected_bg_hover": {
+              "value": "{basic.dark-blue.3}",
               "type": "color",
-              "description": "子服务空间标签栏标签选中时文字颜色"
+              "description": "子服务空间标签栏hover在选中标签时背景颜色"
             },
             "selected_border": {
               "value": "{gradient.7}",
@@ -4439,18 +4454,33 @@
                 }
               }
             },
+            "selected_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "子服务空间标签栏标签选中时文字颜色"
+            },
             "unchecked_text": {
               "value": "{basic.grey.2}",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时文字颜色"
             },
             "unchecked_border": {
-              "value": "{opacity.black.16}",
+              "value": "{opacity.white.32}",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时描边颜色"
             },
             "unchecked_frame": {
               "value": "n'o'n'e",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时填充颜色"
+            },
+            "unchecked_frame_hover": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "子服务空间标签栏hover在未选中标签时背景颜色"
+            },
+            "unchecked_border_hover": {
+              "value": "{basic.brand.5}",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时文字颜色"
             }
@@ -6644,6 +6674,11 @@
               "type": "color",
               "description": "子服务空间标签栏标签选中时背景颜色"
             },
+            "selected_bg_hover": {
+              "value": "{basic.green.4}",
+              "type": "color",
+              "description": "子服务空间标签栏hover在选中标签时背景颜色"
+            },
             "selected_text": {
               "value": "{opacity.white.100}",
               "type": "color",
@@ -6662,12 +6697,31 @@
             "unchecked_border": {
               "value": "{opacity.black.16}",
               "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
+              "description": "子服务空间标签栏标签未选中时描边颜色"
             },
             "unchecked_frame": {
               "value": "none",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时填充"
+            },
+            "unchecked_frame_hover": {
+              "value": "{basic.green.4}",
+              "type": "color",
+              "description": "子服务空间标签栏hover在未选中标签时背景颜色",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.16",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "unchecked_border_hover": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "子服务空间标签栏标签未选中时文字颜色"
             }
           }
         },
