@@ -3709,7 +3709,7 @@
         "bg": {
           "value": "{opacity.white.100}",
           "type": "color",
-          "description": "分割线"
+          "description": "容器背景色"
         },
         "divider": {
           "value": "{opacity.black.4}",
@@ -3723,7 +3723,7 @@
         },
         "close": {
           "icon": {
-            "value": "{basic.grey.9}",
+            "value": "{basic.grey.6}",
             "type": "color",
             "description": "关闭按钮"
           },
@@ -7990,9 +7990,9 @@
     "group_setting-copy": {
       "color": {
         "bg": {
-          "value": "{opacity.white.100}",
+          "value": "{opacity.white.88}",
           "type": "color",
-          "description": "分割线"
+          "description": "容器背景色"
         },
         "divider": {
           "value": "{opacity.black.4}",
@@ -8006,7 +8006,7 @@
         },
         "close": {
           "icon": {
-            "value": "{basic.grey.9}",
+            "value": "{basic.grey.6}",
             "type": "color",
             "description": "关闭按钮"
           },
@@ -8023,12 +8023,12 @@
         },
         "add_button": {
           "border": {
-            "value": "{basic.grey.1}",
+            "value": "{basic.green.3}",
             "type": "color",
             "description": "添加按钮颜色"
           },
           "border_hover": {
-            "value": "{basic.grey.2}",
+            "value": "{basic.green.5}",
             "type": "color",
             "description": "添加按钮hover态颜色"
           }
@@ -8040,7 +8040,7 @@
             "description": "编辑按钮颜色"
           },
           "border_hover": {
-            "value": "{basic.brand.5}",
+            "value": "{basic.green.6}",
             "type": "color",
             "description": "编辑按钮hover颜色"
           }
@@ -8059,7 +8059,7 @@
             "description": "输入框描边"
           },
           "border_selected": {
-            "value": "{basic.brand.5}",
+            "value": "{basic.green.6}",
             "type": "color",
             "description": "输入框选中描边"
           },
