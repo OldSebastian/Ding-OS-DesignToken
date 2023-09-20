@@ -2344,7 +2344,7 @@
               "description": "子服务空间标签栏标签选中描边颜色"
             },
             "selected_bg_hover": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.4}",
               "type": "color",
               "description": "子服务空间标签栏hover在选中标签时背景颜色"
             },
@@ -4480,9 +4480,9 @@
               "description": "子服务空间标签栏hover在未选中标签时背景颜色"
             },
             "unchecked_border_hover": {
-              "value": "{basic.brand.5}",
+              "value": "{opacity.white.32}",
               "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
+              "description": "子服务空间标签栏hover在未选中标签时描边颜色"
             }
           }
         },
@@ -6719,9 +6719,9 @@
               }
             },
             "unchecked_border_hover": {
-              "value": "{basic.brand.5}",
+              "value": "{opacity.black.16}",
               "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
+              "description": "子服务空间标签栏hover未选中标签时描边颜色"
             }
           }
         },
