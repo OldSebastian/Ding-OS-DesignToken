@@ -3706,6 +3706,11 @@
     },
     "group_setting": {
       "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "分割线"
+        },
         "divider": {
           "value": "{opacity.black.4}",
           "type": "color",
@@ -3717,27 +3722,49 @@
           "description": "标题文字颜色、群聊名称颜色"
         },
         "close": {
-          "value": "{basic.grey.9}",
-          "type": "color",
-          "description": "关闭按钮"
+          "icon": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "关闭按钮"
+          },
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "关闭按钮背景"
+          },
+          "bg_hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "关闭按钮hover背景"
+          }
         },
         "add_button": {
           "border": {
-            "value": "{opacity.white.100}",
+            "value": "{basic.grey.1}",
             "type": "color",
-            "description": "添加按钮描边"
+            "description": "添加按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "添加按钮hover态颜色"
           }
         },
         "icon_botton": {
           "border": {
-            "value": "{opacity.white.100}",
+            "value": "{basic.grey.9}",
             "type": "color",
             "description": "编辑按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "编辑按钮hover颜色"
           }
         },
         "text_button": {
           "border": {
-            "value": "{opacity.white.100}",
+            "value": "{basic.grey.3}",
             "type": "color",
             "description": "人数按钮描边"
           }
@@ -3747,18 +3774,70 @@
             "value": "{basic.grey.2}",
             "type": "color",
             "description": "输入框描边"
+          },
+          "border_selected": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "输入框选中描边"
+          },
+          "text_normal": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框默认初始文字"
+          },
+          "text_typing": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "输入框默认输入中文字"
           }
         },
         "button": {
-          "bg": {
-            "value": "{basic.red.1}",
-            "type": "color",
-            "description": "解散群聊按钮默认背景"
-          },
           "border": {
-            "value": "{basic.red.1}",
+            "value": "{basic.red.6}",
             "type": "color",
-            "description": "解散群聊按钮默认描边"
+            "description": "解散群聊按钮默认描边、文字颜色"
+          },
+          "bg": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮默认背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_hover": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮hover背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_pressed": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮按下态背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.32",
+                  "space": "srgb"
+                }
+              }
+            }
           }
         }
       }
@@ -5852,6 +5931,144 @@
           "description": "个人信息卡片head描边"
         }
       }
+    },
+    "group_setting-copy": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "分割线"
+        },
+        "divider": {
+          "value": "{opacity.black.4}",
+          "type": "color",
+          "description": "分割线"
+        },
+        "text_title": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "标题文字颜色、群聊名称颜色"
+        },
+        "close": {
+          "icon": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "关闭按钮"
+          },
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "关闭按钮背景"
+          },
+          "bg_hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "关闭按钮hover背景"
+          }
+        },
+        "add_button": {
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "添加按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "添加按钮hover态颜色"
+          }
+        },
+        "icon_botton": {
+          "border": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "编辑按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "编辑按钮hover颜色"
+          }
+        },
+        "text_button": {
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "人数按钮描边"
+          }
+        },
+        "input": {
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框描边"
+          },
+          "border_selected": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "输入框选中描边"
+          },
+          "text_normal": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框默认初始文字"
+          },
+          "text_typing": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "输入框默认输入中文字"
+          }
+        },
+        "button": {
+          "border": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮默认描边、文字颜色"
+          },
+          "bg": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮默认背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_hover": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮hover背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_pressed": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮按下态背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.32",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "柔和模式": {
@@ -7766,6 +7983,144 @@
               "type": "color"
             },
             "description": "输入区域指令文字颜色"
+          }
+        }
+      }
+    },
+    "group_setting-copy": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "分割线"
+        },
+        "divider": {
+          "value": "{opacity.black.4}",
+          "type": "color",
+          "description": "分割线"
+        },
+        "text_title": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "标题文字颜色、群聊名称颜色"
+        },
+        "close": {
+          "icon": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "关闭按钮"
+          },
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "关闭按钮背景"
+          },
+          "bg_hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "关闭按钮hover背景"
+          }
+        },
+        "add_button": {
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "添加按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "添加按钮hover态颜色"
+          }
+        },
+        "icon_botton": {
+          "border": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "编辑按钮颜色"
+          },
+          "border_hover": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "编辑按钮hover颜色"
+          }
+        },
+        "text_button": {
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "人数按钮描边"
+          }
+        },
+        "input": {
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框描边"
+          },
+          "border_selected": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "输入框选中描边"
+          },
+          "text_normal": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "输入框默认初始文字"
+          },
+          "text_typing": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "输入框默认输入中文字"
+          }
+        },
+        "button": {
+          "border": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮默认描边、文字颜色"
+          },
+          "bg": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮默认背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_hover": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮hover背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "bg_pressed": {
+            "value": "{basic.red.6}",
+            "type": "color",
+            "description": "解散群聊按钮按下态背景",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.32",
+                  "space": "srgb"
+                }
+              }
+            }
           }
         }
       }
