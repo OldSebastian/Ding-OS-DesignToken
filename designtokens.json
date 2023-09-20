@@ -5707,7 +5707,7 @@
             "description": "输入框描边"
           },
           "border_selected": {
-            "value": "{basic.brand.5}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "输入框选中描边"
           },
@@ -5773,19 +5773,19 @@
         },
         "icon_botton": {
           "border": {
-            "value": "{basic.grey.1}",
+            "value": "{basic.grey.3}",
             "type": "color",
             "description": "编辑按钮颜色"
           },
           "border_hover": {
-            "value": "{basic.brand.5}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "编辑按钮hover颜色"
           }
         },
         "text_button": {
           "border": {
-            "value": "{basic.grey.3}",
+            "value": "{basic.grey.2}",
             "type": "color",
             "description": "人数按钮描边"
           }
