@@ -5935,23 +5935,23 @@
     "group_setting-copy": {
       "color": {
         "bg": {
-          "value": "{opacity.white.100}",
+          "value": "{gradient.3}",
           "type": "color",
-          "description": "分割线"
+          "description": "容器背景色"
         },
         "divider": {
-          "value": "{opacity.black.4}",
+          "value": "{opacity.white.24}",
           "type": "color",
           "description": "分割线"
         },
         "text_title": {
-          "value": "{basic.grey.9}",
+          "value": "{opacity.white.100}",
           "type": "color",
           "description": "标题文字颜色、群聊名称颜色"
         },
         "close": {
           "icon": {
-            "value": "{basic.grey.9}",
+            "value": "{basic.grey.7}",
             "type": "color",
             "description": "关闭按钮"
           },
@@ -5961,7 +5961,7 @@
             "description": "关闭按钮背景"
           },
           "bg_hover": {
-            "value": "{opacity.black.7}",
+            "value": "{opacity.white.7}",
             "type": "color",
             "description": "关闭按钮hover背景"
           }
@@ -5980,7 +5980,7 @@
         },
         "icon_botton": {
           "border": {
-            "value": "{basic.grey.9}",
+            "value": "{basic.grey.1}",
             "type": "color",
             "description": "编辑按钮颜色"
           },
