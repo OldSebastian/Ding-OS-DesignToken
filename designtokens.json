@@ -2653,6 +2653,52 @@
               "description": "摘要服务以下分割线颜色"
             }
           }
+        },
+        "file_card": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "文件卡片背景色"
+          },
+          "border": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "head_bg": {
+            "value": "{gradient.8}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "text_botton": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "文字按钮"
+            }
+          },
+          "button": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "hover按钮背景"
+            }
+          }
         }
       }
     },
