@@ -2260,15 +2260,20 @@
               "type": "color",
               "description": "呱呱服务入口卡片副标题文字颜色"
             },
+            "service_bg": {
+              "value": "{gradient.8}",
+              "type": "color",
+              "description": "呱呱服务入口卡片服务区背景颜色"
+            },
             "button": {
               "value": "{opacity.white.48}",
               "type": "color",
               "description": "呱呱服务入口卡片按钮颜色"
             },
-            "service_bg": {
-              "value": "{gradient.8}",
+            "button_border": {
+              "value": "{opacity.white.12}",
               "type": "color",
-              "description": "呱呱服务入口卡片服务区背景颜色"
+              "description": "呱呱服务入口卡片按钮描边颜色"
             },
             "button_hover": {
               "value": "{opacity.white.88}",
