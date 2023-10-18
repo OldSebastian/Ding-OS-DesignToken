@@ -3652,6 +3652,33 @@
             "type": "color",
             "description": "文件名"
           }
+        },
+        "emoji": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "minichat内浅色背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "minichat内浅色描边"
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "minichat内表情包悬停"
+          },
+          "scrollbar": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "滚动条"
+          },
+          "title": {
+            "value": "{basic.grey.7}",
+            "type": "color",
+            "description": "标题"
+          }
         }
       },
       "button": {
