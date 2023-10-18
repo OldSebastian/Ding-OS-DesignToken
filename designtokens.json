@@ -1100,6 +1100,10 @@
       "7": {
         "value": "linear-gradient(315deg, #344B75 10%, #467B9C 100%)",
         "type": "color"
+      },
+      "8": {
+        "value": "linear-gradient(90deg, #CFFCFF 0%, #C2D3FF 100%)",
+        "type": "color"
       }
     },
     "dimension": {
@@ -2236,10 +2240,15 @@
               "type": "color",
               "description": "呱呱服务入口卡片背景（大背景）"
             },
+            "head_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "呱呱服务入口头部背景颜色"
+            },
             "card_border": {
               "value": "{opacity.black.16}",
               "type": "color",
-              "description": "呱呱服务入口卡片描边"
+              "description": "呱呱服务入口卡片描边（空盒子）"
             },
             "title": {
               "value": "{opacity.black.100}",
@@ -2250,6 +2259,21 @@
               "value": "{basic.grey.6}",
               "type": "color",
               "description": "呱呱服务入口卡片副标题文字颜色"
+            },
+            "button": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "呱呱服务入口卡片按钮颜色"
+            },
+            "service_bg": {
+              "value": "{gradient.8}",
+              "type": "color",
+              "description": "呱呱服务入口卡片服务区背景颜色"
+            },
+            "button_hover": {
+              "value": "{opacity.white.88}",
+              "type": "color",
+              "description": "呱呱服务入口卡片按钮颜色"
             }
           }
         }
@@ -3271,6 +3295,23 @@
           "description": "个人信息卡片按钮文本颜色"
         }
       },
+      "icon": {
+        "hover": {
+          "value": "{opacity.white.16}",
+          "type": "color",
+          "description": "进入通讯录按钮hover颜色"
+        },
+        "bg": {
+          "value": "none",
+          "type": "color",
+          "description": "进入通讯录按钮hover颜色"
+        },
+        "icon": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "description": "进入通讯录按钮icon颜色"
+        }
+      },
       "text": {
         "title": {
           "value": "{basic.grey.3}",
@@ -3294,7 +3335,7 @@
         "imformation": {
           "value": "{basic.grey.1}",
           "type": "color",
-          "description": "个人信息卡片信息区域描边"
+          "description": "个人信息卡片信息区域描边+整体卡片描边"
         },
         "head": {
           "value": "none",
