@@ -2706,6 +2706,47 @@
               "description": "分割线"
             }
           }
+        },
+        "gppt_card": {
+          "bg": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "呱呱生成ppt底色"
+          },
+          "border": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "呱呱生成ppt描边"
+          },
+          "text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "呱呱生成ppt文字颜色"
+          },
+          "file": {
+            "bg": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "description": "呱呱生成ppt文件背景底色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "呱呱生成ppt文件名称颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "成功图标"
+            },
+            "icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "成功图标线条"
+            }
+          }
         }
       }
     },
