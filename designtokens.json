@@ -3636,6 +3636,11 @@
           "type": "color",
           "description": "权限弹窗描边\n"
         },
+        "popwinborder": {
+          "value": "{opacity.black.12}",
+          "type": "color",
+          "description": "其他浮层描边"
+        },
         "text": {
           "title": {
             "value": "{opacity.black.100}",
@@ -3679,6 +3684,95 @@
             "type": "color",
             "description": "标题"
           }
+        },
+        "optimize": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "aim": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "aim_border": {
+              "value": "none",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          }
+        }
+      },
+      "icon": {
+        "close": {
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "关闭按钮"
+        },
+        "bg": {
+          "value": "{basic.grey.4}",
+          "type": "color"
         }
       },
       "button": {
@@ -3701,12 +3795,6 @@
           "value": "{basic.grey.9}",
           "type": "color",
           "description": "按钮文字颜色"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
         }
       }
     },
