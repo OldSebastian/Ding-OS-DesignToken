@@ -2694,9 +2694,16 @@
               "description": "按钮背景"
             },
             "bg_hover": {
-              "value": "{opacity.black.4}",
+              "value": "{opacity.black.7}",
               "type": "color",
               "description": "hover按钮背景"
+            }
+          },
+          "dividingline": {
+            "icon-copy": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分割线"
             }
           }
         }
