@@ -4024,6 +4024,11 @@
             }
           },
           "frame": {
+            "content_bg_disable": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
             "content_bg": {
               "value": "none",
               "type": "color",
@@ -4036,25 +4041,20 @@
             }
           },
           "select": {
-            "border_selected": {
+            "selected": {
               "value": "{basic.brand.5}",
               "type": "color",
               "description": "选择器选中描边"
             },
-            "text_selected": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "text": {
-              "value": "{basic.grey.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "border": {
+            "unselected": {
               "value": "{basic.grey.2}",
               "type": "color",
               "description": "选择器未选中描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "选择器选中文字"
             }
           }
         },
