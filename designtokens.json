@@ -5174,6 +5174,170 @@
           }
         }
       }
+    },
+    "copy": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗底色\n"
+        },
+        "border": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗描边"
+        },
+        "hover": {
+          "value": "{opacity.black.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗hover"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗标题"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗副文本"
+          }
+        },
+        "button": {
+          "send_bg": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消描边"
+          },
+          "cancel_bg": {
+            "value": "none",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消背景"
+          },
+          "send_hover": {
+            "value": "{basic.brand.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消hover"
+          },
+          "send_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送文字"
+          },
+          "cancel_text": {
+            "value": "{basic.dark-blue.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消文字"
+          }
+        }
+      }
     }
   },
   "dark": {
@@ -8502,6 +8666,170 @@
           }
         }
       }
+    },
+    "copy": {
+      "color": {
+        "bg": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗底色\n"
+        },
+        "border": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗描边"
+        },
+        "hover": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗hover"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗标题"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗副文本"
+          }
+        },
+        "button": {
+          "send_bg": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消描边"
+          },
+          "cancel_bg": {
+            "value": "none",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消背景"
+          },
+          "send_hover": {
+            "value": "{basic.brand.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消hover"
+          },
+          "send_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送文字"
+          },
+          "cancel_text": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消文字"
+          }
+        }
+      }
     }
   },
   "柔和模式": {
@@ -9986,7 +10314,7 @@
         "frame": {
           "button": {
             "button_bg": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "转发按钮高亮按钮"
             },
@@ -10028,7 +10356,7 @@
               "description": "输入框描边"
             },
             "border_focus": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "输入框聚焦描边"
             },
@@ -10060,7 +10388,7 @@
               "description": "选择器背景"
             },
             "select_bg": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -10080,7 +10408,7 @@
             },
             "text": {
               "tab_title": {
-                "value": "{basic.brand.5}",
+                "value": "{basic.green.6}",
                 "type": "color",
                 "description": "选择器tab切换当前选中"
               },
@@ -11672,6 +12000,170 @@
               "type": "color",
               "description": "成功图标线条"
             }
+          }
+        }
+      }
+    },
+    "copy": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗底色\n"
+        },
+        "border": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗描边"
+        },
+        "hover": {
+          "value": "{opacity.black.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "复制弹窗hover"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗标题"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗副文本"
+          }
+        },
+        "button": {
+          "send_bg": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消描边"
+          },
+          "cancel_bg": {
+            "value": "none",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消背景"
+          },
+          "send_hover": {
+            "value": "{basic.green.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送背景"
+          },
+          "cancel_hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消hover"
+          },
+          "send_text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗发送文字"
+          },
+          "cancel_text": {
+            "value": "{basic.dark-blue.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "复制弹窗取消文字"
           }
         }
       }
