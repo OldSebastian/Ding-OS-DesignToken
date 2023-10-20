@@ -10802,7 +10802,7 @@
         "sum_to_filez": {
           "button": {
             "button_bg": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "优化按钮"
             },
@@ -10878,7 +10878,7 @@
           },
           "select": {
             "selected": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "选择器选中描边"
             },
