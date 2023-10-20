@@ -11175,7 +11175,7 @@
         "meetings_cards": {
           "color": {
             "head": {
-              "value": "{gradient.4}",
+              "value": "{gradient.5}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
