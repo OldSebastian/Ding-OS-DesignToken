@@ -1104,6 +1104,10 @@
       "8": {
         "value": "linear-gradient(90deg, #CFFCFF 0%, #C2D3FF 100%)",
         "type": "color"
+      },
+      "9": {
+        "value": "linear-gradient(90deg, #32B1C3 2.08%, #1044C2 100%)",
+        "type": "color"
       }
     },
     "dimension": {
@@ -8405,28 +8409,28 @@
         },
         "file_card": {
           "bg": {
-            "value": "{opacity.white.100}",
+            "value": "{opacity.white.12}",
             "type": "color",
             "description": "文件卡片背景色"
           },
           "border": {
-            "value": "{opacity.white.24}",
+            "value": "{basic.light-blue.1}",
             "type": "color",
             "description": "文件卡片描边"
           },
           "head_bg": {
-            "value": "{gradient.8}",
+            "value": "{gradient.9}",
             "type": "color",
             "description": "文件卡片描边"
           },
           "text": {
             "title": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "标题文字"
             },
             "text_botton": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.0}",
               "type": "color",
               "description": "文字按钮"
             }
@@ -8443,7 +8447,7 @@
               "description": "按钮背景"
             },
             "bg_hover": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "hover按钮背景"
             }
