@@ -2348,6 +2348,11 @@
               },
               "description": "会议信息卡片默认按钮颜色"
             },
+            "border": {
+              "value": "none",
+              "type": "color",
+              "description": "会议信息卡片按钮描边"
+            },
             "select_bg": {
               "value": "{basic.brand.0}",
               "type": "color",
@@ -8056,7 +8061,7 @@
           },
           "button": {
             "bg": {
-              "value": "{basic.grey.1}",
+              "value": "none",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8069,7 +8074,7 @@
               "description": "会议信息卡片默认按钮颜色"
             },
             "select_bg": {
-              "value": "{basic.brand.0}",
+              "value": "{basic.brand.8}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8079,10 +8084,19 @@
                 "value": "{opacity.black.20}",
                 "type": "color"
               },
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.4",
+                    "space": "srgb"
+                  }
+                }
+              },
               "description": "会议信息卡片选中按钮颜色"
             },
             "select_border": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.4}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8108,7 +8122,7 @@
               "description": "个人信息卡片按钮hover颜色"
             },
             "select_text": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.4}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8121,7 +8135,7 @@
               "description": "个人信息卡片选中按钮文本颜色"
             },
             "icon": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8132,6 +8146,11 @@
                 "type": "color"
               },
               "description": "个人信息卡片默认按钮图标颜色"
+            },
+            "border": {
+              "value": "none",
+              "type": "color",
+              "description": "会议信息卡片按钮描边"
             }
           },
           "icon": {
@@ -11228,6 +11247,19 @@
               },
               "description": "会议信息卡片默认按钮颜色"
             },
+            "border": {
+              "value": "none",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片按钮描边"
+            },
             "select_bg": {
               "value": "{basic.brand.0}",
               "type": "color",
@@ -11281,7 +11313,7 @@
               "description": "个人信息卡片选中按钮文本颜色"
             },
             "icon": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -11680,6 +11712,19 @@
       "mb": {
         "value": "{basic.blue.8}",
         "type": "color"
+      }
+    },
+    "guagua": {
+      "color": {
+        "meetings_cards": {
+          "button": {
+            "border": {
+              "value": "none",
+              "type": "color",
+              "description": "会议信息卡片按钮描边"
+            }
+          }
+        }
       }
     }
   },
