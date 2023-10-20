@@ -3811,6 +3811,144 @@
             }
           }
         },
+        "frame": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "转发按钮高亮按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "转发禁用态按钮描边"
+            },
+            "button_forbidden_border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "转发禁用态按钮底色"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "取消按钮描边"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "转发按钮文字高亮颜色"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "input": {
+            "border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框描边"
+            },
+            "border_focus": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "输入框聚焦描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入框背景"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框默认文本"
+            },
+            "enter_tex": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "输入框输入文本"
+            },
+            "tag_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "输入框标签背景"
+            }
+          },
+          "selector": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "选择器背景"
+            },
+            "select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "选择器选中底色"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "选择器选中hover底色"
+            },
+            "text": {
+              "tab_title": {
+                "value": "{basic.brand.5}",
+                "type": "color",
+                "description": "选择器tab切换当前选中"
+              },
+              "tab_unselected": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "选择器tab切换未选中"
+              },
+              "name": {
+                "value": "{basic.grey.9}",
+                "type": "color",
+                "description": "选择器列表名字颜色"
+              }
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "转发内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "转发区域背景"
+            }
+          }
+        },
         "sum_to_filez": {
           "button": {
             "button_bg": {
