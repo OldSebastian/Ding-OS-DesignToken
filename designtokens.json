@@ -4171,6 +4171,52 @@
               "description": "单选通用背景"
             }
           }
+        },
+        "alarm": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.red.5}",
+              "type": "color",
+              "description": "确认"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "内容"
+            }
+          }
         }
       },
       "icon": {
