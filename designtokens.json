@@ -2766,6 +2766,66 @@
               "description": "成功图标线条"
             }
           }
+        },
+        "search": {
+          "file_card": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "文件卡片背景色"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "head_bg": {
+              "value": "{gradient.8}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "text": {
+              "title": {
+                "value": "{opacity.black.100}",
+                "type": "color",
+                "description": "标题文字"
+              },
+              "subtitle": {
+                "value": "{basic.grey.5}",
+                "type": "color",
+                "description": "副标题文字"
+              },
+              "errortext": {
+                "value": "{basic.grey.4}",
+                "type": "color",
+                "description": "报错文字"
+              }
+            },
+            "button": {
+              "wire": {
+                "value": "{basic.grey.1}",
+                "type": "color",
+                "description": "分割线"
+              },
+              "bg": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮"
+              }
+            }
+          },
+          "state": {
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "悬停列表"
+            },
+            "press": {
+              "value": "{nav.color.border.7}",
+              "type": "color",
+              "description": "按下列表"
+            }
+          }
         }
       }
     },
@@ -8764,6 +8824,66 @@
               "description": "成功图标线条"
             }
           }
+        },
+        "search": {
+          "file_card": {
+            "bg": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "文件卡片背景色"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "head_bg": {
+              "value": "{gradient.8}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "text": {
+              "title": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "description": "标题文字"
+              },
+              "subtitle": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "description": "副标题文字"
+              },
+              "errortext": {
+                "value": "{basic.grey.1}",
+                "type": "color",
+                "description": "报错文字"
+              }
+            },
+            "button": {
+              "wire": {
+                "value": "{basic.grey.1}",
+                "type": "color",
+                "description": "分割线"
+              },
+              "bg": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮"
+              }
+            }
+          },
+          "state": {
+            "hover": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "悬停列表"
+            },
+            "press": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "按下列表"
+            }
+          }
         }
       }
     },
@@ -12180,6 +12300,66 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "成功图标线条"
+            }
+          }
+        },
+        "search": {
+          "file_card": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "文件卡片背景色"
+            },
+            "border": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "head_bg": {
+              "value": "{gradient.8}",
+              "type": "color",
+              "description": "文件卡片描边"
+            },
+            "text": {
+              "title": {
+                "value": "{opacity.black.100}",
+                "type": "color",
+                "description": "标题文字"
+              },
+              "subtitle": {
+                "value": "{basic.grey.5}",
+                "type": "color",
+                "description": "副标题文字"
+              },
+              "errortext": {
+                "value": "{basic.grey.4}",
+                "type": "color",
+                "description": "报错文字"
+              }
+            },
+            "button": {
+              "wire": {
+                "value": "{basic.grey.1}",
+                "type": "color",
+                "description": "分割线"
+              },
+              "bg": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮"
+              }
+            }
+          },
+          "state": {
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "悬停列表"
+            },
+            "press": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "按下列表"
             }
           }
         }
