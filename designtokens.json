@@ -7265,7 +7265,7 @@
               "description": "优化按钮"
             },
             "button_border": {
-              "value": "{basic.grey.2}",
+              "value": "none",
               "type": "color",
               "description": "优化按钮描边"
             },
@@ -7285,14 +7285,14 @@
               "description": "优化按钮文字"
             },
             "text_cancel": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "取消按钮文字"
             }
           },
           "text": {
             "title": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "标题文字"
             },
@@ -7307,7 +7307,7 @@
               "description": "优化内容文字"
             },
             "subtitle": {
-              "value": "{basic.grey.3}",
+              "value": "{basic.grey.4}",
               "type": "color",
               "description": "次标题文字"
             },
@@ -7319,7 +7319,7 @@
           },
           "frame": {
             "content_bg_disable": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.12}",
               "type": "color",
               "description": "优化内容区域背景"
             },
@@ -7341,12 +7341,12 @@
               "description": "选择器选中描边"
             },
             "unselected": {
-              "value": "{basic.grey.2}",
+              "value": "{basic.grey.5}",
               "type": "color",
               "description": "选择器未选中描边"
             },
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "{basic.grey.9}",
               "type": "color",
               "description": "背景"
             },
