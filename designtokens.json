@@ -4012,6 +4012,11 @@
               "type": "color",
               "description": "优化内容文字"
             },
+            "content_disable": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
             "subtitle": {
               "value": "{basic.grey.3}",
               "type": "color",
@@ -4053,6 +4058,11 @@
             },
             "bg": {
               "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "背景"
+            },
+            "text": {
+              "value": "{basic.grey.6}",
               "type": "color",
               "description": "选择器选中文字"
             }
@@ -6706,7 +6716,7 @@
     "popwin": {
       "color": {
         "bg": {
-          "value": "{opacity.white.100}",
+          "value": "{basic.grey.9}",
           "type": "color",
           "border": {
             "value": "{opacity.white.16}",
@@ -6719,7 +6729,7 @@
           "description": "权限申请弹窗底色\n"
         },
         "border": {
-          "value": "{opacity.black.24}",
+          "value": "{opacity.black.12}",
           "type": "color",
           "description": "权限弹窗描边\n"
         },
@@ -6988,96 +6998,6 @@
             }
           }
         },
-        "sum_to_filez": {
-          "button": {
-            "button_bg": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "优化按钮"
-            },
-            "button_border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "优化按钮描边"
-            },
-            "cancel_bg": {
-              "value": "none",
-              "type": "color",
-              "description": "取消按钮"
-            },
-            "cancel_border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "优化按钮文字"
-            },
-            "text_send": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "优化按钮文字"
-            },
-            "text_cancel": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "取消按钮文字"
-            }
-          },
-          "text": {
-            "title": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "标题文字"
-            },
-            "content": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "优化内容文字"
-            },
-            "subtitle": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "次标题文字"
-            },
-            "body": {
-              "value": "{basic.grey.5}",
-              "type": "color",
-              "description": "目标文本区域文字"
-            }
-          },
-          "frame": {
-            "content_bg": {
-              "value": "none",
-              "type": "color",
-              "description": "优化内容区域背景"
-            },
-            "content_border": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "优化内容区域描边"
-            }
-          },
-          "select": {
-            "border_selected": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "选择器选中描边"
-            },
-            "text_selected": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "text": {
-              "value": "{basic.grey.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "选择器未选中描边"
-            }
-          }
-        },
         "send_text": {
           "button": {
             "button_bg": {
@@ -7254,6 +7174,106 @@
               "value": "{basic.grey.4}",
               "type": "color",
               "description": "内容"
+            }
+          }
+        },
+        "sum_to_filez": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "content_disable": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "body": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "content_bg_disable": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          },
+          "select": {
+            "selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中描边"
+            },
+            "unselected": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "选择器未选中描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "背景"
+            },
+            "text": {
+              "value": "{basic.grey.6}",
+              "type": "color",
+              "description": "选择器选中文字"
             }
           }
         }
@@ -10449,96 +10469,6 @@
             }
           }
         },
-        "sum_to_filez": {
-          "button": {
-            "button_bg": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "优化按钮"
-            },
-            "button_border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "优化按钮描边"
-            },
-            "cancel_bg": {
-              "value": "none",
-              "type": "color",
-              "description": "取消按钮"
-            },
-            "cancel_border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "优化按钮文字"
-            },
-            "text_send": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "优化按钮文字"
-            },
-            "text_cancel": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "取消按钮文字"
-            }
-          },
-          "text": {
-            "title": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "标题文字"
-            },
-            "content": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "优化内容文字"
-            },
-            "subtitle": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "次标题文字"
-            },
-            "body": {
-              "value": "{basic.grey.5}",
-              "type": "color",
-              "description": "目标文本区域文字"
-            }
-          },
-          "frame": {
-            "content_bg": {
-              "value": "none",
-              "type": "color",
-              "description": "优化内容区域背景"
-            },
-            "content_border": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "优化内容区域描边"
-            }
-          },
-          "select": {
-            "border_selected": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "选择器选中描边"
-            },
-            "text_selected": {
-              "value": "{basic.brand.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "text": {
-              "value": "{basic.grey.5}",
-              "type": "color",
-              "description": "选择器选中文字"
-            },
-            "border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "选择器未选中描边"
-            }
-          }
-        },
         "send_text": {
           "button": {
             "button_bg": {
@@ -10715,6 +10645,106 @@
               "value": "{basic.grey.4}",
               "type": "color",
               "description": "内容"
+            }
+          }
+        },
+        "sum_to_filez": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "content_disable": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "body": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "content_bg_disable": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          },
+          "select": {
+            "selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中描边"
+            },
+            "unselected": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "选择器未选中描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "背景"
+            },
+            "text": {
+              "value": "{basic.grey.6}",
+              "type": "color",
+              "description": "选择器选中文字"
             }
           }
         }
