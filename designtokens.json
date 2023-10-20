@@ -5348,6 +5348,86 @@
           }
         }
       }
+    },
+    "mention": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及底色\n"
+        },
+        "border": {
+          "value": "none",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及描边"
+        },
+        "select": {
+          "value": "{basic.brand.1}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.24",
+                "space": "srgb"
+              }
+            }
+          },
+          "description": "提及悬停"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及名称"
+          },
+          "ql": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及群聊内成员"
+          }
+        }
+      }
     }
   },
   "dark": {
@@ -8850,6 +8930,77 @@
           }
         }
       }
+    },
+    "mention": {
+      "color": {
+        "bg": {
+          "value": "{basic.dark-blue.9}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及底色\n"
+        },
+        "border": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及描边"
+        },
+        "select": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及悬停"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及名称"
+          },
+          "ql": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及群聊内成员"
+          }
+        }
+      }
     }
   },
   "柔和模式": {
@@ -12194,6 +12345,77 @@
               "type": "color"
             },
             "description": "复制弹窗取消文字"
+          }
+        }
+      }
+    },
+    "mention": {
+      "color": {
+        "bg": {
+          "value": "{opacity.white.100}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及底色\n"
+        },
+        "border": {
+          "value": "none",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及描边"
+        },
+        "select": {
+          "value": "{basic.green.0}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及悬停"
+        },
+        "text": {
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及名称"
+          },
+          "ql": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及群聊内成员"
           }
         }
       }
