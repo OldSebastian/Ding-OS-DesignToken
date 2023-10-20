@@ -6747,27 +6747,27 @@
         },
         "emoji": {
           "bg": {
-            "value": "{opacity.white.100}",
+            "value": "{basic.dark-blue.5}",
             "type": "color",
             "description": "minichat内浅色背景色"
           },
           "border": {
-            "value": "{basic.grey.2}",
+            "value": "{opacity.white.16}",
             "type": "color",
             "description": "minichat内浅色描边"
           },
           "hover": {
-            "value": "{opacity.black.7}",
+            "value": "{basic.dark-blue.4}",
             "type": "color",
             "description": "minichat内表情包悬停"
           },
           "scrollbar": {
-            "value": "{opacity.black.12}",
+            "value": "{opacity.white.12}",
             "type": "color",
             "description": "滚动条"
           },
           "title": {
-            "value": "{basic.grey.7}",
+            "value": "{basic.grey.1}",
             "type": "color",
             "description": "标题"
           }
