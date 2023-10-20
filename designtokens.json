@@ -2232,6 +2232,11 @@
                 "type": "color",
                 "description": "呱呱内个人名片按钮icon"
               }
+            },
+            "hover_border": {
+              "value": "{basic.blue.2}",
+              "type": "color",
+              "description": "呱呱内个人名片部门选中描边"
             }
           }
         },
@@ -2280,6 +2285,11 @@
             "value": "{opacity.white.88}",
             "type": "color",
             "description": "呱呱服务入口卡片按钮颜色"
+          },
+          "servicename": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片服务名称"
           }
         },
         "meetings_cards": {
@@ -6523,9 +6533,8 @@
     "popwin": {
       "color": {
         "bg": {
-          "value": "{opacity.white.12}",
+          "value": "{opacity.white.100}",
           "type": "color",
-          "description": "权限申请弹窗底色\n",
           "border": {
             "value": "{opacity.white.16}",
             "type": "color"
@@ -6533,51 +6542,580 @@
           "frame": {
             "value": "{opacity.black.20}",
             "type": "color"
-          }
+          },
+          "description": "权限申请弹窗底色\n"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{opacity.black.24}",
+          "type": "color",
+          "description": "权限弹窗描边\n"
         },
         "text": {
           "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "标题\n"
           },
           "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "次文本\n"
           },
           "link": {
             "value": "{basic.blue.4}",
-            "type": "color"
+            "type": "color",
+            "description": "文件名"
+          }
+        },
+        "popwinborder": {
+          "value": "{opacity.black.12}",
+          "type": "color",
+          "description": "其他浮层描边"
+        },
+        "emoji": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "minichat内浅色背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "minichat内浅色描边"
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "minichat内表情包悬停"
+          },
+          "scrollbar": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "滚动条"
+          },
+          "title": {
+            "value": "{basic.grey.7}",
+            "type": "color",
+            "description": "标题"
+          }
+        },
+        "optimize": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "aim": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "aim_border": {
+              "value": "none",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          }
+        },
+        "frame": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "转发按钮高亮按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "转发禁用态按钮描边"
+            },
+            "button_forbidden_border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "转发禁用态按钮底色"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "取消按钮描边"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "转发按钮文字高亮颜色"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "input": {
+            "border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框描边"
+            },
+            "border_focus": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "输入框聚焦描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入框背景"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框默认文本"
+            },
+            "enter_tex": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "输入框输入文本"
+            },
+            "tag_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "输入框标签背景"
+            }
+          },
+          "selector": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "选择器背景"
+            },
+            "select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "选择器选中底色"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "选择器选中hover底色"
+            },
+            "text": {
+              "tab_title": {
+                "value": "{basic.brand.5}",
+                "type": "color",
+                "description": "选择器tab切换当前选中"
+              },
+              "tab_unselected": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "选择器tab切换未选中"
+              },
+              "name": {
+                "value": "{basic.grey.9}",
+                "type": "color",
+                "description": "选择器列表名字颜色"
+              }
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "转发内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "转发区域背景"
+            }
+          }
+        },
+        "sum_to_filez": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "body": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          },
+          "select": {
+            "border_selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中描边"
+            },
+            "text_selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中文字"
+            },
+            "text": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "选择器选中文字"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "选择器未选中描边"
+            }
+          }
+        },
+        "send_text": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "拖动发送文本弹窗"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "内容文本"
+            }
+          },
+          "bg": {
+            "bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "文字区域背景"
+            }
+          }
+        },
+        "filez_share": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "filez分享按钮"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "拖动发送文本弹窗"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "内容文本"
+            }
+          },
+          "tag": {
+            "text": {
+              "value": "{basic.orange.5}",
+              "type": "color",
+              "description": "会话标签"
+            },
+            "bg": {
+              "value": "{basic.orange.0}",
+              "type": "color",
+              "description": "会话标签背景"
+            },
+            "border": {
+              "value": "{basic.orange.5}",
+              "type": "color",
+              "description": "会话标签描边"
+            }
+          },
+          "radio": {
+            "selected": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "单选选中"
+            },
+            "unselected": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "单选未选中"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "单选通用背景"
+            }
+          }
+        },
+        "alarm": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.red.5}",
+              "type": "color",
+              "description": "确认"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "内容"
+            }
           }
         }
       },
       "button": {
         "hover": {
-          "value": "{opacity.white.20}",
+          "value": "{opacity.black.4}",
           "type": "color",
           "description": "权限申请弹窗按钮hover颜色"
         },
         "bg": {
-          "value": "{opacity.white.7}",
+          "value": "{opacity.white.100}",
           "type": "color",
           "description": "权限申请弹窗按钮默认颜色"
         },
         "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "按钮描边"
         },
         "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "按钮文字颜色"
         }
       },
       "icon": {
         "bg": {
           "value": "{basic.grey.4}",
           "type": "color"
+        },
+        "close": {
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "关闭按钮"
         }
       }
     },
@@ -7371,6 +7909,574 @@
             "type": "color"
           },
           "description": "个人信息卡片head描边"
+        }
+      }
+    },
+    "guagua": {
+      "color": {
+        "addreessbook": {
+          "idcard": {
+            "bg": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "呱呱内个人名片背景"
+            },
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "呱呱内个人名片描边"
+            },
+            "name": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "呱呱内个人名片名字颜色"
+            },
+            "text": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "呱呱内个人名片部门颜色"
+            },
+            "hover_border": {
+              "value": "{basic.blue.2}",
+              "type": "color",
+              "description": "呱呱内个人名片部门选中描边"
+            },
+            "icon": {
+              "bg": {
+                "value": "none",
+                "type": "color",
+                "description": "呱呱内个人名片按钮背景色"
+              },
+              "bg_hover": {
+                "value": "{opacity.black.7}",
+                "type": "color",
+                "description": "呱呱内个人名片按钮背景色"
+              },
+              "icon": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "呱呱内个人名片按钮icon"
+              }
+            }
+          }
+        },
+        "service_entry": {
+          "card_bg": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "呱呱服务入口卡片背景（大背景）"
+          },
+          "head_bg": {
+            "value": "none",
+            "type": "color",
+            "description": "呱呱服务入口头部背景颜色"
+          },
+          "card_border": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "呱呱服务入口卡片描边（空盒子）"
+          },
+          "title": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片标题颜色"
+          },
+          "servicename": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片服务名称"
+          },
+          "subtitle": {
+            "value": "{basic.grey.6}",
+            "type": "color",
+            "description": "呱呱服务入口卡片副标题文字颜色"
+          },
+          "service_bg": {
+            "value": "{gradient.8}",
+            "type": "color",
+            "description": "呱呱服务入口卡片服务区背景颜色"
+          },
+          "button": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮颜色"
+          },
+          "button_border": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮描边颜色"
+          },
+          "button_hover": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮颜色"
+          }
+        },
+        "meetings_cards": {
+          "color": {
+            "head": {
+              "value": "{gradient.4}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片整体底色"
+            },
+            "imformation_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片信息区域颜色"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片默认按钮颜色"
+            },
+            "select_bg": {
+              "value": "{basic.brand.0}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片选中按钮颜色"
+            },
+            "select_border": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片选中按钮描边颜色"
+            },
+            "hover": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片按钮hover颜色"
+            },
+            "select_text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片选中按钮文本颜色"
+            },
+            "icon": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片默认按钮图标颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon颜色"
+            },
+            "border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon描边颜色"
+            },
+            "icon_color": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon颜色"
+            }
+          },
+          "text": {
+            "body": {
+              "value": "{opacity.black.100}",
+              "type": "color"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color"
+            },
+            "title_cancel": {
+              "value": "{basic.red.4}",
+              "type": "color",
+              "description": "取消颜色"
+            },
+            "title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "标题颜色"
+            }
+          },
+          "border": {
+            "card": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "日程卡片整体描边与底部描边"
+            },
+            "imformation": {
+              "value": "none",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片信息区域颜色"
+            },
+            "head": {
+              "value": "none",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片head描边"
+            }
+          }
+        },
+        "summary": {
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下内容标题颜色"
+            },
+            "subtext": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下内容次文本颜色"
+            },
+            "text_button": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "摘要服务以下按钮文字颜色"
+            }
+          },
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "浮层背景色"
+          },
+          "border": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "浮层描边"
+          },
+          "radio_button": {
+            "bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组选中背景色",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.16",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组边框颜色"
+            },
+            "text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组选中文字颜色"
+            },
+            "hover_text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组未选中hover文字颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组未选中文字颜色"
+            }
+          },
+          "attendees": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下参会人背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下参会人人员描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下参会人人员名称颜色"
+            }
+          },
+          "content": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下内容背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下内容描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下内容文字颜色"
+            }
+          },
+          "file": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下文件内容背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下文件描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下文件颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下icon颜色"
+            }
+          },
+          "tag": {
+            "Select": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务标签选中颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务标签未选中文字颜色"
+            },
+            "Identification": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务标签选中下面横杠杠颜色"
+            }
+          },
+          "dividingline": {
+            "color": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "摘要服务以下分割线颜色"
+            }
+          }
+        },
+        "file_card": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "文件卡片背景色"
+          },
+          "border": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "head_bg": {
+            "value": "{gradient.8}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "text_botton": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "文字按钮"
+            }
+          },
+          "button": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "hover按钮背景"
+            }
+          },
+          "dividingline": {
+            "icon-copy": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分割线"
+            }
+          }
+        },
+        "gppt_card": {
+          "bg": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "呱呱生成ppt底色"
+          },
+          "border": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "呱呱生成ppt描边"
+          },
+          "text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "呱呱生成ppt文字颜色"
+          },
+          "file": {
+            "bg": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "description": "呱呱生成ppt文件背景底色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "呱呱生成ppt文件名称颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "成功图标"
+            },
+            "icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "成功图标线条"
+            }
+          }
         }
       }
     }
@@ -8743,6 +9849,523 @@
             "type": "color",
             "description": "文件名"
           }
+        },
+        "popwinborder": {
+          "value": "{opacity.black.12}",
+          "type": "color",
+          "description": "其他浮层描边"
+        },
+        "emoji": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "minichat内浅色背景色"
+          },
+          "border": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "description": "minichat内浅色描边"
+          },
+          "hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "minichat内表情包悬停"
+          },
+          "scrollbar": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "滚动条"
+          },
+          "title": {
+            "value": "{basic.grey.7}",
+            "type": "color",
+            "description": "标题"
+          }
+        },
+        "optimize": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "aim": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "aim_border": {
+              "value": "none",
+              "type": "color",
+              "description": "目标文本区域背景"
+            },
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          }
+        },
+        "frame": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "转发按钮高亮按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "转发禁用态按钮描边"
+            },
+            "button_forbidden_border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "转发禁用态按钮底色"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "取消按钮描边"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "转发按钮文字高亮颜色"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "input": {
+            "border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框描边"
+            },
+            "border_focus": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "输入框聚焦描边"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "输入框背景"
+            },
+            "text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "输入框默认文本"
+            },
+            "enter_tex": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "输入框输入文本"
+            },
+            "tag_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "输入框标签背景"
+            }
+          },
+          "selector": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "选择器背景"
+            },
+            "select_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "选择器选中底色"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "选择器选中hover底色"
+            },
+            "text": {
+              "tab_title": {
+                "value": "{basic.brand.5}",
+                "type": "color",
+                "description": "选择器tab切换当前选中"
+              },
+              "tab_unselected": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "选择器tab切换未选中"
+              },
+              "name": {
+                "value": "{basic.grey.9}",
+                "type": "color",
+                "description": "选择器列表名字颜色"
+              }
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "转发内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            }
+          },
+          "frame": {
+            "aim_bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "转发区域背景"
+            }
+          }
+        },
+        "sum_to_filez": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "content": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "优化内容文字"
+            },
+            "subtitle": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "次标题文字"
+            },
+            "body": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "目标文本区域文字"
+            }
+          },
+          "frame": {
+            "content_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "优化内容区域背景"
+            },
+            "content_border": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "优化内容区域描边"
+            }
+          },
+          "select": {
+            "border_selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中描边"
+            },
+            "text_selected": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "选择器选中文字"
+            },
+            "text": {
+              "value": "{basic.grey.5}",
+              "type": "color",
+              "description": "选择器选中文字"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "选择器未选中描边"
+            }
+          }
+        },
+        "send_text": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "优化按钮"
+            },
+            "button_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "拖动发送文本弹窗"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "内容文本"
+            }
+          },
+          "bg": {
+            "bg": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "文字区域背景"
+            }
+          }
+        },
+        "filez_share": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "filez分享按钮"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "拖动发送文本弹窗"
+            },
+            "content": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "内容文本"
+            }
+          },
+          "tag": {
+            "text": {
+              "value": "{basic.orange.5}",
+              "type": "color",
+              "description": "会话标签"
+            },
+            "bg": {
+              "value": "{basic.orange.0}",
+              "type": "color",
+              "description": "会话标签背景"
+            },
+            "border": {
+              "value": "{basic.orange.5}",
+              "type": "color",
+              "description": "会话标签描边"
+            }
+          },
+          "radio": {
+            "selected": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "单选选中"
+            },
+            "unselected": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "单选未选中"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "单选通用背景"
+            }
+          }
+        },
+        "alarm": {
+          "button": {
+            "button_bg": {
+              "value": "{basic.red.5}",
+              "type": "color",
+              "description": "确认"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "优化按钮描边"
+            },
+            "cancel_bg": {
+              "value": "none",
+              "type": "color",
+              "description": "取消按钮"
+            },
+            "cancel_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
+            },
+            "text_cancel": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "取消按钮文字"
+            }
+          },
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "标题"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "内容"
+            }
+          }
         }
       },
       "button": {
@@ -8771,6 +10394,11 @@
         "bg": {
           "value": "{basic.grey.4}",
           "type": "color"
+        },
+        "close": {
+          "value": "{basic.grey.5}",
+          "type": "color",
+          "description": "关闭按钮"
         }
       }
     },
@@ -9439,6 +11067,574 @@
                   "space": "srgb"
                 }
               }
+            }
+          }
+        }
+      }
+    },
+    "guagua": {
+      "color": {
+        "addreessbook": {
+          "idcard": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "呱呱内个人名片背景"
+            },
+            "border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "呱呱内个人名片描边"
+            },
+            "name": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "呱呱内个人名片名字颜色"
+            },
+            "text": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "呱呱内个人名片部门颜色"
+            },
+            "icon": {
+              "bg": {
+                "value": "none",
+                "type": "color",
+                "description": "呱呱内个人名片按钮背景色"
+              },
+              "bg_hover": {
+                "value": "{opacity.black.7}",
+                "type": "color",
+                "description": "呱呱内个人名片按钮背景色"
+              },
+              "icon": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "呱呱内个人名片按钮icon"
+              }
+            },
+            "hover_border": {
+              "value": "{basic.blue.2}",
+              "type": "color",
+              "description": "呱呱内个人名片部门选中描边"
+            }
+          }
+        },
+        "service_entry": {
+          "card_bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片背景（大背景）"
+          },
+          "head_bg": {
+            "value": "none",
+            "type": "color",
+            "description": "呱呱服务入口头部背景颜色"
+          },
+          "card_border": {
+            "value": "{opacity.black.16}",
+            "type": "color",
+            "description": "呱呱服务入口卡片描边（空盒子）"
+          },
+          "title": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片标题颜色"
+          },
+          "subtitle": {
+            "value": "{basic.grey.6}",
+            "type": "color",
+            "description": "呱呱服务入口卡片副标题文字颜色"
+          },
+          "service_bg": {
+            "value": "{gradient.8}",
+            "type": "color",
+            "description": "呱呱服务入口卡片服务区背景颜色"
+          },
+          "button": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮颜色"
+          },
+          "button_border": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮描边颜色"
+          },
+          "button_hover": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "呱呱服务入口卡片按钮颜色"
+          },
+          "servicename": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "呱呱服务入口卡片服务名称"
+          }
+        },
+        "meetings_cards": {
+          "color": {
+            "head": {
+              "value": "{gradient.4}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片整体底色"
+            },
+            "imformation_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片信息区域颜色"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片默认按钮颜色"
+            },
+            "select_bg": {
+              "value": "{basic.brand.0}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片选中按钮颜色"
+            },
+            "select_border": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片选中按钮描边颜色"
+            },
+            "hover": {
+              "value": "{basic.brand.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片按钮hover颜色"
+            },
+            "select_text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片选中按钮文本颜色"
+            },
+            "icon": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片默认按钮图标颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon颜色"
+            },
+            "border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon描边颜色"
+            },
+            "icon_color": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片icon颜色"
+            }
+          },
+          "text": {
+            "body": {
+              "value": "{opacity.black.100}",
+              "type": "color"
+            },
+            "link": {
+              "value": "{basic.blue.5}",
+              "type": "color"
+            },
+            "title_cancel": {
+              "value": "{basic.red.4}",
+              "type": "color",
+              "description": "取消颜色"
+            },
+            "title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "标题颜色"
+            }
+          },
+          "border": {
+            "card": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "日程卡片整体描边与底部描边"
+            },
+            "imformation": {
+              "value": "none",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片信息区域颜色"
+            },
+            "head": {
+              "value": "none",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "个人信息卡片head描边"
+            }
+          }
+        },
+        "summary": {
+          "text": {
+            "title": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下内容标题颜色"
+            },
+            "subtext": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下内容次文本颜色"
+            },
+            "text_button": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "摘要服务以下按钮文字颜色"
+            }
+          },
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "浮层背景色"
+          },
+          "border": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "浮层描边"
+          },
+          "radio_button": {
+            "bg": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组选中背景色",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.16",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组边框颜色"
+            },
+            "text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组选中文字颜色"
+            },
+            "hover_text": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组未选中hover文字颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下单选按钮组未选中文字颜色"
+            }
+          },
+          "attendees": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下参会人背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下参会人人员描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下参会人人员名称颜色"
+            }
+          },
+          "content": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下内容背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下内容描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下内容文字颜色"
+            }
+          },
+          "file": {
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "摘要服务以下文件内容背景色"
+            },
+            "border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "摘要服务以下文件描边"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "摘要服务以下文件颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务以下icon颜色"
+            }
+          },
+          "tag": {
+            "Select": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务标签选中颜色"
+            },
+            "unchecked_text": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "摘要服务标签未选中文字颜色"
+            },
+            "Identification": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "摘要服务标签选中下面横杠杠颜色"
+            }
+          },
+          "dividingline": {
+            "color": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "摘要服务以下分割线颜色"
+            }
+          }
+        },
+        "file_card": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "文件卡片背景色"
+          },
+          "border": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "head_bg": {
+            "value": "{gradient.8}",
+            "type": "color",
+            "description": "文件卡片描边"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "标题文字"
+            },
+            "text_botton": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "文字按钮"
+            }
+          },
+          "button": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "hover按钮背景"
+            }
+          },
+          "dividingline": {
+            "icon-copy": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分割线"
+            }
+          }
+        },
+        "gppt_card": {
+          "bg": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "呱呱生成ppt底色"
+          },
+          "border": {
+            "value": "{basic.green.6}",
+            "type": "color",
+            "description": "呱呱生成ppt描边"
+          },
+          "text": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "description": "呱呱生成ppt文字颜色"
+          },
+          "file": {
+            "bg": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "description": "呱呱生成ppt文件背景底色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "呱呱生成ppt文件名称颜色"
+            }
+          },
+          "icon": {
+            "bg": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "成功图标"
+            },
+            "icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "成功图标线条"
             }
           }
         }
