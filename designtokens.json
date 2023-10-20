@@ -8015,7 +8015,7 @@
         "meetings_cards": {
           "color": {
             "head": {
-              "value": "{gradient.4}",
+              "value": "{opacity.white.12}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8028,7 +8028,7 @@
               "description": "会议信息卡片head底色"
             },
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "{basic.dark-blue.6}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8041,7 +8041,7 @@
               "description": "会议信息卡片整体底色"
             },
             "imformation_bg": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8136,7 +8136,7 @@
           },
           "icon": {
             "bg": {
-              "value": "{basic.grey.0}",
+              "value": "{opacity.white.12}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8149,7 +8149,7 @@
               "description": "会议信息卡片icon颜色"
             },
             "border": {
-              "value": "{basic.grey.1}",
+              "value": "{basic.grey.4}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8162,7 +8162,7 @@
               "description": "会议信息卡片icon描边颜色"
             },
             "icon_color": {
-              "value": "{basic.grey.3}",
+              "value": "{opacity.white.76}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8177,7 +8177,7 @@
           },
           "text": {
             "body": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color"
             },
             "link": {
@@ -8197,7 +8197,7 @@
           },
           "border": {
             "card": {
-              "value": "{basic.grey.1}",
+              "value": "{opacity.white.12}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -8210,7 +8210,7 @@
               "description": "日程卡片整体描边与底部描边"
             },
             "imformation": {
-              "value": "none",
+              "value": "{opacity.white.12}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
