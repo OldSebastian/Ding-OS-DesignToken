@@ -4960,12 +4960,12 @@
             },
             "button": {
               "bg": {
-                "value": "{basic.blue.2}",
+                "value": "{basic.brand.5}",
                 "type": "color",
                 "description": "创建会议按钮bg"
               },
               "text": {
-                "value": "{basic.blue.5}",
+                "value": "{opacity.white.100}",
                 "type": "color",
                 "description": "创建会议按钮文字"
               }
@@ -5015,12 +5015,12 @@
                 "description": "时间轴文字颜色"
               },
               "selected": {
-                "value": "{basic.blue.5}",
+                "value": "{basic.pink.5}",
                 "type": "color",
-                "description": "时间轴时间选中颜色"
+                "description": "时间轴选中颜色"
               },
               "line": {
-                "value": "{opacity.black.12}",
+                "value": "{basic.grey.2}",
                 "type": "color",
                 "description": "时间轴线条颜色"
               }
