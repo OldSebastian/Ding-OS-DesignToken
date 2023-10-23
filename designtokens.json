@@ -6993,6 +6993,11 @@
           "type": "color",
           "description": "权限弹窗描边\n"
         },
+        "popwinborder": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "description": "其他浮层描边"
+        },
         "text": {
           "title": {
             "value": "{opacity.black.100}",
@@ -7009,11 +7014,6 @@
             "type": "color",
             "description": "文件名"
           }
-        },
-        "popwinborder": {
-          "value": "{opacity.white.12}",
-          "type": "color",
-          "description": "其他浮层描边"
         },
         "emoji": {
           "bg": {
