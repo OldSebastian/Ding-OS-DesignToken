@@ -8935,8 +8935,17 @@
         },
         "gppt_card": {
           "bg": {
-            "value": "{basic.green.1}",
+            "value": "{basic.green.8}",
             "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.32",
+                  "space": "srgb"
+                }
+              }
+            },
             "description": "呱呱生成ppt底色"
           },
           "border": {
@@ -8945,25 +8954,34 @@
             "description": "呱呱生成ppt描边"
           },
           "text": {
-            "value": "{basic.green.7}",
+            "value": "{basic.green.4}",
             "type": "color",
             "description": "呱呱生成ppt文字颜色"
           },
           "file": {
             "bg": {
-              "value": "{opacity.white.64}",
+              "value": "{basic.green.4}",
               "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.4",
+                    "space": "srgb"
+                  }
+                }
+              },
               "description": "呱呱生成ppt文件背景底色"
             },
             "text": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "呱呱生成ppt文件名称颜色"
             }
           },
           "icon": {
             "bg": {
-              "value": "{basic.green.6}",
+              "value": "{basic.green.5}",
               "type": "color",
               "description": "成功图标"
             },
