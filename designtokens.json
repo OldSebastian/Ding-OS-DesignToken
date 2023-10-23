@@ -2336,6 +2336,19 @@
                 "type": "color"
               },
               "description": "会议信息卡片信息区域颜色"
+            },
+            "close": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片信息区域颜色"
             }
           },
           "button": {
@@ -2523,6 +2536,62 @@
                 "type": "color"
               },
               "description": "个人信息卡片head描边"
+            }
+          },
+          "tag": {
+            "bg": {
+              "value": "{basic.light-blue.0}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "发起人tag背景"
+            },
+            "text": {
+              "value": "{basic.light-blue.4}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "发起人tag描边+文字"
+            }
+          },
+          "more": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "更多人"
+            },
+            "text": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "更多人"
             }
           }
         },
@@ -8385,6 +8454,11 @@
                 "type": "color"
               },
               "description": "会议信息卡片信息区域颜色"
+            },
+            "close": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "会议信息卡片信息区域颜色"
             }
           },
           "button": {
@@ -8581,6 +8655,30 @@
                 "type": "color"
               },
               "description": "个人信息卡片head描边"
+            }
+          },
+          "tag": {
+            "bg": {
+              "value": "{basic.light-blue.0}",
+              "type": "color",
+              "description": "发起人tag背景"
+            },
+            "text": {
+              "value": "{basic.light-blue.4}",
+              "type": "color",
+              "description": "发起人tag描边+文字"
+            }
+          },
+          "more": {
+            "bg": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "更多人"
+            },
+            "text": {
+              "value": "{opacity.white.88}",
+              "type": "color",
+              "description": "更多人"
             }
           }
         },
@@ -11864,6 +11962,11 @@
                 "type": "color"
               },
               "description": "会议信息卡片信息区域颜色"
+            },
+            "close": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "会议信息卡片信息区域颜色"
             }
           },
           "button": {
@@ -12060,6 +12163,30 @@
               },
               "description": "个人信息卡片head描边"
             }
+          },
+          "tag": {
+            "bg": {
+              "value": "{basic.light-blue.0}",
+              "type": "color",
+              "description": "发起人tag背景"
+            },
+            "text": {
+              "value": "{basic.light-blue.4}",
+              "type": "color",
+              "description": "发起人tag描边+文字"
+            }
+          },
+          "more": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "更多人"
+            },
+            "text": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "更多人"
+            }
           }
         },
         "summary": {
@@ -12186,7 +12313,7 @@
           },
           "tag": {
             "Select": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "摘要服务标签选中颜色"
             },
@@ -12196,7 +12323,7 @@
               "description": "摘要服务标签未选中文字颜色"
             },
             "Identification": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "摘要服务标签选中下面横杠杠颜色"
             }
