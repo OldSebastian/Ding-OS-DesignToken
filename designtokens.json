@@ -1086,7 +1086,7 @@
         "type": "color"
       },
       "4": {
-        "value": "linear-gradient(85deg, #8088E3 8.78%, #9196EE 38.84%, #BAB5F9 86.77%);",
+        "value": "linear-gradient(90deg, #8085E0 0%, #BDB8FC 100%);",
         "type": "color"
       },
       "5": {
@@ -6891,7 +6891,7 @@
           }
         },
         "popwinborder": {
-          "value": "{opacity.black.12}",
+          "value": "{opacity.white.12}",
           "type": "color",
           "description": "其他浮层描边"
         },
@@ -7166,14 +7166,14 @@
               "description": "优化按钮文字"
             },
             "text_cancel": {
-              "value": "{basic.grey.9}",
+              "value": "{basic.grey.2}",
               "type": "color",
               "description": "取消按钮文字"
             }
           },
           "text": {
             "title": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "拖动发送文本弹窗"
             },
@@ -7185,7 +7185,7 @@
           },
           "bg": {
             "bg": {
-              "value": "{opacity.black.4}",
+              "value": "{opacity.white.4}",
               "type": "color",
               "description": "文字区域背景"
             }
@@ -7299,14 +7299,14 @@
               "description": "优化按钮文字"
             },
             "text_cancel": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "取消按钮文字"
             }
           },
           "text": {
             "title": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "标题"
             },
@@ -8315,19 +8315,19 @@
             "description": "呱呱服务入口卡片标题颜色"
           },
           "servicename": {
-            "value": "{opacity.black.100}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "呱呱服务入口卡片服务名称"
           },
-          "subtitle": {
-            "value": "{basic.grey.6}",
-            "type": "color",
-            "description": "呱呱服务入口卡片副标题文字颜色"
-          },
           "service_bg": {
-            "value": "{gradient.8}",
+            "value": "{gradient.9}",
             "type": "color",
             "description": "呱呱服务入口卡片服务区背景颜色"
+          },
+          "subtitle": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "description": "呱呱服务入口卡片副标题文字颜色"
           },
           "button": {
             "value": "{opacity.white.48}",
