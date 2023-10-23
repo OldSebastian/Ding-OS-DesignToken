@@ -2961,6 +2961,11 @@
               "value": "{opacity.black.48}",
               "type": "color",
               "description": "呱呱发送按钮"
+            },
+            "text_normal": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
             }
           },
           "bottom": {
@@ -8578,6 +8583,11 @@
               "value": "{basic.grey.2}",
               "type": "color",
               "description": "呱呱发送按钮"
+            },
+            "text_normal": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
             }
           },
           "bottom": {
@@ -8592,7 +8602,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg": {
-              "value": "{basic.blue.5}",
+              "value": "{basic.blue.4}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -8606,9 +8616,17 @@
               "description": "呱呱输入框"
             },
             "icon_bg_hover": {
-              "value": "{opacity.white.64}",
+              "value": "{basic.blue.3}",
               "type": "color",
-              "$extensions": {},
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.24",
+                    "space": "srgb"
+                  }
+                }
+              },
               "description": "呱呱输入框"
             }
           }
@@ -13084,6 +13102,11 @@
               "description": "呱呱发送按钮"
             },
             "button_icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            },
+            "text_normal": {
               "value": "{opacity.black.48}",
               "type": "color",
               "description": "呱呱发送按钮"
