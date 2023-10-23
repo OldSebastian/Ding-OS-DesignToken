@@ -8413,6 +8413,96 @@
             }
           }
         },
+        "aiconversation": {
+          "head": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天标题文字"
+            },
+            "button_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            },
+            "button_icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            }
+          },
+          "bubble": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "button_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            },
+            "button_icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            }
+          },
+          "bottom": {
+            "divider": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "icon_bg": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "呱呱输入框"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "$extensions": {},
+              "description": "呱呱输入框"
+            }
+          }
+        },
         "service_entry": {
           "card_bg": {
             "value": "{opacity.white.12}",
