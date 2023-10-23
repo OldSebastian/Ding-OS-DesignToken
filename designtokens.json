@@ -2895,6 +2895,106 @@
               "description": "按下列表"
             }
           }
+        },
+        "aiconversation": {
+          "head": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天标题文字"
+            },
+            "button_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            },
+            "button_icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "呱呱聊天按钮描边"
+            }
+          },
+          "bg": {
+            "value": "{gradient.6}",
+            "type": "color",
+            "description": "呱呱聊天标题文字"
+          },
+          "bubble": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "button_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            },
+            "button_icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            }
+          },
+          "bottom": {
+            "divider": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "icon_bg": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "呱呱输入框"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "$extensions": {},
+              "description": "呱呱输入框"
+            }
+          }
         }
       }
     },
@@ -8416,68 +8516,78 @@
         "aiconversation": {
           "head": {
             "title": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "呱呱聊天标题文字"
             },
             "button_bg": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "呱呱聊天按钮背景"
             },
             "button_icon": {
-              "value": "{basic.grey.3}",
+              "value": "{basic.grey.2}",
               "type": "color",
               "description": "呱呱聊天按钮背景"
+            },
+            "button_border": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "呱呱聊天按钮描边"
             }
+          },
+          "bg": {
+            "value": "{gradient.3}",
+            "type": "color",
+            "description": "呱呱聊天标题文字"
           },
           "bubble": {
             "bg": {
-              "value": "{basic.grey.0}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "呱呱聊天气泡"
             },
             "border": {
-              "value": "{opacity.black.24}",
+              "value": "{opacity.white.24}",
               "type": "color",
               "description": "呱呱聊天气泡"
             },
             "text": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "呱呱聊天气泡"
             }
           },
           "input": {
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "呱呱输入框"
             },
             "border": {
-              "value": "{opacity.black.24}",
+              "value": "{opacity.white.64}",
               "type": "color",
               "description": "呱呱输入框"
             },
             "button_bg": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.16}",
               "type": "color",
               "description": "呱呱发送按钮"
             },
             "button_icon": {
-              "value": "{opacity.black.48}",
+              "value": "{basic.grey.2}",
               "type": "color",
               "description": "呱呱发送按钮"
             }
           },
           "bottom": {
             "divider": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.16}",
               "type": "color",
               "description": "呱呱输入框"
             },
             "text": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "呱呱输入框"
             },
@@ -12909,6 +13019,106 @@
               "value": "{opacity.black.7}",
               "type": "color",
               "description": "按下列表"
+            }
+          }
+        },
+        "aiconversation": {
+          "head": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天标题文字"
+            },
+            "button_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            },
+            "button_icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "呱呱聊天按钮背景"
+            },
+            "button_border": {
+              "value": "none",
+              "type": "color",
+              "description": "呱呱聊天按钮描边"
+            }
+          },
+          "bg": {
+            "value": "{gradient.6}",
+            "type": "color",
+            "description": "呱呱聊天标题文字"
+          },
+          "bubble": {
+            "bg": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱聊天气泡"
+            }
+          },
+          "input": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "button_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            },
+            "button_icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "呱呱发送按钮"
+            }
+          },
+          "bottom": {
+            "divider": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "icon_bg": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "呱呱输入框"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.white.64}",
+              "type": "color",
+              "$extensions": {},
+              "description": "呱呱输入框"
             }
           }
         }
