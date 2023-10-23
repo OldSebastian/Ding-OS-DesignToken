@@ -7339,14 +7339,14 @@
               "description": "优化按钮文字"
             },
             "text_cancel": {
-              "value": "{basic.grey.9}",
+              "value": "{basic.grey.1}",
               "type": "color",
               "description": "取消按钮文字"
             }
           },
           "text": {
             "title": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "拖动发送文本弹窗"
             },
@@ -7363,7 +7363,7 @@
               "description": "会话标签"
             },
             "bg": {
-              "value": "{basic.orange.0}",
+              "value": "{basic.orange.9}",
               "type": "color",
               "description": "会话标签背景"
             },
@@ -7385,7 +7385,7 @@
               "description": "单选未选中"
             },
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "none",
               "type": "color",
               "description": "单选通用背景"
             }
