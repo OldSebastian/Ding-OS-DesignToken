@@ -8927,7 +8927,7 @@
           },
           "dividingline": {
             "icon-copy": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "分割线"
             }
