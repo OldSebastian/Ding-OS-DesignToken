@@ -2996,7 +2996,6 @@
             "icon_bg_hover": {
               "value": "{opacity.white.64}",
               "type": "color",
-              "$extensions": {},
               "description": "呱呱输入框"
             }
           }
@@ -6312,7 +6311,7 @@
               "description": "子服务空间标签栏标签未选中时描边颜色"
             },
             "unchecked_frame": {
-              "value": "n'o'n'e",
+              "value": "none",
               "type": "color",
               "description": "子服务空间标签栏标签未选中时填充颜色"
             },
@@ -13140,7 +13139,6 @@
             "icon_bg_hover": {
               "value": "{opacity.white.64}",
               "type": "color",
-              "$extensions": {},
               "description": "呱呱输入框"
             }
           }
