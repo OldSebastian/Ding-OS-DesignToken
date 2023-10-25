@@ -1920,8 +1920,9 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{basic.grey.0}",
-            "type": "color"
+            "value": "{gradient.6}",
+            "type": "color",
+            "description": "会话背景底色\n"
           },
           "botton": {
             "value": "{basic.brand.5}",
@@ -4456,15 +4457,15 @@
               "type": "color",
               "description": "优化按钮文字"
             },
-            "text_send": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "优化按钮文字"
-            },
             "text_cancel": {
               "value": "{basic.grey.9}",
               "type": "color",
               "description": "取消按钮文字"
+            },
+            "text_send": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "优化按钮文字"
             }
           },
           "text": {
@@ -5715,6 +5716,10 @@
     }
   },
   "dark": {
+    "4324245": {
+      "value": "{dimension.20}",
+      "type": "dimension"
+    },
     "nav": {
       "color": {
         "bg": {
