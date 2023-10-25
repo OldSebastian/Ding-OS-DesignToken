@@ -1921,15 +1921,14 @@
         "bg": {
           "frame": {
             "value": "{gradient.6}",
-            "type": "color",
-            "description": "会话背景底色\n"
+            "type": "color"
           },
           "botton": {
             "value": "{basic.brand.5}",
             "type": "color"
           },
           "titlebar": {
-            "value": "{basic.grey.0}",
+            "value": "{gradient.6}",
             "type": "color"
           },
           "Inputbox": {
