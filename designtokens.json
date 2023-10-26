@@ -5713,6 +5713,131 @@
           }
         }
       }
+    },
+    "filez": {
+      "color": {
+        "bg": {
+          "value": "{gradient.10}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez底色"
+        },
+        "tab_bg": {
+          "value": "{opacity.white.32}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez tab 底色"
+        },
+        "crumbs": {
+          "select": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑选中"
+          },
+          "unselected": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑未选中"
+          }
+        },
+        "list": {
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 hover"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 标题"
+          },
+          "halvingline": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 分割线"
+          },
+          "button_hover": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 hover"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 文字"
+          }
+        }
+      }
     }
   },
   "dark": {
@@ -9773,6 +9898,131 @@
           }
         }
       }
+    },
+    "filez": {
+      "color": {
+        "bg": {
+          "value": "{gradient.3}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez底色"
+        },
+        "tab_bg": {
+          "value": "{opacity.white.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez tab 底色"
+        },
+        "crumbs": {
+          "select": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑选中"
+          },
+          "unselected": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑未选中"
+          }
+        },
+        "list": {
+          "hover": {
+            "value": "{opacity.white.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 hover"
+          },
+          "text": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 标题"
+          },
+          "halvingline": {
+            "value": "{opacity.white.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 分割线"
+          },
+          "button_hover": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 hover"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 文字"
+          }
+        }
+      }
     }
   },
   "柔和模式": {
@@ -13644,6 +13894,131 @@
               "type": "color",
               "description": "关闭按钮icon"
             }
+          }
+        }
+      }
+    },
+    "filez": {
+      "color": {
+        "bg": {
+          "value": "{gradient.2}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez底色"
+        },
+        "tab_bg": {
+          "value": "{opacity.white.32}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "filez tab 底色"
+        },
+        "crumbs": {
+          "select": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑选中"
+          },
+          "unselected": {
+            "value": "{basic.grey.2}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 面包屑未选中"
+          }
+        },
+        "list": {
+          "hover": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 hover"
+          },
+          "text": {
+            "value": "{basic.grey.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 标题"
+          },
+          "halvingline": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 列表 分割线"
+          },
+          "button_hover": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 hover"
+          },
+          "button": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "filez 按钮 文字"
           }
         }
       }
