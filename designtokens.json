@@ -1832,8 +1832,13 @@
     "win": {
       "color": {
         "bg": {
-          "value": "{opacity.white.100}",
+          "value": "{gradient.10}",
           "type": "color"
+        },
+        "guagua_bg": {
+          "value": "none",
+          "type": "color",
+          "description": "呱呱底色"
         }
       }
     },
@@ -6271,6 +6276,10 @@
         "bg": {
           "value": "{gradient.3}",
           "type": "color"
+        },
+        "guagua_bg": {
+          "value": "none",
+          "type": "color"
         }
       }
     },
@@ -10071,6 +10080,11 @@
         "bg": {
           "value": "{gradient.2}",
           "type": "color"
+        },
+        "guagua_bg": {
+          "value": "{opacity.white.88}",
+          "type": "color",
+          "description": "呱呱底色"
         }
       }
     },
