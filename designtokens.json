@@ -7426,7 +7426,7 @@
           },
           "selector": {
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.black.100}",
               "type": "color",
               "description": "选择器背景"
             },
@@ -7461,7 +7461,7 @@
                 "description": "选择器tab切换未选中"
               },
               "name": {
-                "value": "{basic.grey.9}",
+                "value": "{basic.grey.0}",
                 "type": "color",
                 "description": "选择器列表名字颜色"
               }
