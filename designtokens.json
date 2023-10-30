@@ -5461,6 +5461,16 @@
               "value": "{opacity.black.7}",
               "type": "color",
               "description": "hover描边"
+            },
+            "more_blue": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "hover描边"
+            },
+            "more_green": {
+              "value": "{basic.cyan.2}",
+              "type": "color",
+              "description": "hover描边"
             }
           },
           "close": {
@@ -9894,6 +9904,16 @@
               "value": "{basic.brand.1}",
               "type": "color",
               "description": "hover描边"
+            },
+            "more_blue": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "hover描边"
+            },
+            "more_green": {
+              "value": "{basic.cyan.4}",
+              "type": "color",
+              "description": "hover描边"
             }
           },
           "close": {
@@ -13887,6 +13907,16 @@
             },
             "border_hover": {
               "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "hover描边"
+            },
+            "more_blue": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "hover描边"
+            },
+            "more_green": {
+              "value": "{basic.cyan.4}",
               "type": "color",
               "description": "hover描边"
             }
