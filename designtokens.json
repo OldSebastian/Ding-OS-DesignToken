@@ -41,6 +41,10 @@
         "9": {
           "value": "#201a5d",
           "type": "color"
+        },
+        "5_20": {
+          "value": "#615eec33",
+          "type": "color"
         }
       },
       "red": {
@@ -7404,7 +7408,7 @@
               "description": "转发按钮文字高亮颜色"
             },
             "text_cancel": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "取消按钮文字"
             }
@@ -7436,7 +7440,7 @@
               "description": "输入框输入文本"
             },
             "tag_bg": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "输入框标签背景"
             }
@@ -7462,7 +7466,7 @@
               "description": "选择器选中底色"
             },
             "hover_bg": {
-              "value": "{opacity.black.4}",
+              "value": "{opacity.white.4}",
               "type": "color",
               "description": "选择器选中hover底色"
             },
@@ -7504,7 +7508,7 @@
           },
           "frame": {
             "aim_bg": {
-              "value": "{opacity.black.4}",
+              "value": "{opacity.white.4}",
               "type": "color",
               "description": "转发区域背景"
             }
