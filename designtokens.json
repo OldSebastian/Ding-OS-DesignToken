@@ -2988,7 +2988,7 @@
           },
           "bottom": {
             "divider": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.black.48}",
               "type": "color",
               "description": "呱呱输入框"
             },
@@ -2997,29 +2997,25 @@
               "type": "color",
               "description": "呱呱输入框"
             },
-            "icon_bg": {
-              "value": "{basic.blue.5}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "srgb"
-                  }
-                }
-              },
-              "description": "呱呱输入框"
-            },
             "icon_bg_hover": {
               "value": "{opacity.white.64}",
               "type": "color",
               "description": "呱呱输入框"
             },
-            "bg": {
-              "value": "{gradient.2}",
+            "icon_bg": {
+              "value": "{basic.blue.3}",
               "type": "color",
               "description": "呱呱输入框"
+            },
+            "bg": {
+              "value": "{gradient.6}",
+              "type": "color",
+              "description": "呱呱输入框"
+            },
+            "bg_inside": {
+              "value": "{opacity.white.88}",
+              "type": "color",
+              "description": "内背景"
             }
           }
         }
@@ -8748,7 +8744,7 @@
           },
           "bottom": {
             "divider": {
-              "value": "{opacity.white.16}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "呱呱输入框"
             },
@@ -8758,7 +8754,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg": {
-              "value": "{basic.blue.4}",
+              "value": "{opacity.white.32}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -8772,7 +8768,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg_hover": {
-              "value": "{basic.blue.2}",
+              "value": "{opacity.white.64}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -8786,9 +8782,14 @@
               "description": "呱呱输入框"
             },
             "bg": {
-              "value": "{gradient.2}",
+              "value": "{gradient.3}",
               "type": "color",
               "description": "呱呱输入框"
+            },
+            "bg_inside": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "内背景"
             }
           }
         },
@@ -13409,6 +13410,11 @@
               "value": "{gradient.2}",
               "type": "color",
               "description": "呱呱输入框"
+            },
+            "bg_inside": {
+              "value": "{opacity.white.88}",
+              "type": "color",
+              "description": "内背景"
             },
             "divider": {
               "value": "{opacity.black.48}",
