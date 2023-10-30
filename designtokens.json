@@ -129,6 +129,10 @@
         "9": {
           "value": "#002b70",
           "type": "color"
+        },
+        "4_20": {
+          "value": "#3b96ff33",
+          "type": "color"
         }
       },
       "cyan": {
@@ -2998,12 +3002,12 @@
               "description": "呱呱输入框"
             },
             "icon_bg_hover": {
-              "value": "{opacity.white.64}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "呱呱输入框"
             },
             "icon_bg": {
-              "value": "{basic.blue.3}",
+              "value": "{basic.blue.4_20}",
               "type": "color",
               "description": "呱呱输入框"
             },
@@ -3013,7 +3017,7 @@
               "description": "呱呱输入框"
             },
             "bg_inside": {
-              "value": "{opacity.white.88}",
+              "value": "none",
               "type": "color",
               "description": "内背景"
             }
@@ -8787,7 +8791,7 @@
               "description": "呱呱输入框"
             },
             "bg_inside": {
-              "value": "{opacity.white.16}",
+              "value": "none",
               "type": "color",
               "description": "内背景"
             }
