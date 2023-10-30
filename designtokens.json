@@ -4160,7 +4160,6 @@
             "select_bg": {
               "value": "{basic.brand.5_20}",
               "type": "color",
-              "$extensions": {},
               "description": "选择器选中底色"
             },
             "hover_bg": {
@@ -5428,18 +5427,18 @@
         },
         "tab_bar": {
           "bg": {
-            "value": "{opacity.white.100}",
+            "value": "{gradient.6}",
             "type": "color",
             "description": "tab栏背景色"
           },
           "icon": {
             "bg": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "默认背景"
             },
             "bg_border": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "默认背景"
             },
@@ -5454,12 +5453,12 @@
               "description": "选中描边"
             },
             "bg_hover": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.white.88}",
               "type": "color",
               "description": "hover背景"
             },
             "border_hover": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.black.7}",
               "type": "color",
               "description": "hover描边"
             }
@@ -7484,7 +7483,6 @@
             "title": {
               "value": "{opacity.white.100}",
               "type": "color",
-              "$extensions": {},
               "description": "标题文字"
             },
             "content": {
@@ -11602,7 +11600,6 @@
             "select_bg": {
               "value": "{basic.green.6_20}",
               "type": "color",
-              "$extensions": {},
               "description": "选择器选中底色"
             },
             "hover_bg": {
@@ -13858,18 +13855,18 @@
         },
         "tab_bar": {
           "bg": {
-            "value": "{opacity.white.88}",
+            "value": "{gradient.2}",
             "type": "color",
             "description": "tab栏背景色"
           },
           "icon": {
             "bg": {
-              "value": "{basic.green.0}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "默认背景"
             },
             "bg_border": {
-              "value": "{basic.green.0}",
+              "value": "{opacity.white.48}",
               "type": "color",
               "description": "默认背景"
             },
@@ -13884,12 +13881,12 @@
               "description": "选中描边"
             },
             "bg_hover": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.white.88}",
               "type": "color",
               "description": "hover背景"
             },
             "border_hover": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.black.7}",
               "type": "color",
               "description": "hover描边"
             }
