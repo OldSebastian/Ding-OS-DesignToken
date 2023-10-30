@@ -4158,17 +4158,9 @@
               "description": "选择器背景"
             },
             "select_bg": {
-              "value": "{basic.brand.5}",
+              "value": "{basic.brand.5_20}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.2",
-                    "space": "srgb"
-                  }
-                }
-              },
+              "$extensions": {},
               "description": "选择器选中底色"
             },
             "hover_bg": {
@@ -7435,7 +7427,7 @@
               "description": "输入框默认文本"
             },
             "enter_tex": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "输入框输入文本"
             },
@@ -11608,17 +11600,9 @@
               "description": "选择器背景"
             },
             "select_bg": {
-              "value": "{basic.green.6}",
+              "value": "{basic.green.6_20}",
               "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.2",
-                    "space": "srgb"
-                  }
-                }
-              },
+              "$extensions": {},
               "description": "选择器选中底色"
             },
             "hover_bg": {
