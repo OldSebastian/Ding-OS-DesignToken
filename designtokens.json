@@ -7478,8 +7478,9 @@
           },
           "text": {
             "title": {
-              "value": "{basic.grey.9}",
+              "value": "{opacity.white.100}",
               "type": "color",
+              "$extensions": {},
               "description": "标题文字"
             },
             "content": {
