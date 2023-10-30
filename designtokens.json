@@ -8767,7 +8767,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg_hover": {
-              "value": "{basic.blue.3}",
+              "value": "{basic.blue.2}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -13406,7 +13406,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg": {
-              "value": "{basic.blue.5}",
+              "value": "{basic.green.6}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -13420,7 +13420,7 @@
               "description": "呱呱输入框"
             },
             "icon_bg_hover": {
-              "value": "{opacity.white.64}",
+              "value": "{basic.green.2}",
               "type": "color",
               "description": "呱呱输入框"
             }
