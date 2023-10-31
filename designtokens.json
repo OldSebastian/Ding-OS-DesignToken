@@ -9605,7 +9605,7 @@
     "mention": {
       "color": {
         "bg": {
-          "value": "{basic.dark-blue.9}",
+          "value": "{basic.dark-blue.7}",
           "type": "color",
           "border": {
             "value": "{opacity.white.16}",
