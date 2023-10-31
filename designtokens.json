@@ -3016,6 +3016,11 @@
               "type": "color",
               "description": "呱呱输入框"
             },
+            "text_none": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "暂无"
+            },
             "bg_inside": {
               "value": "none",
               "type": "color",
@@ -8794,6 +8799,11 @@
               "value": "none",
               "type": "color",
               "description": "内背景"
+            },
+            "text_none": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "暂无"
             }
           }
         },
@@ -13439,6 +13449,11 @@
               "value": "{basic.green.1}",
               "type": "color",
               "description": "呱呱输入框"
+            },
+            "text_none": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "暂无"
             }
           }
         }
