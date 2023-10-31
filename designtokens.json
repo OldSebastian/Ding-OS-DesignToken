@@ -8105,7 +8105,7 @@
       "color": {
         "popwin": {
           "bg-": {
-            "value": "{basic.dark-blue.7}",
+            "value": "{basic.dark-blue.6}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
@@ -8118,7 +8118,7 @@
             "description": "浮层背景色"
           },
           "border": {
-            "value": "{basic.cyan.8}",
+            "value": "{opacity.white.24}",
             "type": "color",
             "border": {
               "value": "{opacity.white.16}",
