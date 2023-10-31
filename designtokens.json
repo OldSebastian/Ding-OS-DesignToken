@@ -8898,7 +8898,7 @@
           },
           "button": {
             "bg": {
-              "value": "none",
+              "value": "{basic.brand.5}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
