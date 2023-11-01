@@ -5866,6 +5866,11 @@
           }
         }
       }
+    },
+    "emoji_shadow": {
+      "value": "{elevation.theme_light.e3}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
     }
   },
   "dark": {
@@ -7283,7 +7288,7 @@
         },
         "emoji": {
           "bg": {
-            "value": "{basic.dark-blue.5}",
+            "value": "{basic.dark-blue.6}",
             "type": "color",
             "description": "minichat内浅色背景色"
           },
@@ -8409,6 +8414,11 @@
     },
     "idcard_shadow": {
       "value": "{elevation.theme_dark.e4}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
+    },
+    "emoji_shadow": {
+      "value": "{elevation.theme_dark.e3}",
       "type": "boxShadow",
       "description": "个人信息卡片投影"
     },
@@ -14091,6 +14101,11 @@
           }
         }
       }
+    },
+    "emoji_shadow": {
+      "value": "{elevation.theme_light.e3}",
+      "type": "boxShadow",
+      "description": "个人信息卡片投影"
     }
   },
   "黑": {
