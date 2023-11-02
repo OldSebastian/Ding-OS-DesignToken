@@ -7271,7 +7271,7 @@
         },
         "text": {
           "title": {
-            "value": "{opacity.black.100}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "标题\n"
           },
