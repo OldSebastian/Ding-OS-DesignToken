@@ -5872,6 +5872,133 @@
         }
       }
     },
+    "toast": {
+      "color": {
+        "warn": {
+          "bg": {
+            "value": "{basic.orange.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告背景"
+          },
+          "border": {
+            "value": "{basic.orange.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "succeed": {
+          "bg": {
+            "value": "{basic.green.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功背景"
+          },
+          "border": {
+            "value": "{basic.green.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "mistake": {
+          "bg": {
+            "value": "{basic.pink.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误背景"
+          },
+          "border": {
+            "value": "{basic.pink.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        }
+      }
+    },
     "emoji_shadow": {
       "value": "{elevation.theme_light.e3}",
       "type": "boxShadow",
@@ -10095,6 +10222,133 @@
           }
         }
       }
+    },
+    "toast": {
+      "color": {
+        "warn": {
+          "bg": {
+            "value": "{basic.orange.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告背景"
+          },
+          "border": {
+            "value": "{basic.orange.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "succeed": {
+          "bg": {
+            "value": "{basic.green.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功背景"
+          },
+          "border": {
+            "value": "{basic.green.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "mistake": {
+          "bg": {
+            "value": "{basic.pink.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误背景"
+          },
+          "border": {
+            "value": "{basic.pink.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        }
+      }
     }
   },
   "柔和模式": {
@@ -14111,6 +14365,133 @@
       "value": "{elevation.theme_light.e3}",
       "type": "boxShadow",
       "description": "个人信息卡片投影"
+    },
+    "toast": {
+      "color": {
+        "warn": {
+          "bg": {
+            "value": "{basic.orange.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告背景"
+          },
+          "border": {
+            "value": "{basic.orange.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "succeed": {
+          "bg": {
+            "value": "{basic.green.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功背景"
+          },
+          "border": {
+            "value": "{basic.green.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST成功描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        },
+        "mistake": {
+          "bg": {
+            "value": "{basic.pink.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误背景"
+          },
+          "border": {
+            "value": "{basic.pink.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST错误描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "TOAST警告文字"
+          }
+        }
+      }
     }
   },
   "黑": {
