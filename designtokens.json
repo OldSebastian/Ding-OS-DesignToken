@@ -1125,6 +1125,11 @@
         "value": "#D0DFF4",
         "type": "color",
         "description": "浅色背景色\n"
+      },
+      "11": {
+        "value": "#D0DFF4",
+        "type": "color",
+        "description": "浅色背景色\n"
       }
     },
     "dimension": {
