@@ -2036,6 +2036,11 @@
               "value": "{basic.blue.5}",
               "type": "color",
               "description": "链接"
+            },
+            "URL": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "链接"
             }
           },
           "tag": {
@@ -6346,6 +6351,11 @@
               "value": "{basic.blue.5}",
               "type": "color",
               "description": "链接"
+            },
+            "URL": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "链接"
             }
           }
         },
@@ -10621,6 +10631,11 @@
               "value": "{basic.blue.5}",
               "type": "color",
               "description": "链接"
+            },
+            "URL": {
+              "value": "{basic.grey.0}",
+              "type": "color",
+              "description": "网址链接\n"
             }
           }
         },
