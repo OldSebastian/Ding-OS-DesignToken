@@ -2085,6 +2085,28 @@
               "type": "color",
               "description": "警用文字色"
             }
+          },
+          "t_i": {
+            "divider": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "按钮底色_hover"
+            },
+            "icon": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "按钮icon"
+            }
           }
         },
         "border": {
@@ -6356,6 +6378,28 @@
               "value": "{basic.blue.5}",
               "type": "color",
               "description": "链接"
+            }
+          },
+          "t_i": {
+            "divider": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon_bg": {
+              "value": "{opacity.black.20}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "按钮底色_hover"
+            },
+            "icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "按钮icon"
             }
           }
         },
@@ -10636,6 +10680,28 @@
               "value": "{basic.grey.0}",
               "type": "color",
               "description": "网址链接\n"
+            }
+          },
+          "t_i": {
+            "divider": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "filez文件底色"
+            },
+            "icon_bg": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "icon_bg_hover": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "按钮底色_hover"
+            },
+            "icon": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "按钮icon"
             }
           }
         },
