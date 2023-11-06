@@ -1867,7 +1867,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{nav.color.bg.frame}",
+            "value": "{conversation.color.bg}",
             "type": "color"
           }
         },
@@ -3056,7 +3056,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{nav.color.bg.frame}",
+            "value": "{conversation.color.bg}",
             "type": "color"
           }
         },
@@ -6055,7 +6055,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{nav.color.bg.frame}",
+            "value": "{conversation.color.bg}",
             "type": "color"
           }
         },
@@ -6524,7 +6524,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{nav.color.bg.frame}",
+            "value": "{conversation.color.bg}",
             "type": "color"
           }
         },
@@ -14607,6 +14607,486 @@
     }
   },
   "窗管": {},
+  "提及浅色": {
+    "conversation": {
+      "color": {
+        "bg": {
+          "value": "{basic.grey.0}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "none",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器边框颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "hover": {
+            "value": "{basic.brand.5_20}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          }
+        }
+      }
+    },
+    "inner_spacing": {
+      "win": {
+        "value": "none",
+        "type": "spacing"
+      },
+      "input_z_y_x": {
+        "value": "{spacing.24}",
+        "type": "spacing",
+        "description": "输入框边距(左、右、下)"
+      },
+      "input_s": {
+        "value": "{spacing.8}",
+        "type": "spacing",
+        "description": "输入框边距(上)"
+      },
+      "selector": {
+        "value": "{spacing.24}",
+        "type": "spacing",
+        "description": "选择器边距"
+      }
+    },
+    "radius": {
+      "box": {
+        "value": "{borderRadius.0}",
+        "type": "borderRadius"
+      }
+    },
+    "conversation2": {
+      "color": {
+        "bg": {
+          "value": "{basic.grey.0}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "none",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "mouse": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "选择器列表鼠标悬停边框"
+          },
+          "listborder": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器列表鼠标悬停边框"
+          },
+          "hover_bg": {
+            "value": "{basic.blue.0}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          },
+          "hover_border": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "选择器悬停边框"
+          },
+          "icon": {
+            "value": "{basic.grey.8}",
+            "type": "color",
+            "description": "选择器icon"
+          }
+        }
+      }
+    }
+  },
+  "提及深色": {
+    "conversation": {
+      "color": {
+        "bg": {
+          "value": "{gradient.3}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.0}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "none",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{basic.dark-blue.6}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{basic.grey.6}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{basic.dark-blue.7}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "border": {
+            "value": "{basic.grey.6}",
+            "type": "color",
+            "description": "选择器边框颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "hover": {
+            "value": "{opacity.white.4}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          }
+        }
+      }
+    },
+    "radius": {
+      "box": {
+        "value": "{borderRadius.0}",
+        "type": "borderRadius"
+      }
+    },
+    "inner_spacing": {
+      "win": {
+        "value": "none",
+        "type": "spacing"
+      },
+      "input_z_y_x": {
+        "value": "{spacing.24}",
+        "type": "spacing",
+        "description": "输入框边距(左、右、下)"
+      },
+      "input_s": {
+        "value": "{spacing.8}",
+        "type": "spacing",
+        "description": "输入框边距(上)"
+      },
+      "selector": {
+        "value": "{spacing.24}",
+        "type": "spacing",
+        "description": "选择器边距"
+      }
+    },
+    "conversation2": {
+      "color": {
+        "bg": {
+          "value": "{gradient.2}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "{opacity.white.88}",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "mouse": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "选择器列表鼠标悬停"
+          },
+          "listborder": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器列表鼠标悬停"
+          },
+          "hover_bg": {
+            "value": "{opacity.white.16}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          },
+          "hover_border": {
+            "value": "{basic.blue.5}",
+            "type": "color",
+            "description": "选择器悬停边框"
+          },
+          "icon": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器icon"
+          }
+        }
+      }
+    }
+  },
+  "提及柔和": {
+    "conversation": {
+      "color": {
+        "bg": {
+          "value": "{gradient.2}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "{opacity.white.88}",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "border": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器边框颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "hover": {
+            "value": "{basic.green.1}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          }
+        }
+      }
+    },
+    "radius": {
+      "box": {
+        "value": "{borderRadius.16}",
+        "type": "borderRadius"
+      }
+    },
+    "inner_spacing": {
+      "win": {
+        "value": "{spacing.16}",
+        "type": "spacing"
+      },
+      "input_z_y_x": {
+        "value": "{spacing.0}",
+        "type": "spacing",
+        "description": "输入框边距(左、右、下)"
+      },
+      "input_s": {
+        "value": "{spacing.0}",
+        "type": "spacing",
+        "description": "输入框边距(上)"
+      },
+      "selector": {
+        "value": "{spacing.16}",
+        "type": "spacing",
+        "description": "选择器边距"
+      }
+    },
+    "conversation2": {
+      "color": {
+        "bg": {
+          "value": "{gradient.2}",
+          "type": "color",
+          "description": "会话窗口背景颜色"
+        },
+        "text": {
+          "value": "{basic.grey.9}",
+          "type": "color",
+          "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
+        },
+        "module": {
+          "value": "none",
+          "type": "color",
+          "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
+        },
+        "input": {
+          "bg": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "输入框颜色"
+          },
+          "border": {
+            "value": "{opacity.white.88}",
+            "type": "color",
+            "description": "输入框边框颜色"
+          },
+          "text": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "输入框边框默认文本颜色"
+          }
+        },
+        "selector": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "选择器颜色"
+          },
+          "paratext": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器副文本"
+          },
+          "listborder": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "选择器列表边框"
+          },
+          "mouse": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "选择器列表边框"
+          },
+          "hover_bg": {
+            "value": "{basic.green.0}",
+            "type": "color",
+            "description": "选择器悬停颜色"
+          },
+          "hover_border": {
+            "value": "{basic.green.5}",
+            "type": "color",
+            "description": "选择器悬停边框"
+          },
+          "icon": {
+            "value": "{basic.grey.8}",
+            "type": "color",
+            "description": "选择器icon"
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
@@ -14619,7 +15099,6 @@
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
       "$figmaVariableReferences": {
-        "nav.color.bg.frame": "09aed1a9b21252628e9cc8ffb752edfc6073594d",
         "nav.color.icon.select": "e80611733092fc36fe50f3f5a481758aadf5f09d",
         "nav.color.icon.disabled": "55dcfe8ba7139c3f10ef3cbaa120de7b7c429f25",
         "list.color.bg.frame": "a3c5c620d4f85914200f27900a5e3e1623822260",
@@ -14654,7 +15133,8 @@
         "conversation.color.chat_bubbles.own.bg": "8c86cda1091b6cbf64d75967fb26404e52e72103",
         "conversation.color.chat_bubbles.other.border": "a7e058e56766fdf909bf6fd940a6ff510311fd99",
         "win_titlebar.color.bg": "f3ce72957c434a5d788347037fe558a572928fcb",
-        "win_titlebar.color.text": "91b898384343514b1daf521f1873f25f75ee9921"
+        "win_titlebar.color.text": "91b898384343514b1daf521f1873f25f75ee9921",
+        "conversation.color.bg": "09aed1a9b21252628e9cc8ffb752edfc6073594d"
       }
     }
   ],
@@ -14666,7 +15146,10 @@
       "柔和模式",
       "黑",
       "白",
-      "窗管"
+      "窗管",
+      "提及浅色",
+      "提及深色",
+      "提及柔和"
     ]
   }
 }
