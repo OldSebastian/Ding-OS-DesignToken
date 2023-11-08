@@ -14922,12 +14922,12 @@
     "conversation2": {
       "color": {
         "bg": {
-          "value": "{gradient.2}",
+          "value": "{gradient.3}",
           "type": "color",
           "description": "会话窗口背景颜色"
         },
         "text": {
-          "value": "{basic.grey.9}",
+          "value": "{basic.grey.0}",
           "type": "color",
           "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
         },
@@ -14938,12 +14938,12 @@
         },
         "input": {
           "bg": {
-            "value": "{opacity.white.88}",
+            "value": "{basic.dark-blue.6}",
             "type": "color",
             "description": "输入框颜色"
           },
           "border": {
-            "value": "{basic.grey.3}",
+            "value": "{basic.grey.6}",
             "type": "color",
             "description": "输入框边框颜色"
           },
@@ -14955,7 +14955,7 @@
         },
         "selector": {
           "bg": {
-            "value": "{opacity.white.100}",
+            "value": "{basic.dark-blue.7}",
             "type": "color",
             "description": "选择器颜色"
           },
@@ -15092,7 +15092,7 @@
           "description": "会话窗口区域内文本颜色(群标题,提及列表名称,输入框输入样式)"
         },
         "module": {
-          "value": "none",
+          "value": "{opacity.white.88}",
           "type": "color",
           "description": "会话窗口模块颜色(标题、会话窗口、输入框)"
         },
