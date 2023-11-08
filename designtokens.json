@@ -4018,6 +4018,23 @@
             "description": "文件名"
           }
         },
+        "button": {
+          "bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "按钮底色"
+          },
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "按钮描边"
+          },
+          "text": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "按钮文字"
+          }
+        },
         "emoji": {
           "bg": {
             "value": "{opacity.white.100}",
@@ -7511,6 +7528,23 @@
             "value": "{basic.blue.4}",
             "type": "color",
             "description": "文件名"
+          }
+        },
+        "button": {
+          "bg": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "按钮底色"
+          },
+          "border": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "按钮描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "按钮文字"
           }
         },
         "emoji": {
@@ -11892,6 +11926,23 @@
           "value": "{opacity.black.12}",
           "type": "color",
           "description": "其他浮层描边"
+        },
+        "button": {
+          "bg": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "按钮底色"
+          },
+          "border": {
+            "value": "{basic.grey.1}",
+            "type": "color",
+            "description": "按钮描边"
+          },
+          "text": {
+            "value": "{opacity.black.100}",
+            "type": "color",
+            "description": "按钮文字"
+          }
         },
         "emoji": {
           "bg": {
