@@ -5111,6 +5111,47 @@
             },
             "description": "输入区域指令文字颜色"
           }
+        },
+        "button": {
+          "bg": {
+            "value": "{opacity.white.76}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮bg"
+          },
+          "bg_hover": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮hover"
+          },
+          "icon": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮icon"
+          }
         }
       }
     },
@@ -8451,6 +8492,47 @@
               "type": "color"
             },
             "description": "输入区域指令文字颜色"
+          }
+        },
+        "button": {
+          "bg": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮bg"
+          },
+          "bg_hover": {
+            "value": "{opacity.white.24}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮hover"
+          },
+          "icon": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮icon"
           }
         }
       }
@@ -12873,6 +12955,47 @@
               "type": "color"
             },
             "description": "输入区域指令文字颜色"
+          }
+        },
+        "button": {
+          "bg": {
+            "value": "{basic.green.0}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮bg"
+          },
+          "bg_hover": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮hover"
+          },
+          "icon": {
+            "value": "{basic.green.7}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "重新生成按钮icon"
           }
         }
       }
