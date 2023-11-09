@@ -3058,6 +3058,23 @@
               "type": "color",
               "description": "内背景"
             }
+          },
+          "send_button": {
+            "bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "发送按钮"
+            },
+            "bg_hover": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "发送按钮hover"
+            },
+            "icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "发送按钮icon"
+            }
           }
         }
       }
@@ -9117,6 +9134,23 @@
               "type": "color",
               "description": "暂无"
             }
+          },
+          "send_button": {
+            "bg": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "发送按钮"
+            },
+            "bg_hover": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "发送按钮hover"
+            },
+            "icon": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "发送按钮icon"
+            }
           }
         },
         "service_entry": {
@@ -13978,6 +14012,23 @@
               "value": "{basic.grey.3}",
               "type": "color",
               "description": "暂无"
+            }
+          },
+          "send_button": {
+            "bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "发送按钮"
+            },
+            "bg_hover": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "发送按钮hover"
+            },
+            "icon": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "发送按钮icon"
             }
           }
         }
