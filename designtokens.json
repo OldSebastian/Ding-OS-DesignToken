@@ -1982,6 +1982,16 @@
               "value": "{conversation.color.text.title}",
               "type": "color"
             },
+            "Greyout": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "文本置灰"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
+            },
             "border": {
               "value": "{opacity.black.12}",
               "type": "color"
@@ -1992,9 +2002,24 @@
               "value": "{basic.brand.1}",
               "type": "color"
             },
+            "border": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "描边"
+            },
             "text": {
               "value": "{conversation.color.text.title}",
               "type": "color"
+            },
+            "Greyout": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "置灰文本\n"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
             },
             "link": {
               "value": "{basic.blue.5}",
@@ -2106,6 +2131,28 @@
               "value": "{basic.grey.4}",
               "type": "color",
               "description": "按钮icon"
+            }
+          },
+          "Icon_group": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "图标组底色"
+            },
+            "fill": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "图标组填充"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "图标组描边"
+            },
+            "hover": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "图标组hover"
             }
           }
         },
@@ -6352,6 +6399,16 @@
               "value": "{opacity.white.24}",
               "type": "color"
             },
+            "Greyout": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "文本置灰"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
+            },
             "text": {
               "value": "{conversation.color.text.title}",
               "type": "color"
@@ -6401,12 +6458,26 @@
           },
           "own": {
             "bg": {
-              "value": "{opacity.white.88}",
+              "value": "{opacity.white.100}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.black.12}",
               "type": "color"
             },
             "text": {
               "value": "{basic.grey.8}",
               "type": "color"
+            },
+            "Greyout": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "置灰文本"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
             },
             "link": {
               "value": "{basic.light-blue.5}",
@@ -6475,6 +6546,28 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "按钮icon"
+            }
+          },
+          "Icon_group": {
+            "bg": {
+              "value": "{basic.dark-blue.8}",
+              "type": "color",
+              "description": "图标组底色"
+            },
+            "fill": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "图标组填充"
+            },
+            "border": {
+              "value": "{basic.grey.8}",
+              "type": "color",
+              "description": "图标组描边"
+            },
+            "hover": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "图标组hover"
             }
           }
         },
@@ -10728,6 +10821,16 @@
               "value": "{conversation.color.text.title}",
               "type": "color"
             },
+            "Greyout": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "description": "置灰文本"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
+            },
             "border": {
               "value": "{opacity.black.12}",
               "type": "color"
@@ -10735,16 +10838,30 @@
           },
           "own": {
             "bg": {
-              "value": "{basic.green.8}",
+              "value": "{basic.green.6}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
               "type": "color"
             },
             "text": {
               "value": "{opacity.white.100}",
               "type": "color"
             },
+            "Greyout": {
+              "value": "{opacity.white.48}",
+              "type": "color",
+              "description": "置灰文本"
+            },
             "link": {
               "value": "{basic.green.2}",
               "type": "color"
+            },
+            "compile": {
+              "value": "{basic.brand.5}",
+              "type": "color",
+              "description": "重新编辑"
             }
           },
           "tag": {
@@ -10852,6 +10969,28 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "按钮icon"
+            }
+          },
+          "Icon_group": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "图标组底色"
+            },
+            "fill": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "图标组填充"
+            },
+            "border": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "图标组描边"
+            },
+            "hover": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "图标组hover"
             }
           }
         },
