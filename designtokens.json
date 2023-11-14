@@ -2965,8 +2965,13 @@
                 "type": "color",
                 "description": "标题文字"
               },
+              "hig": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "高亮"
+              },
               "subtitle": {
-                "value": "{basic.grey.5}",
+                "value": "{basic.grey.9}",
                 "type": "color",
                 "description": "副标题文字"
               },
@@ -2974,6 +2979,11 @@
                 "value": "{basic.grey.4}",
                 "type": "color",
                 "description": "报错文字"
+              },
+              "paratext": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "副文本\n"
               }
             },
             "button": {
@@ -2983,9 +2993,14 @@
                 "description": "分割线"
               },
               "bg": {
-                "value": "{basic.blue.5}",
+                "value": "{basic.grey.3}",
                 "type": "color",
                 "description": "文字按钮"
+              },
+              "hover": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮hover"
               }
             }
           },
@@ -9838,7 +9853,7 @@
         "search": {
           "file_card": {
             "bg": {
-              "value": "{opacity.white.12}",
+              "value": "{basic.dark-blue.5}",
               "type": "color",
               "description": "文件卡片背景色"
             },
@@ -9848,7 +9863,7 @@
               "description": "文件卡片描边"
             },
             "head_bg": {
-              "value": "{gradient.8}",
+              "value": "{gradient.11}",
               "type": "color",
               "description": "文件卡片描边"
             },
@@ -9857,6 +9872,11 @@
                 "value": "{opacity.white.100}",
                 "type": "color",
                 "description": "标题文字"
+              },
+              "hig": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "高亮文字\n"
               },
               "subtitle": {
                 "value": "{opacity.white.100}",
@@ -9867,6 +9887,11 @@
                 "value": "{basic.grey.1}",
                 "type": "color",
                 "description": "报错文字"
+              },
+              "paratext": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "副文本\n"
               }
             },
             "button": {
@@ -9876,9 +9901,14 @@
                 "description": "分割线"
               },
               "bg": {
-                "value": "{basic.blue.5}",
+                "value": "{opacity.white.100}",
                 "type": "color",
                 "description": "文字按钮"
+              },
+              "hover": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮hover"
               }
             }
           },
@@ -14022,8 +14052,13 @@
                 "type": "color",
                 "description": "标题文字"
               },
+              "hig": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "高亮"
+              },
               "subtitle": {
-                "value": "{basic.grey.5}",
+                "value": "{opacity.black.100}",
                 "type": "color",
                 "description": "副标题文字"
               },
@@ -14031,6 +14066,11 @@
                 "value": "{basic.grey.4}",
                 "type": "color",
                 "description": "报错文字"
+              },
+              "paratext": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "description": "副文本\n"
               }
             },
             "button": {
@@ -14040,9 +14080,14 @@
                 "description": "分割线"
               },
               "bg": {
-                "value": "{basic.blue.5}",
+                "value": "{basic.grey.3}",
                 "type": "color",
                 "description": "文字按钮"
+              },
+              "hover": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "文字按钮hover"
               }
             }
           },
