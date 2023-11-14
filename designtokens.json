@@ -13379,7 +13379,7 @@
           }
         },
         "bg": {
-          "value": "{opacity.white.100}",
+          "value": "{opacity.white.88}",
           "type": "color",
           "border": {
             "value": "{opacity.white.16}",
