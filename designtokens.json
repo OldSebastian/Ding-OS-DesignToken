@@ -13379,7 +13379,7 @@
           }
         },
         "bg": {
-          "value": "none",
+          "value": "{opacity.white.100}",
           "type": "color",
           "border": {
             "value": "{opacity.white.16}",
@@ -13389,7 +13389,7 @@
             "value": "{opacity.black.20}",
             "type": "color"
           },
-          "description": "输入区域背景色"
+          "description": "输入区域背景色 "
         },
         "input": {
           "icon": {
