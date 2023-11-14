@@ -4458,6 +4458,68 @@
             }
           }
         },
+        "qx": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请底色\n"
+          },
+          "border": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请描边\n"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "标题\n"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "次文本\n"
+            },
+            "link": {
+              "value": "{basic.blue.4}",
+              "type": "color",
+              "description": "文件名"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "按钮描边"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "按钮文字"
+            }
+          }
+        },
         "send_text": {
           "button": {
             "button_bg": {
@@ -8206,6 +8268,68 @@
               "value": "{basic.grey.6}",
               "type": "color",
               "description": "选择器选中文字"
+            }
+          }
+        },
+        "qx": {
+          "bg": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请底色\n"
+          },
+          "border": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请描边\n"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "标题\n"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "次文本\n"
+            },
+            "link": {
+              "value": "{basic.blue.4}",
+              "type": "color",
+              "description": "文件名"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{opacity.white.7}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "border": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "按钮描边"
+            },
+            "text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "按钮文字"
             }
           }
         }
@@ -12682,6 +12806,68 @@
               "value": "{basic.grey.6}",
               "type": "color",
               "description": "选择器选中文字"
+            }
+          }
+        },
+        "qx": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请底色\n"
+          },
+          "border": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "权限申请描边\n"
+          },
+          "text": {
+            "title": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "标题\n"
+            },
+            "body": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "次文本\n"
+            },
+            "link": {
+              "value": "{basic.blue.4}",
+              "type": "color",
+              "description": "文件名"
+            }
+          },
+          "button": {
+            "bg": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "按钮底色"
+            },
+            "border": {
+              "value": "{basic.grey.1}",
+              "type": "color",
+              "description": "按钮描边"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "按钮文字"
             }
           }
         }
