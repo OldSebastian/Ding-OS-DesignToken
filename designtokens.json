@@ -5320,6 +5320,11 @@
             },
             "description": "重新生成按钮icon"
           }
+        },
+        "bg": {
+          "value": "none",
+          "type": "color",
+          "description": "输入区域背景色"
         }
       }
     },
@@ -8832,6 +8837,11 @@
             },
             "description": "重新生成按钮icon"
           }
+        },
+        "bg": {
+          "value": "none",
+          "type": "color",
+          "description": "输入区域背景色"
         }
       }
     },
@@ -13367,6 +13377,19 @@
               "description": "卡片描边"
             }
           }
+        },
+        "bg": {
+          "value": "none",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "输入区域背景色"
         },
         "input": {
           "icon": {
