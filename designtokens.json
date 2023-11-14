@@ -3001,6 +3001,11 @@
                 "value": "{basic.blue.5}",
                 "type": "color",
                 "description": "文字按钮hover"
+              },
+              "person": {
+                "value": "{basic.brand.5}",
+                "type": "color",
+                "description": "个人空间按钮"
               }
             }
           },
@@ -9909,6 +9914,11 @@
                 "value": "{basic.blue.5}",
                 "type": "color",
                 "description": "文字按钮hover"
+              },
+              "person": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "description": "个人空间按钮"
               }
             }
           },
@@ -13524,7 +13534,7 @@
         "meetings_cards": {
           "color": {
             "head": {
-              "value": "{gradient.5}",
+              "value": "{gradient.2}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -13648,7 +13658,7 @@
               "description": "个人信息卡片选中按钮文本颜色"
             },
             "icon": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.black.100}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -14088,6 +14098,11 @@
                 "value": "{basic.blue.5}",
                 "type": "color",
                 "description": "文字按钮hover"
+              },
+              "person": {
+                "value": "{basic.brand.5}",
+                "type": "color",
+                "description": "个人空间按钮"
               }
             }
           },
