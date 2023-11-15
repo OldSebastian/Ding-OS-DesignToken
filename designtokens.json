@@ -10082,7 +10082,7 @@
               "description": "分享bg"
             },
             "hover_bg": {
-              "value": "{opacity.black.7}",
+              "value": "{opacity.white.12}",
               "type": "color",
               "description": "分享hover"
             }
