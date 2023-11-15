@@ -2913,7 +2913,7 @@
             "description": "呱呱生成ppt描边"
           },
           "text": {
-            "value": "{basic.green.7}",
+            "value": "{opacity.black.100}",
             "type": "color",
             "description": "呱呱生成ppt文字颜色"
           },
@@ -2961,6 +2961,38 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "下拉菜单bg"
+            },
+            "list_border": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_hover": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_text": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "下拉菜描边"
+            }
+          },
+          "share": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "分享icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "分享bg"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分享hover"
             }
           }
         },
@@ -9953,33 +9985,24 @@
           }
         },
         "gppt_card": {
-          "bg": {
-            "value": "{basic.green.8}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.32",
-                  "space": "srgb"
-                }
-              }
-            },
-            "description": "呱呱生成ppt底色"
-          },
           "border": {
-            "value": "{basic.green.6}",
+            "value": "{basic.green.5}",
+            "type": "color",
+            "description": "呱呱生成ppt描边"
+          },
+          "bg": {
+            "value": "{basic.dark-blue.6}",
             "type": "color",
             "description": "呱呱生成ppt描边"
           },
           "text": {
-            "value": "{basic.green.4}",
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "呱呱生成ppt文字颜色"
           },
           "file": {
             "bg": {
-              "value": "{basic.green.4}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -9998,7 +10021,7 @@
               "description": "呱呱生成ppt文件名称颜色"
             },
             "bg_hover": {
-              "value": "{opacity.white.88}",
+              "value": "{opacity.white.16}",
               "type": "color",
               "description": "呱呱生成ppt文件背景底色-hover"
             }
@@ -10017,19 +10040,51 @@
           },
           "dropdown": {
             "text": {
-              "value": "{basic.green.7}",
+              "value": "{basic.green.5}",
               "type": "color",
               "description": "下拉菜单"
             },
             "hover": {
-              "value": "{opacity.black.4}",
+              "value": "{opacity.white.7}",
               "type": "color",
               "description": "下拉菜单hover"
             },
             "list_bg": {
-              "value": "{opacity.white.100}",
+              "value": "{basic.dark-blue.7}",
               "type": "color",
               "description": "下拉菜单bg"
+            },
+            "list_border": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_hover": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_text": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "下拉菜描边"
+            }
+          },
+          "share": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "分享icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "分享bg"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分享hover"
             }
           }
         },
@@ -14311,6 +14366,38 @@
               "value": "{opacity.white.100}",
               "type": "color",
               "description": "下拉菜单bg"
+            },
+            "list_hover": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_text": {
+              "value": "{basic.grey.4}",
+              "type": "color",
+              "description": "下拉菜描边"
+            },
+            "list_border": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "下拉菜描边"
+            }
+          },
+          "share": {
+            "icon": {
+              "value": "{basic.grey.3}",
+              "type": "color",
+              "description": "分享icon"
+            },
+            "bg": {
+              "value": "none",
+              "type": "color",
+              "description": "分享bg"
+            },
+            "hover_bg": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "分享hover"
             }
           }
         },
