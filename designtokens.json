@@ -9943,7 +9943,7 @@
             "description": "文件卡片描边"
           },
           "head_bg": {
-            "value": "{gradient.10}",
+            "value": "{gradient.11}",
             "type": "color",
             "description": "文件卡片描边"
           },
