@@ -6443,7 +6443,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{opacity.black.16}",
+            "value": "none",
             "type": "color"
           },
           "botton": {
@@ -6451,11 +6451,11 @@
             "type": "color"
           },
           "titlebar": {
-            "value": "{opacity.black.16}",
+            "value": "none",
             "type": "color"
           },
           "messages": {
-            "value": "{opacity.black.16}",
+            "value": "none",
             "type": "color"
           },
           "Inputbox": {
@@ -6604,7 +6604,7 @@
           },
           "own": {
             "bg": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.white.24}",
               "type": "color"
             },
             "border": {
@@ -6936,7 +6936,7 @@
       "color": {
         "bg": {
           "frame": {
-            "value": "{list.color.bg.frame}",
+            "value": "{gradient.3}",
             "type": "color",
             "description": "子服务空间背景颜色"
           }
