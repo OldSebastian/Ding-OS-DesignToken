@@ -6612,11 +6612,11 @@
               "type": "color"
             },
             "text": {
-              "value": "{basic.grey.8}",
+              "value": "{opacity.white.100}",
               "type": "color"
             },
             "Greyout": {
-              "value": "{basic.grey.2}",
+              "value": "{basic.grey.3}",
               "type": "color",
               "description": "置灰文本"
             },
