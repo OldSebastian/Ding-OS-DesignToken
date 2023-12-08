@@ -5977,6 +5977,19 @@
           },
           "description": "提及底色\n"
         },
+        "select-border": {
+          "value": "{basic.brand.4}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及底色\n"
+        },
         "border": {
           "value": "none",
           "type": "color",
@@ -6025,6 +6038,19 @@
               "type": "color"
             },
             "description": "提及名称"
+          },
+          "tab": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "border": {
+              "value": "{opacity.white.16}",
+              "type": "color"
+            },
+            "frame": {
+              "value": "{opacity.black.20}",
+              "type": "color"
+            },
+            "description": "提及tab"
           },
           "ql": {
             "value": "{basic.grey.3}",
@@ -10401,7 +10427,26 @@
               "type": "color"
             },
             "description": "提及群聊内成员"
+          },
+          "title-copy": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "提及tab"
           }
+        },
+        "select_border": {
+          "value": "{basic.brand.1}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.24",
+                "space": "srgb"
+              }
+            }
+          },
+          "description": "提及悬停"
         }
       }
     },
@@ -14841,7 +14886,26 @@
               "type": "color"
             },
             "description": "提及群聊内成员"
+          },
+          "title-copy": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "提及tab"
           }
+        },
+        "select_border": {
+          "value": "{basic.brand.1}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.24",
+                "space": "srgb"
+              }
+            }
+          },
+          "description": "提及悬停"
         }
       }
     },
