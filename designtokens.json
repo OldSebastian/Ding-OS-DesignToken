@@ -6003,6 +6003,32 @@
           },
           "description": "提及描边"
         },
+        "divider": {
+          "value": "{opacity.black.7}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及描边"
+        },
+        "border_new": {
+          "value": "{basic.brand.2}",
+          "type": "color",
+          "border": {
+            "value": "{opacity.white.16}",
+            "type": "color"
+          },
+          "frame": {
+            "value": "{opacity.black.20}",
+            "type": "color"
+          },
+          "description": "提及描边"
+        },
         "select": {
           "value": "{basic.brand.1}",
           "type": "color",
@@ -10447,6 +10473,16 @@
             }
           },
           "description": "提及悬停"
+        },
+        "border_new": {
+          "value": "{basic.brand.3}",
+          "type": "color",
+          "description": "提及描边"
+        },
+        "divider": {
+          "value": "{opacity.black.7}",
+          "type": "color",
+          "description": "提及描边"
         }
       }
     },
@@ -14906,6 +14942,16 @@
             }
           },
           "description": "提及悬停"
+        },
+        "border_new": {
+          "value": "{basic.brand.3}",
+          "type": "color",
+          "description": "提及描边"
+        },
+        "divider": {
+          "value": "{opacity.black.7}",
+          "type": "color",
+          "description": "提及描边"
         }
       }
     },
