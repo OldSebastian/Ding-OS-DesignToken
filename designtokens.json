@@ -10401,6 +10401,21 @@
           },
           "description": "提及底色\n"
         },
+        "select-border": {
+          "value": "{opacity.white.24}",
+          "type": "color",
+          "description": "提及底色\n"
+        },
+        "divider": {
+          "value": "{opacity.white.12}",
+          "type": "color",
+          "description": "提及描边"
+        },
+        "border_new": {
+          "value": "{opacity.white.16}",
+          "type": "color",
+          "description": "提及描边"
+        },
         "border": {
           "value": "{opacity.white.24}",
           "type": "color",
@@ -10454,35 +10469,11 @@
             },
             "description": "提及群聊内成员"
           },
-          "title-copy": {
-            "value": "{basic.brand.5}",
+          "tab": {
+            "value": "{opacity.white.100}",
             "type": "color",
             "description": "提及tab"
           }
-        },
-        "select_border": {
-          "value": "{basic.brand.1}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "0.24",
-                "space": "srgb"
-              }
-            }
-          },
-          "description": "提及悬停"
-        },
-        "border_new": {
-          "value": "{basic.brand.3}",
-          "type": "color",
-          "description": "提及描边"
-        },
-        "divider": {
-          "value": "{opacity.black.7}",
-          "type": "color",
-          "description": "提及描边"
         }
       }
     },
@@ -14923,28 +14914,14 @@
             },
             "description": "提及群聊内成员"
           },
-          "title-copy": {
-            "value": "{basic.brand.5}",
+          "tab": {
+            "value": "{basic.green.7}",
             "type": "color",
             "description": "提及tab"
           }
         },
-        "select_border": {
-          "value": "{basic.brand.1}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "0.24",
-                "space": "srgb"
-              }
-            }
-          },
-          "description": "提及悬停"
-        },
         "border_new": {
-          "value": "{basic.brand.3}",
+          "value": "{basic.green.6_20}",
           "type": "color",
           "description": "提及描边"
         },
@@ -14952,6 +14929,11 @@
           "value": "{opacity.black.7}",
           "type": "color",
           "description": "提及描边"
+        },
+        "select-border": {
+          "value": "{basic.green.6}",
+          "type": "color",
+          "description": "提及底色\n"
         }
       }
     },
