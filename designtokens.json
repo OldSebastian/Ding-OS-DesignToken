@@ -2809,6 +2809,19 @@
               },
               "description": "会议信息卡片head底色"
             },
+            "icon_bg": {
+              "value": "{gradient.4}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
             "card_bg": {
               "value": "{opacity.white.100}",
               "type": "color",
@@ -2836,7 +2849,7 @@
               "description": "会议信息卡片head底色"
             },
             "icon": {
-              "value": "{basic.brand.3}",
+              "value": "{basic.brand.4}",
               "type": "color",
               "border": {
                 "value": "{opacity.white.16}",
@@ -10381,6 +10394,173 @@
               "description": "按下列表"
             }
           }
+        },
+        "calendar_list": {
+          "color": {
+            "card": {
+              "hover_bg": {
+                "value": "{opacity.white.12}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "hover_border": {
+                "value": "{opacity.white.32}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "bg": {
+                "value": "none",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "border": {
+                "value": "{opacity.black.12}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "title": {
+                "value": "{opacity.white.100}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "subtitle": {
+                "value": "{opacity.white.48}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "icon": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              }
+            },
+            "head": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "card_bg": {
+              "value": "{basic.dark-blue.6}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "card_border": {
+              "value": "{opacity.white.12}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "icon": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "head_title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "icon_bg": {
+              "value": "{gradient.4}",
+              "type": "color",
+              "description": "会议信息卡片head底色"
+            }
+          }
         }
       }
     },
@@ -14839,6 +15019,173 @@
               "value": "{opacity.black.48}",
               "type": "color",
               "description": "发送按钮icon"
+            }
+          }
+        },
+        "calendar_list": {
+          "color": {
+            "card": {
+              "hover_bg": {
+                "value": "{basic.green.0}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "hover_border": {
+                "value": "{basic.green.6}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "bg": {
+                "value": "none",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "border": {
+                "value": "{opacity.black.12}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "title": {
+                "value": "{opacity.black.100}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "subtitle": {
+                "value": "{opacity.black.64}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "icon": {
+                "value": "{basic.grey.3}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              }
+            },
+            "head": {
+              "value": "{gradient.2}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "card_bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "card_border": {
+              "value": "{basic.grey.2}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "icon": {
+              "value": "{basic.green.7}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "head_title": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "border": {
+                "value": "{opacity.white.16}",
+                "type": "color"
+              },
+              "frame": {
+                "value": "{opacity.black.20}",
+                "type": "color"
+              },
+              "description": "会议信息卡片head底色"
+            },
+            "icon_bg": {
+              "value": "{gradient.2}",
+              "type": "color",
+              "description": "会议信息卡片head底色"
             }
           }
         }
