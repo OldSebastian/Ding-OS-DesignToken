@@ -2730,6 +2730,19 @@
                 },
                 "description": "会议信息卡片head底色"
               },
+              "bg": {
+                "value": "none",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
               "border": {
                 "value": "{opacity.black.12}",
                 "type": "color",
@@ -2758,6 +2771,19 @@
               },
               "subtitle": {
                 "value": "{opacity.black.64}",
+                "type": "color",
+                "border": {
+                  "value": "{opacity.white.16}",
+                  "type": "color"
+                },
+                "frame": {
+                  "value": "{opacity.black.20}",
+                  "type": "color"
+                },
+                "description": "会议信息卡片head底色"
+              },
+              "icon": {
+                "value": "{basic.grey.3}",
                 "type": "color",
                 "border": {
                   "value": "{opacity.white.16}",
