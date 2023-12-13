@@ -10438,7 +10438,7 @@
                 "description": "会议信息卡片head底色"
               },
               "border": {
-                "value": "{opacity.black.12}",
+                "value": "{opacity.white.12}",
                 "type": "color",
                 "border": {
                   "value": "{opacity.white.16}",
