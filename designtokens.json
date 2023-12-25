@@ -1986,6 +1986,33 @@
             "description": "新消息提示"
           }
         },
+        "yichu": {
+          "bg": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "移除背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "移除描边色"
+          },
+          "text_name": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "移除name"
+          },
+          "text_yichu": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "移除按钮"
+          },
+          "text_disable": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "移除按钮"
+          }
+        },
         "chat_bubbles": {
           "other": {
             "bg": {
@@ -7025,6 +7052,33 @@
             "type": "color",
             "description": "输入框内@人时弹窗聊天边框"
           }
+        },
+        "yichu": {
+          "bg": {
+            "value": "none",
+            "type": "color",
+            "description": "移除背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "移除描边色"
+          },
+          "text_name": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "移除name"
+          },
+          "text_yichu": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "移除按钮"
+          },
+          "text_disable": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "移除按钮"
+          }
         }
       }
     },
@@ -7036,6 +7090,10 @@
         },
         "text": {
           "value": "{list.color.item.text.title}",
+          "type": "color"
+        },
+        "": {
+          "value": "#",
           "type": "color"
         }
       }
@@ -11852,6 +11910,33 @@
             "value": "{opacity.black.4}",
             "type": "color",
             "description": "对话列表悬停"
+          }
+        },
+        "yichu": {
+          "bg": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "移除背景色"
+          },
+          "border": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "移除描边色"
+          },
+          "text_name": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "移除name"
+          },
+          "text_yichu": {
+            "value": "{basic.light-blue.5}",
+            "type": "color",
+            "description": "移除按钮"
+          },
+          "text_disable": {
+            "value": "{basic.grey.3}",
+            "type": "color",
+            "description": "移除按钮"
           }
         }
       }
