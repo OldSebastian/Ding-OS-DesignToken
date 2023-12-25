@@ -431,6 +431,10 @@
         "6_20": {
           "value": "#38a35033",
           "type": "color"
+        },
+        "bg": {
+          "value": "#E7F9F0",
+          "type": "color"
         }
       },
       "indigo": {
@@ -1954,6 +1958,11 @@
           "frame": {
             "value": "{gradient.10}",
             "type": "color"
+          },
+          "new_bg": {
+            "value": "{gradient.10}",
+            "type": "color",
+            "description": "新chat背景"
           },
           "botton": {
             "value": "{basic.brand.5}",
@@ -6693,6 +6702,11 @@
             "value": "{opacity.white.7}",
             "type": "color",
             "description": "新消息提示"
+          },
+          "new_bg": {
+            "value": "{gradient.3}",
+            "type": "color",
+            "description": "新chat背景"
           }
         },
         "entry": {
@@ -11511,6 +11525,11 @@
             "value": "{opacity.black.7}",
             "type": "color",
             "description": "新消息提示"
+          },
+          "new_bg": {
+            "value": "{basic.green.bg}",
+            "type": "color",
+            "description": "新chat背景"
           }
         },
         "chat_bubbles": {
