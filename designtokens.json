@@ -2084,7 +2084,7 @@
               "description": "filez文件描边"
             },
             "filez_bg": {
-              "value": "{basic.grey.1}",
+              "value": "{opacity.black.7}",
               "type": "color",
               "description": "filez文件底色"
             },
@@ -6924,7 +6924,7 @@
               "description": "复制icon颜色\n"
             },
             "title": {
-              "value": "{basic.brand.1}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "filez文件标题"
             },
