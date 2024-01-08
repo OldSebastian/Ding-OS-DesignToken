@@ -2339,6 +2339,43 @@
             "type": "color",
             "description": "对话列表悬停"
           }
+        },
+        "notice": {
+          "bg": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "对话列表弹窗背景色"
+          },
+          "border": {
+            "value": "{opacity.black.24}",
+            "type": "color",
+            "description": "对话列表弹窗描边"
+          },
+          "title": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "body": {
+            "value": "{basic.grey.4}",
+            "type": "color",
+            "description": "对话列表弹窗正文"
+          },
+          "button_color": {
+            "value": "{basic.brand.5}",
+            "type": "color",
+            "description": "对话列表弹窗时间日期📅"
+          },
+          "botton_bg": {
+            "value": "{opacity.black.4}",
+            "type": "color",
+            "description": "对话列表悬停"
+          },
+          "buton_hover": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "对话列表悬停"
+          }
         }
       }
     },
