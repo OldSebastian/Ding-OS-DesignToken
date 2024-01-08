@@ -428,6 +428,10 @@
           "value": "#144121",
           "type": "color"
         },
+        "bg_chuangyan": {
+          "value": "#329C7B",
+          "type": "color"
+        },
         "6_20": {
           "value": "#38a35033",
           "type": "color"
@@ -11861,7 +11865,7 @@
             "type": "color"
           },
           "chuangyan": {
-            "value": "{opacity.black.16}",
+            "value": "{basic.green.bg_chuangyan}",
             "type": "color"
           }
         },
