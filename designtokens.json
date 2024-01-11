@@ -2207,7 +2207,7 @@
             "type": "color"
           },
           "chuangyan": {
-            "value": "{opacity.black.16}",
+            "value": "{conversation.color.border.7}",
             "type": "color"
           }
         },
@@ -7036,7 +7036,7 @@
             "type": "color"
           },
           "chuangyan": {
-            "value": "{opacity.white.16}",
+            "value": "{conversation.color.border.7}",
             "type": "color"
           }
         },
