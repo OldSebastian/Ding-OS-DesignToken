@@ -2022,6 +2022,40 @@
             "description": "移除按钮"
           }
         },
+        "goutongzhushou": {
+          "button": {
+            "bg": {
+              "value": "{basic.blue.0}",
+              "type": "color",
+              "description": "沟通助手按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "沟通助手按钮背景hover"
+            },
+            "bg_pressed": {
+              "value": "{basic.blue.4_20}",
+              "type": "color",
+              "description": "沟通助手按钮背景按下"
+            },
+            "text": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "沟通助手文字颜色"
+            },
+            "border": {
+              "value": "{gradient.12}",
+              "type": "color",
+              "description": "沟通助手按钮描边"
+            },
+            "border_pressed": {
+              "value": "{basic.blue.4}",
+              "type": "color",
+              "description": "沟通助手按钮描边anxia"
+            }
+          }
+        },
         "chat_bubbles": {
           "other": {
             "bg": {
