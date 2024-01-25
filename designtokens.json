@@ -2054,6 +2054,38 @@
               "type": "color",
               "description": "沟通助手按钮描边anxia"
             }
+          },
+          "dropdown_menu": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "下拉菜单背景"
+            },
+            "border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "下拉菜单描边"
+            },
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "下拉菜单选项hover"
+            },
+            "selecter": {
+              "value": "{basic.blue.4_20}",
+              "type": "color",
+              "description": "下拉菜单选项选中色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "下拉菜单选项选文字色"
+            },
+            "text_selected": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "下拉菜单选项选文字选中"
+            }
           }
         },
         "chat_bubbles": {
