@@ -2055,6 +2055,23 @@
               "description": "沟通助手按钮描边anxia"
             }
           },
+          "bg": {
+            "bg": {
+              "value": "{basic.blue.1}",
+              "type": "color",
+              "description": "沟通助手背景色"
+            },
+            "border": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "沟通助手背景描边"
+            },
+            "text": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "沟通助手提示文字"
+            }
+          },
           "dropdown_menu": {
             "bg": {
               "value": "{opacity.white.100}",
