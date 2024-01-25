@@ -1138,6 +1138,11 @@
         "value": "linear-gradient(90deg, #2CABC2 0%, #0A3EC1 100%)",
         "type": "color",
         "description": "浅色背景色\n"
+      },
+      "12": {
+        "value": "linear-gradient(120deg, #3959FD 0%, #03ACFD 60%, #00FFE0 100%)",
+        "type": "color",
+        "description": "浅色背景色\n"
       }
     },
     "dimension": {
