@@ -2067,7 +2067,7 @@
               "description": "沟通助手背景描边"
             },
             "text": {
-              "value": "{opacity.black.48}",
+              "value": "{opacity.black.24}",
               "type": "color",
               "description": "沟通助手提示文字"
             },
@@ -7326,7 +7326,7 @@
               "description": "沟通助手背景描边"
             },
             "text": {
-              "value": "{opacity.white.64}",
+              "value": "{opacity.white.32}",
               "type": "color",
               "description": "沟通助手提示文字"
             },
@@ -12336,7 +12336,7 @@
               "description": "沟通助手背景描边"
             },
             "text": {
-              "value": "{opacity.black.48}",
+              "value": "{opacity.black.24}",
               "type": "color",
               "description": "沟通助手提示文字"
             },
