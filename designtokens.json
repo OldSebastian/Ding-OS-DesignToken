@@ -1889,6 +1889,13 @@
             "type": "color"
           }
         },
+        "scrollbar": {
+          "color": {
+            "value": "{opacity.black.20}",
+            "type": "color",
+            "description": "滚动条颜色"
+          }
+        },
         "border": {
           "12": {
             "value": "{nav.color.border.7}",
@@ -6830,6 +6837,13 @@
               "value": "{opacity.white.4}",
               "type": "color"
             }
+          }
+        },
+        "scrollbar": {
+          "color": {
+            "value": "{opacity.white.20}",
+            "type": "color",
+            "description": "滚动条颜色"
           }
         }
       }
@@ -11853,6 +11867,13 @@
               "value": "{opacity.white.64}",
               "type": "color"
             }
+          }
+        },
+        "scrollbar": {
+          "color": {
+            "value": "{opacity.black.20}",
+            "type": "color",
+            "description": "滚动条颜色"
           }
         }
       },
