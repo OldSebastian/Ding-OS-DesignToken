@@ -7280,6 +7280,116 @@
             "type": "color",
             "description": "对话列表悬停"
           }
+        },
+        "goutongzhushou": {
+          "button": {
+            "bg": {
+              "value": "{basic.blue.0}",
+              "type": "color",
+              "description": "沟通助手按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "沟通助手按钮背景hover"
+            },
+            "bg_pressed": {
+              "value": "{basic.blue.4_20}",
+              "type": "color",
+              "description": "沟通助手按钮背景按下"
+            },
+            "text": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "沟通助手文字颜色"
+            },
+            "border": {
+              "value": "{gradient.12}",
+              "type": "color",
+              "description": "沟通助手按钮描边"
+            },
+            "border_pressed": {
+              "value": "{basic.blue.4}",
+              "type": "color",
+              "description": "沟通助手按钮描边anxia"
+            }
+          },
+          "bg": {
+            "bg": {
+              "value": "{basic.blue.1}",
+              "type": "color",
+              "description": "沟通助手背景色"
+            },
+            "border": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "沟通助手背景描边"
+            },
+            "text": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "沟通助手提示文字"
+            },
+            "body": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "沟通助手可发送文字"
+            },
+            "loading_icon": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "等待按钮"
+            },
+            "button": {
+              "close": {
+                "value": "{opacity.black.48}",
+                "type": "color",
+                "description": "沟通助手关闭按钮色"
+              },
+              "send": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              },
+              "hover": {
+                "value": "{opacity.white.48}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              }
+            }
+          },
+          "dropdown_menu": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "下拉菜单背景"
+            },
+            "border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "下拉菜单描边"
+            },
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "下拉菜单选项hover"
+            },
+            "selecter": {
+              "value": "{basic.blue.4_20}",
+              "type": "color",
+              "description": "下拉菜单选项选中色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "下拉菜单选项选文字色"
+            },
+            "text_selected": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "下拉菜单选项选文字选中"
+            }
+          }
         }
       }
     },
@@ -12179,6 +12289,116 @@
             "value": "{opacity.black.12}",
             "type": "color",
             "description": "对话列表悬停"
+          }
+        },
+        "goutongzhushou": {
+          "button": {
+            "bg": {
+              "value": "{basic.green.0}",
+              "type": "color",
+              "description": "沟通助手按钮背景"
+            },
+            "bg_hover": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "沟通助手按钮背景hover"
+            },
+            "bg_pressed": {
+              "value": "{basic.green.6_20}",
+              "type": "color",
+              "description": "沟通助手按钮背景按下"
+            },
+            "text": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "沟通助手文字颜色"
+            },
+            "border": {
+              "value": "{gradient.12}",
+              "type": "color",
+              "description": "沟通助手按钮描边"
+            },
+            "border_pressed": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "沟通助手按钮描边anxia"
+            }
+          },
+          "bg": {
+            "bg": {
+              "value": "{basic.green.1}",
+              "type": "color",
+              "description": "沟通助手背景色"
+            },
+            "border": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "沟通助手背景描边"
+            },
+            "text": {
+              "value": "{opacity.black.48}",
+              "type": "color",
+              "description": "沟通助手提示文字"
+            },
+            "body": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "沟通助手可发送文字"
+            },
+            "loading_icon": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "等待按钮"
+            },
+            "button": {
+              "close": {
+                "value": "{opacity.black.48}",
+                "type": "color",
+                "description": "沟通助手关闭按钮色"
+              },
+              "send": {
+                "value": "{basic.green.6}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              },
+              "hover": {
+                "value": "{opacity.white.48}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              }
+            }
+          },
+          "dropdown_menu": {
+            "bg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "下拉菜单背景"
+            },
+            "border": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "下拉菜单描边"
+            },
+            "hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "下拉菜单选项hover"
+            },
+            "selecter": {
+              "value": "{basic.green.6_20}",
+              "type": "color",
+              "description": "下拉菜单选项选中色"
+            },
+            "text": {
+              "value": "{basic.grey.9}",
+              "type": "color",
+              "description": "下拉菜单选项选文字色"
+            },
+            "text_selected": {
+              "value": "{basic.green.6}",
+              "type": "color",
+              "description": "下拉菜单选项选文字选中"
+            }
           }
         }
       }
