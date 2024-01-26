@@ -7284,22 +7284,22 @@
         "goutongzhushou": {
           "button": {
             "bg": {
-              "value": "{basic.blue.0}",
+              "value": "{basic.blue.4_20}",
               "type": "color",
               "description": "沟通助手按钮背景"
             },
             "bg_hover": {
-              "value": "{opacity.white.100}",
+              "value": "{opacity.white.16}",
               "type": "color",
               "description": "沟通助手按钮背景hover"
             },
             "bg_pressed": {
-              "value": "{basic.blue.4_20}",
+              "value": "{opacity.black.20}",
               "type": "color",
               "description": "沟通助手按钮背景按下"
             },
             "text": {
-              "value": "{basic.blue.5}",
+              "value": "{basic.blue.3}",
               "type": "color",
               "description": "沟通助手文字颜色"
             },
@@ -7309,14 +7309,14 @@
               "description": "沟通助手按钮描边"
             },
             "border_pressed": {
-              "value": "{basic.blue.4}",
+              "value": "{basic.blue.3}",
               "type": "color",
               "description": "沟通助手按钮描边anxia"
             }
           },
           "bg": {
             "bg": {
-              "value": "{basic.blue.1}",
+              "value": "{basic.light-blue.9}",
               "type": "color",
               "description": "沟通助手背景色"
             },
@@ -7326,33 +7326,33 @@
               "description": "沟通助手背景描边"
             },
             "text": {
-              "value": "{opacity.black.48}",
+              "value": "{opacity.white.64}",
               "type": "color",
               "description": "沟通助手提示文字"
             },
             "body": {
-              "value": "{opacity.black.100}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "沟通助手可发送文字"
             },
             "loading_icon": {
-              "value": "{opacity.black.24}",
+              "value": "{opacity.white.16}",
               "type": "color",
               "description": "等待按钮"
             },
             "button": {
               "close": {
-                "value": "{opacity.black.48}",
+                "value": "{basic.blue.2}",
                 "type": "color",
                 "description": "沟通助手关闭按钮色"
               },
               "send": {
-                "value": "{basic.blue.5}",
+                "value": "{basic.blue.2}",
                 "type": "color",
                 "description": "沟通助手发送按钮色"
               },
               "hover": {
-                "value": "{opacity.white.48}",
+                "value": "{opacity.white.12}",
                 "type": "color",
                 "description": "沟通助手发送按钮色"
               }
