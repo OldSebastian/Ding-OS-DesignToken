@@ -2052,12 +2052,12 @@
               "description": "沟通助手文字颜色"
             },
             "border": {
-              "value": "{gradient.12}",
+              "value": "{basic.blue.4}",
               "type": "color",
               "description": "沟通助手按钮描边"
             },
             "border_pressed": {
-              "value": "{basic.blue.4}",
+              "value": "{basic.blue.5}",
               "type": "color",
               "description": "沟通助手按钮描边anxia"
             }
@@ -7318,7 +7318,7 @@
               "description": "沟通助手文字颜色"
             },
             "border": {
-              "value": "{gradient.12}",
+              "value": "{basic.blue.3}",
               "type": "color",
               "description": "沟通助手按钮描边"
             },
@@ -12335,7 +12335,7 @@
               "description": "沟通助手文字颜色"
             },
             "border": {
-              "value": "{gradient.12}",
+              "value": "{basic.green.5}",
               "type": "color",
               "description": "沟通助手按钮描边"
             },
