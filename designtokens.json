@@ -2070,6 +2070,33 @@
               "value": "{opacity.black.48}",
               "type": "color",
               "description": "沟通助手提示文字"
+            },
+            "body": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "沟通助手可发送文字"
+            },
+            "loading_icon": {
+              "value": "{opacity.black.24}",
+              "type": "color",
+              "description": "等待按钮"
+            },
+            "button": {
+              "close": {
+                "value": "{opacity.black.48}",
+                "type": "color",
+                "description": "沟通助手关闭按钮色"
+              },
+              "send": {
+                "value": "{basic.blue.5}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              },
+              "hover": {
+                "value": "{opacity.white.48}",
+                "type": "color",
+                "description": "沟通助手发送按钮色"
+              }
             }
           },
           "dropdown_menu": {
