@@ -1891,6 +1891,11 @@
         },
         "scrollbar": {
           "color": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "滚动条颜色"
+          },
+          "color_hover": {
             "value": "{opacity.black.20}",
             "type": "color",
             "description": "滚动条颜色"
@@ -6841,6 +6846,11 @@
         },
         "scrollbar": {
           "color": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "滚动条颜色"
+          },
+          "color_hover": {
             "value": "{opacity.white.20}",
             "type": "color",
             "description": "滚动条颜色"
@@ -11871,6 +11881,11 @@
         },
         "scrollbar": {
           "color": {
+            "value": "{opacity.black.12}",
+            "type": "color",
+            "description": "滚动条颜色"
+          },
+          "color_hover": {
             "value": "{opacity.black.20}",
             "type": "color",
             "description": "滚动条颜色"
