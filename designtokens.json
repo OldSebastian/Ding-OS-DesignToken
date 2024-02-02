@@ -1989,6 +1989,10 @@
             "value": "{basic.brand.5}",
             "type": "color"
           },
+          "botton_confirm": {
+            "value": "{basic.brand.5}",
+            "type": "color"
+          },
           "titlebar": {
             "value": "{gradient.10}",
             "type": "color"
@@ -6918,6 +6922,10 @@
             "value": "{gradient.3}",
             "type": "color",
             "description": "新chat背景"
+          },
+          "botton_confirm": {
+            "value": "{basic.brand.5}",
+            "type": "color"
           }
         },
         "entry": {
@@ -11935,6 +11943,10 @@
             "value": "{basic.green.bg}",
             "type": "color",
             "description": "新chat背景"
+          },
+          "botton_confirm": {
+            "value": "{basic.green.6}",
+            "type": "color"
           }
         },
         "chat_bubbles": {
