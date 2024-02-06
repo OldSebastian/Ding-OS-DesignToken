@@ -2038,6 +2038,33 @@
             "description": "移除按钮"
           }
         },
+        "recommendation": {
+          "bg": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "bg_hover": {
+            "value": "{basic.light-blue.1}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "border": {
+            "value": "none",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "border_hover": {
+            "value": "{basic.light-blue.4}",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "推荐问题文字"
+          }
+        },
         "goutongzhushou": {
           "button": {
             "bg": {
@@ -7422,6 +7449,33 @@
               "description": "下拉菜单选项选文字选中"
             }
           }
+        },
+        "recommendation": {
+          "bg": {
+            "value": "{basic.blue.4_20}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "bg_hover": {
+            "value": "{basic.light-blue.8}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "border": {
+            "value": "{opacity.white.7}",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "border_hover": {
+            "value": "{basic.light-blue.4}",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "text": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "推荐问题文字"
+          }
         }
       }
     },
@@ -12447,6 +12501,33 @@
               "type": "color",
               "description": "下拉菜单选项选文字选中"
             }
+          }
+        },
+        "recommendation": {
+          "bg": {
+            "value": "{opacity.white.48}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "bg_hover": {
+            "value": "{basic.light-blue.1}",
+            "type": "color",
+            "description": "推荐问题背景"
+          },
+          "border": {
+            "value": "none",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "border_hover": {
+            "value": "{basic.light-blue.4}",
+            "type": "color",
+            "description": "推荐问题描边"
+          },
+          "text": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "推荐问题文字"
           }
         }
       }
