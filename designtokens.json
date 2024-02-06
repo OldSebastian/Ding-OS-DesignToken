@@ -12505,12 +12505,12 @@
         },
         "recommendation": {
           "bg": {
-            "value": "{opacity.white.48}",
+            "value": "{opacity.white.88}",
             "type": "color",
             "description": "推荐问题背景"
           },
           "bg_hover": {
-            "value": "{basic.light-blue.1}",
+            "value": "{basic.green.1}",
             "type": "color",
             "description": "推荐问题背景"
           },
@@ -12520,7 +12520,7 @@
             "description": "推荐问题描边"
           },
           "border_hover": {
-            "value": "{basic.light-blue.4}",
+            "value": "{basic.green.6}",
             "type": "color",
             "description": "推荐问题描边"
           },
