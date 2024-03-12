@@ -2481,6 +2481,16 @@
             "type": "color",
             "description": "对话列表弹窗文字🦟"
           },
+          "title_zuijinhuihua": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
+          },
+          "icon_hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "列表展开收起hover"
+          },
           "body": {
             "value": "{basic.grey.3}",
             "type": "color",
@@ -7020,6 +7030,16 @@
             "value": "{opacity.white.4}",
             "type": "color",
             "description": "对话列表悬停"
+          },
+          "icon_hover": {
+            "value": "{opacity.white.12}",
+            "type": "color",
+            "description": "列表展开收起hover"
+          },
+          "title_zuijinhuihua": {
+            "value": "{opacity.white.100}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
           }
         },
         "chat_bubbles": {
@@ -12327,6 +12347,16 @@
             "value": "{opacity.black.4}",
             "type": "color",
             "description": "对话列表悬停"
+          },
+          "icon_hover": {
+            "value": "{opacity.black.7}",
+            "type": "color",
+            "description": "列表展开收起hover"
+          },
+          "title_zuijinhuihua": {
+            "value": "{basic.grey.9}",
+            "type": "color",
+            "description": "对话列表弹窗文字🦟"
           }
         },
         "yichu": {
