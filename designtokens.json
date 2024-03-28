@@ -2599,6 +2599,52 @@
             }
           }
         },
+        "damoxingswitch": {
+          "button": {
+            "bg_hover": {
+              "value": "{basic.blue.4_20}",
+              "type": "color",
+              "description": "大模型切换按钮hover背景"
+            },
+            "bg_pressed": {
+              "value": "{basic.blue.2}",
+              "type": "color",
+              "description": "大模型切换按钮背景"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "大模型切换按钮文字+icon"
+            },
+            "text_hover": {
+              "value": "{basic.blue.5}",
+              "type": "color",
+              "description": "大模型切换按钮文字+icon hover"
+            }
+          },
+          "dropdown": {
+            "bg_hover": {
+              "value": "{opacity.black.4}",
+              "type": "color",
+              "description": "大模型切换下拉菜单hover背景"
+            },
+            "text": {
+              "value": "{opacity.black.100}",
+              "type": "color",
+              "description": "大模型切换下拉菜单文字"
+            },
+            "boxbg": {
+              "value": "{opacity.white.100}",
+              "type": "color",
+              "description": "大模型切换下拉菜单盒子背景"
+            },
+            "boxborder": {
+              "value": "{opacity.black.12}",
+              "type": "color",
+              "description": "大模型切换下拉菜单盒子背景"
+            }
+          }
+        },
         "service_entry": {
           "card_bg": {
             "value": "{opacity.white.100}",
