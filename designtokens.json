@@ -3611,19 +3611,34 @@
           },
           "send_button": {
             "bg": {
-              "value": "{opacity.black.7}",
+              "value": "{basic.brand.1}",
               "type": "color",
               "description": "发送按钮"
             },
+            "bg_disable": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "发送按钮禁用"
+            },
             "bg_hover": {
-              "value": "{opacity.black.16}",
+              "value": "{basic.brand.2}",
               "type": "color",
               "description": "发送按钮hover"
             },
+            "bg_disable_hove": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "发送按钮hover禁用"
+            },
             "icon": {
-              "value": "{opacity.black.48}",
+              "value": "{basic.brand.5}",
               "type": "color",
               "description": "发送按钮icon"
+            },
+            "icon_disable": {
+              "value": "{opacity.black.20}",
+              "type": "color",
+              "description": "发送按钮icon禁用"
             }
           }
         }
@@ -10174,9 +10189,24 @@
               "description": "发送按钮hover"
             },
             "icon": {
-              "value": "{opacity.white.48}",
+              "value": "{opacity.white.100}",
               "type": "color",
               "description": "发送按钮icon"
+            },
+            "bg_disable": {
+              "value": "{opacity.white.16}",
+              "type": "color",
+              "description": "发送按钮禁用"
+            },
+            "bg_disable_hove": {
+              "value": "{opacity.white.24}",
+              "type": "color",
+              "description": "发送按钮hover禁用"
+            },
+            "icon_disable": {
+              "value": "{opacity.white.32}",
+              "type": "color",
+              "description": "发送按钮icon禁用"
             }
           }
         },
@@ -15731,19 +15761,34 @@
           },
           "send_button": {
             "bg": {
-              "value": "{opacity.black.7}",
+              "value": "{basic.green.1}",
               "type": "color",
               "description": "发送按钮"
             },
             "bg_hover": {
-              "value": "{opacity.black.16}",
+              "value": "{basic.green.2}",
               "type": "color",
               "description": "发送按钮hover"
             },
             "icon": {
-              "value": "{opacity.black.48}",
+              "value": "{basic.green.6}",
               "type": "color",
               "description": "发送按钮icon"
+            },
+            "bg_disable": {
+              "value": "{opacity.black.7}",
+              "type": "color",
+              "description": "发送按钮禁用"
+            },
+            "bg_disable_hove": {
+              "value": "{opacity.black.16}",
+              "type": "color",
+              "description": "发送按钮hover禁用"
+            },
+            "icon_disable": {
+              "value": "{opacity.black.20}",
+              "type": "color",
+              "description": "发送按钮icon禁用"
             }
           }
         },
