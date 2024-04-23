@@ -940,6 +940,118 @@
           },
           "type": "boxShadow"
         }
+      },
+      "herald": {
+        "00": {
+          "value": {
+            "color": "#1f1f2a1a",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "01": {
+          "value": {
+            "color": "#1f1f2a1c",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "9",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "02": {
+          "value": {
+            "color": "#1f1f2a1f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "03": {
+          "value": {
+            "color": "#1f1f2a21",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "3",
+            "blur": "11",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "04": {
+          "value": {
+            "color": "#1f1f2a24",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "12",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "05": {
+          "value": {
+            "color": "#1f1f2a26",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "5",
+            "blur": "13",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "06": {
+          "value": {
+            "color": "#1f1f2a29",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "14",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "07": {
+          "value": {
+            "color": "#1f1f2a2b",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "7",
+            "blur": "15",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "08": {
+          "value": {
+            "color": "#1f1f2a2e",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "09": {
+          "value": {
+            "color": "#1f1f2a30",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "9",
+            "blur": "17",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "fontFamilies": {
@@ -1820,6 +1932,14 @@
         "value": "0px",
         "type": "dimension"
       }
+    },
+    "true": {
+      "value": "true",
+      "type": "boolean"
+    },
+    "false": {
+      "value": "false",
+      "type": "boolean"
     }
   },
   "light": {
@@ -17463,6 +17583,16 @@
       }
     }
   },
+  "声明式元件": {
+    "背景": {
+      "value": "{true}",
+      "type": "boolean"
+    },
+    "背景2": {
+      "value": "{false}",
+      "type": "开关"
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
@@ -17525,7 +17655,8 @@
       "窗管",
       "提及浅色",
       "提及深色",
-      "提及柔和"
+      "提及柔和",
+      "声明式元件"
     ]
   }
 }
