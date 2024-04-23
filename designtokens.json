@@ -41,6 +41,10 @@
         "9": {
           "value": "#201a5d",
           "type": "color"
+        },
+        "5_20": {
+          "value": "#615eec33",
+          "type": "color"
         }
       },
       "red": {
@@ -124,6 +128,10 @@
         },
         "9": {
           "value": "#002b70",
+          "type": "color"
+        },
+        "4_20": {
+          "value": "#3b96ff33",
           "type": "color"
         }
       },
@@ -419,6 +427,18 @@
         "9": {
           "value": "#144121",
           "type": "color"
+        },
+        "bg_chuangyan": {
+          "value": "#329C7B",
+          "type": "color"
+        },
+        "6_20": {
+          "value": "#38a35033",
+          "type": "color"
+        },
+        "bg": {
+          "value": "#E7F9F0",
+          "type": "color"
         }
       },
       "indigo": {
@@ -460,6 +480,10 @@
         },
         "9": {
           "value": "#0f1142",
+          "type": "color"
+        },
+        "5_20": {
+          "value": "#4956d133",
           "type": "color"
         }
       },
@@ -916,6 +940,118 @@
           },
           "type": "boxShadow"
         }
+      },
+      "herald": {
+        "00": {
+          "value": {
+            "color": "#1f1f2a1a",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "01": {
+          "value": {
+            "color": "#1f1f2a1c",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "9",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "02": {
+          "value": {
+            "color": "#1f1f2a1f",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "10",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "03": {
+          "value": {
+            "color": "#1f1f2a21",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "3",
+            "blur": "11",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "04": {
+          "value": {
+            "color": "#1f1f2a24",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "12",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "05": {
+          "value": {
+            "color": "#1f1f2a26",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "5",
+            "blur": "13",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "06": {
+          "value": {
+            "color": "#1f1f2a29",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "6",
+            "blur": "14",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "07": {
+          "value": {
+            "color": "#1f1f2a2b",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "7",
+            "blur": "15",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "08": {
+          "value": {
+            "color": "#1f1f2a2e",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        },
+        "09": {
+          "value": {
+            "color": "#1f1f2a30",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "9",
+            "blur": "17",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "fontFamilies": {
@@ -1084,6 +1220,41 @@
       "3": {
         "value": "linear-gradient(180deg, #0A1732 0%, #132C57 100%);",
         "type": "color"
+      },
+      "4": {
+        "value": "linear-gradient(90deg, #8085E0 0%, #BDB8FC 100%);",
+        "type": "color"
+      },
+      "5": {
+        "value": "linear-gradient(86deg, #2DA37B 8.91%, #4CB2A1 53.18%, #7DBDC3 100.3%);",
+        "type": "color"
+      },
+      "6": {
+        "value": "linear-gradient(359deg, #E0EAFC 1.11%, #CFDEF3 98.7%);",
+        "type": "color"
+      },
+      "7": {
+        "value": "linear-gradient(315deg, #344B75 10%, #467B9C 100%)",
+        "type": "color"
+      },
+      "8": {
+        "value": "linear-gradient(90deg, #CFFCFF 0%, #C2D3FF 100%)",
+        "type": "color"
+      },
+      "10": {
+        "value": "#D0DFF4",
+        "type": "color",
+        "description": "浅色背景色\n"
+      },
+      "11": {
+        "value": "linear-gradient(90deg, #2CABC2 0%, #0A3EC1 100%)",
+        "type": "color",
+        "description": "浅色背景色\n"
+      },
+      "12": {
+        "value": "linear-gradient(120deg, #3959FD 0%, #03ACFD 60%, #00FFE0 100%)",
+        "type": "color",
+        "description": "浅色背景色\n"
       }
     },
     "dimension": {
@@ -1761,2078 +1932,23 @@
         "value": "0px",
         "type": "dimension"
       }
+    },
+    "true": {
+      "value": "true",
+      "type": "boolean"
+    },
+    "false": {
+      "value": "false",
+      "type": "boolean"
     }
   },
-  "light": {
-    "nav": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{opacity.black.7}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "select": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        }
-      },
-      "size": {
-        "avatar": {
-          "normal": {
-            "value": "48px",
-            "type": "sizing"
-          }
-        }
-      },
-      "text": {
-        "icon_text": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "win": {
-      "color": {
-        "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color"
-        }
-      }
-    },
-    "list": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "12": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "item": {
-          "text": {
-            "title": {
-              "value": "{basic.grey.8}",
-              "type": "color"
-            },
-            "describe": {
-              "value": "{basic.grey.5}",
-              "type": "color"
-            },
-            "date": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "avatar": {
-            "stroke": {
-              "gray": {
-                "value": "{basic.grey.6}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.5}",
-                "type": "color"
-              }
-            },
-            "icon": {
-              "gray": {
-                "value": "{basic.grey.6}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{opacity.white.100}",
-                "type": "color"
-              }
-            },
-            "full": {
-              "gray": {
-                "value": "{basic.grey.0}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.5}",
-                "type": "color"
-              }
-            }
-          },
-          "bg": {
-            "select": {
-              "value": "{basic.brand.0}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "text": {
-        "title": {
-          "value": "{headLine.cn.18}",
-          "type": "typography"
-        },
-        "details": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "conversation": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{basic.brand.5}",
-            "type": "color"
-          },
-          "titlebar": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "Inputbox": {
-            "value": "{conversation.color.bg.titlebar}",
-            "type": "color"
-          },
-          "messages": {
-            "value": "{conversation.color.bg.titlebar}",
-            "type": "color"
-          },
-          "new_messages": {
-            "value": "{opacity.black.7}",
-            "type": "color",
-            "description": "新消息提示",
-            "$extensions": {}
-          }
-        },
-        "chat_bubbles": {
-          "other": {
-            "bg": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.black.12}",
-              "type": "color"
-            }
-          },
-          "own": {
-            "bg": {
-              "value": "{basic.brand.1}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "link": {
-              "value": "{basic.blue.5}",
-              "type": "color"
-            }
-          },
-          "file": {
-            "bg": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "title": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "filez文件标题"
-            },
-            "border": {
-              "value": "{opacity.black.24}",
-              "type": "color",
-              "description": "filez文件描边"
-            },
-            "filez_bg": {
-              "value": "{basic.grey.1}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "icon": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "复制icon颜色\n"
-            },
-            "describe": {
-              "value": "{basic.grey.4}",
-              "type": "color",
-              "description": "描述文本"
-            },
-            "link": {
-              "value": "{basic.blue.5}",
-              "type": "color",
-              "description": "链接"
-            }
-          },
-          "tag": {
-            "quote": {
-              "bg": {
-                "value": "{basic.blue.1}",
-                "type": "color",
-                "description": "引用标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.blue.6}",
-                "type": "color",
-                "description": "引用标签🏷️文字"
-              }
-            },
-            "optimize": {
-              "bg": {
-                "value": "{basic.cyan.1}",
-                "type": "color",
-                "description": "优化标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.cyan.6}",
-                "type": "color",
-                "description": "优化标签🏷️文字"
-              }
-            }
-          },
-          "disable": {
-            "bg": {
-              "value": "{basic.grey.1}",
-              "type": "color",
-              "description": "警用底色\n"
-            },
-            "border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "警用描边\n"
-            },
-            "text": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "警用文字色"
-            }
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "avatar": {
-          "stroke": {
-            "gray": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.4}",
-              "type": "color"
-            }
-          },
-          "icon": {
-            "gray": {
-              "value": "{basic.grey.6}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{basic.grey.8}",
-            "type": "color"
-          },
-          "describe": {
-            "value": "{basic.grey.5}",
-            "type": "color"
-          },
-          "prompt": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          },
-          "Input_box": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        },
-        "mention": {
-          "bg": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天背景"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天边框"
-          }
-        },
-        "entry": {
-          "bg": {
-            "value": "{opacity.white.24}",
-            "type": "color",
-            "description": "消息按钮底色"
-          },
-          "border": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "消息按钮描边\n"
-          },
-          "icon": {
-            "value": "{basic.blue.5}",
-            "type": "color",
-            "description": "icon颜色"
-          },
-          "text": {
-            "value": "{basic.blue.5}",
-            "type": "color",
-            "description": "文字颜色\n"
-          },
-          "hover": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color",
-              "description": "消息按钮悬停背景"
-            },
-            "border": {
-              "value": "{basic.blue.5}",
-              "type": "color",
-              "description": "消息按钮悬停描边"
-            }
-          }
-        },
-        "entry_popwin": {
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "对话列表弹窗背景色"
-          },
-          "select_bg": {
-            "value": "{opacity.black.7}",
-            "type": "color",
-            "description": "对话列表弹窗选中色"
-          },
-          "title": {
-            "value": "{basic.grey.9}",
-            "type": "color",
-            "description": "对话列表弹窗文字🦟"
-          },
-          "body": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗正文"
-          },
-          "time": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗时间日期📅"
-          },
-          "border": {
-            "value": "o",
-            "type": "color",
-            "description": "对话列表弹窗描边"
-          },
-          "hover": {
-            "value": "{opacity.black.4}",
-            "type": "color",
-            "description": "对话列表悬停"
-          }
-        }
-      }
-    },
-    "win_titlebar": {
-      "color": {
-        "bg": {
-          "value": "{basic.grey.1}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{basic.grey.8}",
-          "type": "color"
-        }
-      }
-    },
-    "sum": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "brand": {
-          "icon": {
-            "value": "{conversation.color.text.title}",
-            "type": "color"
-          },
-          "select": {
-            "value": "{sum.color.brand.icon}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "text": {
-          "body": {
-            "value": "{conversation.color.text.describe}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{conversation.color.text.prompt}",
-            "type": "color"
-          },
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{conversation.color.icon.title_bar}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "radius": {
-      "nav": {
-        "value": "{borderRadius.0}",
-        "type": "borderRadius"
-      },
-      "list": {
-        "value": "{borderRadius.0}",
-        "type": "borderRadius"
-      },
-      "conversation": {
-        "titlebar": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        },
-        "message": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        },
-        "inputbox": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        }
-      },
-      "subservice": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius",
-        "description": "子服务区圆角"
-      }
-    },
-    "inner_spacing": {
-      "win": {
-        "value": "none",
-        "type": "spacing"
-      },
-      "nav_list": {
-        "value": "{spacing.0}",
-        "type": "spacing"
-      },
-      "conversation": {
-        "titlebar_messages": {
-          "value": "{spacing.0}",
-          "type": "spacing"
-        },
-        "chatpanel": {
-          "value": "{spacing.0}",
-          "type": "spacing"
-        }
-      },
-      "nav": {
-        "avatar_icon": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        }
-      }
-    },
-    "nav_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "list_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "conversation_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "subservice": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{list.color.bg.frame}",
-            "type": "color",
-            "description": "子服务空间背景颜色"
-          }
-        },
-        "tabbar": {
-          "tab": {
-            "selected_bg": {
-              "value": "{basic.green.6}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时背景颜色"
-            },
-            "selected_text": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时文字颜色"
-            },
-            "unchecked_text": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_border": {
-              "value": "{opacity.black.16}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_frame": {
-              "value": "n'o'n'e",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            }
-          }
-        },
-        "toolbar": {
-          "icon": {
-            "value": "{basic.green.6}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          },
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          }
-        }
-      }
-    },
-    "popwin": {
-      "color": {
-        "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color",
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "frame": {
-            "value": "{opacity.black.20}",
-            "type": "color"
-          },
-          "description": "权限申请弹窗底色\n"
-        },
-        "border": {
-          "value": "{opacity.black.24}",
-          "type": "color",
-          "description": "权限弹窗描边\n"
-        },
-        "text": {
-          "title": {
-            "value": "{opacity.black.100}",
-            "type": "color",
-            "description": "标题\n"
-          },
-          "body": {
-            "value": "{basic.grey.4}",
-            "type": "color",
-            "description": "次文本\n"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color",
-            "description": "文件名"
-          }
-        }
-      },
-      "button": {
-        "hover": {
-          "value": "{opacity.black.4}",
-          "type": "color",
-          "description": "权限申请弹窗按钮hover颜色"
-        },
-        "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color",
-          "description": "权限申请弹窗按钮默认颜色"
-        },
-        "border": {
-          "value": "{basic.grey.5}",
-          "type": "color",
-          "description": "按钮描边"
-        },
-        "text": {
-          "value": "{basic.grey.9}",
-          "type": "color",
-          "description": "按钮文字颜色"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "dark": {
-    "nav": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "none",
-            "type": "color"
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{opacity.white.7}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "select": {
-            "value": "{opacity.white.88}",
-            "type": "color",
-            "description": "导航栏图标选中状态"
-          },
-          "disabled": {
-            "value": "{opacity.white.24}",
-            "type": "color",
-            "description": "导航栏图标未选中状态"
-          }
-        }
-      },
-      "size": {
-        "avatar": {
-          "normal": {
-            "value": "48px",
-            "type": "sizing"
-          }
-        }
-      }
-    },
-    "list": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "12": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "item": {
-          "text": {
-            "title": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "describe": {
-              "value": "{opacity.white.76}",
-              "type": "color"
-            },
-            "date": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "avatar": {
-            "stroke": {
-              "gray": {
-                "value": "{basic.grey.3}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            },
-            "icon": {
-              "gray": {
-                "value": "{basic.grey.3}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{opacity.white.100}",
-                "type": "color"
-              }
-            },
-            "full": {
-              "gray": {
-                "value": "{basic.grey.9}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.brand.6}",
-                "type": "color"
-              }
-            }
-          },
-          "bg": {
-            "select": {
-              "value": "{opacity.white.4}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "conversation": {
-      "size": {
-        "entry_popwin": {
-          "expand": {
-            "value": "280px",
-            "type": "sizing",
-            "description": "会话列表弹窗展开宽度"
-          },
-          "fold": {
-            "value": "94px",
-            "type": "sizing",
-            "description": "会话列表弹窗折叠宽度"
-          }
-        },
-        "contact_list": {
-          "width": {
-            "expand": {
-              "value": "360px",
-              "type": "sizing",
-              "description": "联系人列表展开宽度"
-            },
-            "fold": {
-              "value": "80px",
-              "type": "sizing",
-              "description": "联系人列表折叠宽度"
-            }
-          }
-        }
-      },
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{basic.brand.5}",
-            "type": "color"
-          },
-          "titlebar": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "messages": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "Inputbox": {
-            "value": "{opacity.black.16}",
-            "type": "color"
-          },
-          "new_messages": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "新消息提示",
-            "$extensions": {}
-          }
-        },
-        "entry": {
-          "bg": {
-            "value": "{opacity.white.7}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "icon": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "text": {
-            "value": "{basic.grey.0}",
-            "type": "color"
-          },
-          "hover": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color",
-              "description": "消息按钮悬停背景"
-            },
-            "border": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "消息按钮悬停描边"
-            }
-          }
-        },
-        "entry_popwin": {
-          "bg": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "对话列表弹窗背景色"
-          },
-          "select_bg": {
-            "value": "{opacity.white.7}",
-            "type": "color",
-            "description": "对话列表弹窗选中色"
-          },
-          "title": {
-            "value": "{basic.grey.0}",
-            "type": "color",
-            "description": "对话列表弹窗文字🦟"
-          },
-          "body": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗正文"
-          },
-          "time": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗时间日期📅"
-          },
-          "border": {
-            "value": "o",
-            "type": "color",
-            "description": "对话列表弹窗描边"
-          },
-          "hover": {
-            "value": "{opacity.white.4}",
-            "type": "color",
-            "description": "对话列表悬停"
-          }
-        },
-        "chat_bubbles": {
-          "other": {
-            "bg": {
-              "value": "{opacity.white.12}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.white.24}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            }
-          },
-          "tag": {
-            "quote": {
-              "bg": {
-                "value": "{basic.blue.1}",
-                "type": "color",
-                "description": "引用标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.blue.6}",
-                "type": "color",
-                "description": "引用标签🏷️文字"
-              }
-            },
-            "optimize": {
-              "bg": {
-                "value": "{basic.cyan.1}",
-                "type": "color",
-                "description": "优化标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.cyan.6}",
-                "type": "color",
-                "description": "优化标签🏷️文字"
-              }
-            }
-          },
-          "disable": {
-            "bg": {
-              "value": "{opacity.black.20}",
-              "type": "color",
-              "description": "警用底色"
-            },
-            "border": {
-              "value": "{opacity.white.20}",
-              "type": "color",
-              "description": "警用描边\n"
-            },
-            "text": {
-              "value": "{basic.grey.5}",
-              "type": "color"
-            }
-          },
-          "own": {
-            "bg": {
-              "value": "{opacity.white.88}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{basic.grey.8}",
-              "type": "color"
-            },
-            "link": {
-              "value": "{basic.light-blue.5}",
-              "type": "color"
-            }
-          },
-          "file": {
-            "bg": {
-              "value": "{opacity.white.24}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "border": {
-              "value": "{opacity.white.24}",
-              "type": "color",
-              "description": "filez文件描边"
-            },
-            "filez_bg": {
-              "value": "{opacity.white.32}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "icon": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "复制icon颜色\n"
-            },
-            "title": {
-              "value": "{basic.brand.1}",
-              "type": "color",
-              "description": "filez文件标题"
-            },
-            "describe": {
-              "value": "{basic.grey.1}",
-              "type": "color",
-              "description": "描述文本"
-            },
-            "link": {
-              "value": "{basic.blue.5}",
-              "type": "color",
-              "description": "链接"
-            }
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "avatar": {
-          "stroke": {
-            "gray": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.4}",
-              "type": "color"
-            }
-          },
-          "icon": {
-            "gray": {
-              "value": "{basic.grey.6}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          },
-          "describe": {
-            "value": "{list.color.item.text.describe}",
-            "type": "color"
-          },
-          "prompt": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{basic.grey.3}",
-            "type": "color"
-          },
-          "Input_box": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          }
-        },
-        "mention": {
-          "bg": {
-            "value": "{basic.dark-blue.5}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天背景"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天边框"
-          }
-        }
-      }
-    },
-    "win_titlebar": {
-      "color": {
-        "bg": {
-          "value": "{basic.grey.7}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{list.color.item.text.title}",
-          "type": "color"
-        }
-      }
-    },
-    "win": {
-      "color": {
-        "bg": {
-          "value": "{gradient.3}",
-          "type": "color"
-        }
-      }
-    },
-    "radius": {
-      "nav": {
-        "value": "{borderRadius.0}",
-        "type": "borderRadius"
-      },
-      "list": {
-        "value": "{borderRadius.0}",
-        "type": "borderRadius"
-      },
-      "conversation": {
-        "message": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        },
-        "inputbox": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        },
-        "titlebar": {
-          "value": "{borderRadius.0}",
-          "type": "borderRadius"
-        }
-      },
-      "subservice": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius",
-        "description": "子服务区圆角"
-      }
-    },
-    "inner_spacing": {
-      "win": {
-        "value": "{spacing.0}",
-        "type": "spacing"
-      },
-      "nav_list": {
-        "value": "{spacing.0}",
-        "type": "spacing"
-      },
-      "conversation": {
-        "titlebar_messages": {
-          "value": "{spacing.0}",
-          "type": "spacing"
-        },
-        "chatpanel": {
-          "value": "{spacing.0}",
-          "type": "spacing"
-        }
-      },
-      "nav": {
-        "avatar_icon": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        }
-      }
-    },
-    "nav_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "list_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "conversation_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "sum": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{nav.color.bg.frame}",
-            "type": "color"
-          }
-        },
-        "brand": {
-          "icon": {
-            "value": "{conversation.color.text.title}",
-            "type": "color"
-          },
-          "select": {
-            "value": "{sum.color.brand.icon}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{conversation.color.text.describe}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{conversation.color.text.prompt}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{conversation.color.icon.title_bar}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "subservice": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{list.color.bg.frame}",
-            "type": "color",
-            "description": "子服务空间背景颜色"
-          }
-        },
-        "tabbar": {
-          "tab": {
-            "selected_bg": {
-              "value": "{basic.green.6}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时背景颜色"
-            },
-            "selected_text": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时文字颜色"
-            },
-            "unchecked_text": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_border": {
-              "value": "{opacity.black.16}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_frame": {
-              "value": "n'o'n'e",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            }
-          }
-        },
-        "toolbar": {
-          "icon": {
-            "value": "{basic.green.6}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          },
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          }
-        }
-      }
-    },
-    "popwin": {
-      "color": {
-        "bg": {
-          "value": "{opacity.white.12}",
-          "type": "color",
-          "description": "权限申请弹窗底色\n",
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "frame": {
-            "value": "{opacity.black.20}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "title": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{opacity.white.88}",
-            "type": "color"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color"
-          }
-        }
-      },
-      "button": {
-        "hover": {
-          "value": "{opacity.white.20}",
-          "type": "color",
-          "description": "权限申请弹窗按钮hover颜色"
-        },
-        "bg": {
-          "value": "{opacity.white.7}",
-          "type": "color",
-          "description": "权限申请弹窗按钮默认颜色"
-        },
-        "border": {
-          "value": "{opacity.white.16}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{opacity.white.100}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "柔和模式": {
-    "nav": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "none",
-            "type": "color"
-          }
-        },
-        "border": {
-          "7": {
-            "value": "none",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "select": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        }
-      },
-      "size": {
-        "avatar": {
-          "normal": {
-            "value": "48px",
-            "type": "sizing"
-          }
-        }
-      },
-      "text": {
-        "icon_text": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "win": {
-      "color": {
-        "bg": {
-          "value": "{gradient.2}",
-          "type": "color"
-        }
-      }
-    },
-    "list": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{opacity.white.88}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "12": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "item": {
-          "text": {
-            "title": {
-              "value": "{basic.grey.8}",
-              "type": "color"
-            },
-            "describe": {
-              "value": "{basic.grey.5}",
-              "type": "color"
-            },
-            "date": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            }
-          },
-          "avatar": {
-            "stroke": {
-              "gray": {
-                "value": "{basic.grey.7}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{basic.green.6}",
-                "type": "color"
-              }
-            },
-            "icon": {
-              "gray": {
-                "value": "{list.color.item.avatar.stroke.gray}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{list.color.item.avatar.stroke.purple}",
-                "type": "color"
-              }
-            },
-            "full": {
-              "gray": {
-                "value": "{basic.grey.0}",
-                "type": "color"
-              },
-              "purple": {
-                "value": "{opacity.white.100}",
-                "type": "color"
-              }
-            }
-          },
-          "bg": {
-            "select": {
-              "value": "{opacity.white.64}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "text": {
-        "title": {
-          "value": "{headLine.cn.18}",
-          "type": "typography"
-        },
-        "details": {
-          "value": "{body.cn.12}",
-          "type": "typography"
-        }
-      }
-    },
-    "conversation": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "none",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{opacity.white.100}",
-            "type": "color"
-          },
-          "titlebar": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "Inputbox": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "messages": {
-            "value": "{list.color.bg.frame}",
-            "type": "color"
-          },
-          "new_messages": {
-            "value": "{opacity.black.7}",
-            "type": "color",
-            "description": "新消息提示",
-            "$extensions": {}
-          }
-        },
-        "chat_bubbles": {
-          "other": {
-            "bg": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{conversation.color.text.title}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{opacity.black.12}",
-              "type": "color"
-            }
-          },
-          "own": {
-            "bg": {
-              "value": "{basic.green.8}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{opacity.white.100}",
-              "type": "color"
-            },
-            "link": {
-              "value": "{basic.green.2}",
-              "type": "color"
-            }
-          },
-          "tag": {
-            "quote": {
-              "bg": {
-                "value": "{basic.blue.1}",
-                "type": "color",
-                "description": "引用标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.blue.6}",
-                "type": "color",
-                "description": "引用标签🏷️文字"
-              }
-            },
-            "optimize": {
-              "bg": {
-                "value": "{basic.cyan.1}",
-                "type": "color",
-                "description": "优化标签🏷️背景"
-              },
-              "text": {
-                "value": "{basic.cyan.6}",
-                "type": "color",
-                "description": "优化标签🏷️文字"
-              }
-            }
-          },
-          "disable": {
-            "bg": {
-              "value": "{basic.grey.1}",
-              "type": "color",
-              "description": "警用底色\n"
-            },
-            "border": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "警用描边\n"
-            },
-            "text": {
-              "value": "{basic.grey.3}",
-              "type": "color",
-              "description": "警用文字色"
-            }
-          },
-          "file": {
-            "bg": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "title": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "filez文件标题"
-            },
-            "border": {
-              "value": "{opacity.black.24}",
-              "type": "color",
-              "description": "filez文件描边"
-            },
-            "filez_bg": {
-              "value": "{basic.grey.1}",
-              "type": "color",
-              "description": "filez文件底色"
-            },
-            "icon": {
-              "value": "{basic.grey.2}",
-              "type": "color",
-              "description": "复制icon颜色\n"
-            },
-            "describe": {
-              "value": "{basic.grey.4}",
-              "type": "color",
-              "description": "描述文本"
-            },
-            "link": {
-              "value": "{basic.blue.5}",
-              "type": "color",
-              "description": "链接"
-            }
-          }
-        },
-        "border": {
-          "7": {
-            "value": "{nav.color.border.7}",
-            "type": "color"
-          }
-        },
-        "avatar": {
-          "stroke": {
-            "gray": {
-              "value": "{basic.grey.3}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.4}",
-              "type": "color"
-            }
-          },
-          "icon": {
-            "gray": {
-              "value": "{basic.grey.6}",
-              "type": "color"
-            },
-            "purple": {
-              "value": "{basic.brand.6}",
-              "type": "color"
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{basic.grey.8}",
-            "type": "color"
-          },
-          "describe": {
-            "value": "{basic.grey.5}",
-            "type": "color"
-          },
-          "prompt": {
-            "value": "{basic.grey.3}",
-            "type": "color"
-          },
-          "botton": {
-            "value": "{basic.grey.9}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{basic.grey.6}",
-            "type": "color"
-          },
-          "Input_box": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        },
-        "mention": {
-          "bg": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天背景"
-          },
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color",
-            "description": "输入框内@人时弹窗聊天边框"
-          }
-        },
-        "entry": {
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "消息按钮底色"
-          },
-          "border": {
-            "value": "{opacity.black.12}",
-            "type": "color",
-            "description": "消息按钮描边\n"
-          },
-          "icon": {
-            "value": "{basic.green.8}",
-            "type": "color",
-            "description": "icon颜色"
-          },
-          "text": {
-            "value": "{basic.green.8}",
-            "type": "color",
-            "description": "文字颜色\n"
-          },
-          "hover": {
-            "bg": {
-              "value": "{opacity.white.16}",
-              "type": "color",
-              "description": "消息按钮悬停背景"
-            },
-            "border": {
-              "value": "{basic.green.8}",
-              "type": "color",
-              "description": "消息按钮悬停描边"
-            }
-          }
-        },
-        "entry_popwin": {
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "对话列表弹窗背景色"
-          },
-          "select_bg": {
-            "value": "{opacity.black.7}",
-            "type": "color",
-            "description": "对话列表弹窗选中色"
-          },
-          "title": {
-            "value": "{basic.grey.9}",
-            "type": "color",
-            "description": "对话列表弹窗文字🦟"
-          },
-          "body": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗正文"
-          },
-          "time": {
-            "value": "{basic.grey.3}",
-            "type": "color",
-            "description": "对话列表弹窗时间日期📅"
-          },
-          "border": {
-            "value": "o",
-            "type": "color",
-            "description": "对话列表弹窗描边"
-          },
-          "hover": {
-            "value": "{opacity.black.4}",
-            "type": "color",
-            "description": "对话列表悬停"
-          }
-        }
-      }
-    },
-    "win_titlebar": {
-      "color": {
-        "bg": {
-          "value": "{basic.grey.1}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{basic.grey.8}",
-          "type": "color"
-        }
-      }
-    },
-    "radius": {
-      "list": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius"
-      },
-      "nav": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius"
-      },
-      "subservice": {
-        "value": "{borderRadius.16}",
-        "type": "borderRadius",
-        "description": "子服务区圆角"
-      },
-      "conversation": {
-        "message": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        },
-        "titlebar": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        },
-        "inputbox": {
-          "value": "{borderRadius.16}",
-          "type": "borderRadius"
-        }
-      }
-    },
-    "inner_spacing": {
-      "win": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "nav_list": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "conversation": {
-        "titlebar_messages": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        },
-        "chatpanel": {
-          "value": "{spacing.16}",
-          "type": "spacing"
-        }
-      },
-      "nav": {
-        "avatar_icon": {
-          "value": "{spacing.24}",
-          "type": "spacing"
-        }
-      }
-    },
-    "nav_shadow": {
-      "value": "none",
-      "type": "boxShadow"
-    },
-    "list_shadow": {
-      "value": "{elevation.theme_light.e3}",
-      "type": "boxShadow"
-    },
-    "conversation_shadow": {
-      "value": "{elevation.theme_light.e3}",
-      "type": "boxShadow"
-    },
-    "sum": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{basic.grey.1}",
-            "type": "color"
-          }
-        },
-        "brand": {
-          "icon": {
-            "value": "{conversation.color.text.title}",
-            "type": "color"
-          },
-          "select": {
-            "value": "{sum.color.brand.icon}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "text": {
-          "title": {
-            "value": "{list.color.item.text.title}",
-            "type": "color"
-          },
-          "body": {
-            "value": "{conversation.color.text.describe}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{conversation.color.text.prompt}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "title_bar": {
-            "value": "{conversation.color.icon.title_bar}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "subservice": {
-      "color": {
-        "bg": {
-          "frame": {
-            "value": "{list.color.bg.frame}",
-            "type": "color",
-            "description": "子服务空间背景颜色"
-          }
-        },
-        "tabbar": {
-          "tab": {
-            "selected_bg": {
-              "value": "{basic.green.6}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时背景颜色"
-            },
-            "selected_text": {
-              "value": "{opacity.white.100}",
-              "type": "color",
-              "description": "子服务空间标签栏标签选中时文字颜色"
-            },
-            "unchecked_text": {
-              "value": "{basic.grey.9}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_border": {
-              "value": "{opacity.black.16}",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时文字颜色"
-            },
-            "unchecked_frame": {
-              "value": "none",
-              "type": "color",
-              "description": "子服务空间标签栏标签未选中时填充"
-            }
-          }
-        },
-        "toolbar": {
-          "icon": {
-            "value": "{basic.green.6}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          },
-          "bg": {
-            "value": "{opacity.white.100}",
-            "type": "color",
-            "description": "工具栏图标颜色"
-          }
-        }
-      }
-    },
-    "popwin": {
-      "color": {
-        "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color",
-          "border": {
-            "value": "{opacity.white.16}",
-            "type": "color"
-          },
-          "frame": {
-            "value": "{opacity.black.20}",
-            "type": "color"
-          },
-          "description": "权限申请弹窗底色\n"
-        },
-        "border": {
-          "value": "{opacity.black.24}",
-          "type": "color",
-          "description": "权限弹窗描边\n"
-        },
-        "text": {
-          "title": {
-            "value": "{opacity.black.100}",
-            "type": "color",
-            "description": "标题\n"
-          },
-          "body": {
-            "value": "{basic.grey.4}",
-            "type": "color",
-            "description": "次文本\n"
-          },
-          "link": {
-            "value": "{basic.blue.4}",
-            "type": "color",
-            "description": "文件名"
-          }
-        }
-      },
-      "button": {
-        "hover": {
-          "value": "{opacity.black.4}",
-          "type": "color",
-          "description": "权限申请弹窗按钮hover颜色"
-        },
-        "bg": {
-          "value": "{opacity.white.100}",
-          "type": "color",
-          "description": "权限申请弹窗按钮默认颜色"
-        },
-        "border": {
-          "value": "{basic.grey.5}",
-          "type": "color",
-          "description": "按钮描边"
-        },
-        "text": {
-          "value": "{basic.grey.9}",
-          "type": "color",
-          "description": "按钮文字颜色"
-        }
-      },
-      "icon": {
-        "bg": {
-          "value": "{basic.grey.4}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "黑": {
-    "gw": {
-      "gwbt": {
-        "value": "{opacity.white.100}",
-        "type": "color"
-      },
-      "lsdk": {
-        "ds": {
-          "value": "{opacity.black.24}",
-          "type": "color",
-          "mb": {
-            "s": {
-              "value": "{opacity.white.7}",
-              "type": "color"
-            }
-          }
-        },
-        "kp": {
-          "fbt": {
-            "value": "{basic.grey.2}",
-            "type": "color"
-          }
-        }
-      },
-      "bw": {
-        "ds": {
-          "value": "{opacity.black.24}",
-          "type": "color"
-        }
-      },
-      "ds": {
-        "value": "{gradient.3}",
-        "type": "color"
-      }
-    },
-    "gw_bt": {
-      "mb": {
-        "value": "{basic.blue.8}",
-        "type": "color"
-      }
-    }
-  },
-  "白": {
-    "gw": {
-      "gwbt": {
-        "value": "{opacity.black.100}",
-        "type": "color"
-      },
-      "lsdk": {
-        "ds": {
-          "value": "{opacity.white.24}",
-          "type": "color",
-          "mb": {
-            "q": {
-              "value": "{opacity.black.7}",
-              "type": "color"
-            }
-          }
-        },
-        "kp": {
-          "fbt": {
-            "value": "{basic.grey.1}",
-            "type": "color"
-          }
-        }
-      },
-      "bw": {
-        "ds": {
-          "value": "{opacity.white.24}",
-          "type": "color"
-        }
-      },
-      "ds": {
-        "value": "linear-gradient(180deg, #A7B5D8 0%, #E0E8F5 100%)",
-        "type": "color"
-      }
-    },
-    "gw_bt": {
-      "mb": {
-        "value": "{basic.grey.4}",
-        "type": "color"
-      }
-    }
-  },
-  "窗管": {},
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
       "name": "dark",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "basic": "source",
-        "dark": "enabled"
+        "basic": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -3878,13 +1994,7 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "basic",
-      "light",
-      "dark",
-      "柔和模式",
-      "黑",
-      "白",
-      "窗管"
+      "basic"
     ]
   }
 }
