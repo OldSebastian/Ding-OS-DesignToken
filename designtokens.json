@@ -1942,13 +1942,84 @@
       "type": "boolean"
     }
   },
+  "polymorphic feedback": {
+    "intent_distribution": {
+      "gold": {
+        "bg": {
+          "value": "#",
+          "type": "color"
+        },
+        "arrow_bg": {
+          "value": "{basic.gold.5}",
+          "type": "color"
+        }
+      },
+      "borderradius": {
+        "value": "{borderRadius.32}",
+        "type": "borderRadius"
+      },
+      "shadow": {
+        "value": "{elevation.herald.05}",
+        "type": "boxShadow"
+      }
+    },
+    "polymorphic-feedback": {
+      "gap": {
+        "value": "{dimension.8}",
+        "type": "spacing"
+      }
+    },
+    "feedback-icon": {
+      "height": {
+        "value": "72px",
+        "type": "sizing"
+      },
+      "ture": {
+        "value": "{true}",
+        "type": "boolean"
+      },
+      "false": {
+        "value": "{false}",
+        "type": "boolean"
+      }
+    },
+    "texttips": {
+      "bg": {
+        "value": "{basic.grey.8}",
+        "type": "color"
+      },
+      "borderradius": {
+        "value": "{borderRadius.8}",
+        "type": "borderRadius"
+      },
+      "shadow": {
+        "value": "{elevation.herald.03}",
+        "type": "boxShadow"
+      }
+    },
+    "feedback-group": {
+      "gap": {
+        "value": "{dimension.12}",
+        "type": "spacing"
+      },
+      "ture": {
+        "value": "{true}",
+        "type": "boolean"
+      },
+      "false": {
+        "value": "{false}",
+        "type": "boolean"
+      }
+    }
+  },
   "$themes": [
     {
       "id": "65300e9fbeadd46524a1f9df3f25570104206746",
       "name": "dark",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "basic": "source"
+        "basic": "source",
+        "polymorphic feedback": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
@@ -1994,7 +2065,8 @@
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "basic"
+      "basic",
+      "polymorphic feedback"
     ]
   }
 }
