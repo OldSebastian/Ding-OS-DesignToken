@@ -1946,12 +1946,29 @@
     "feedback-group": {
       "feedback-item": {
         "bg": {
-          "value": "#",
+          "value": "linear-gradient(180deg, #ECD9B9 0%, #BE9D74 100%);",
           "type": "color"
         },
-        "arrow_bg": {
-          "value": "{basic.gold.5}",
-          "type": "color"
+        "icon": {
+          "value": "{dimension.24}",
+          "type": "sizing"
+        },
+        "borderradius": {
+          "value": "{borderRadius.32}",
+          "type": "borderRadius"
+        },
+        "text": {
+          "value": {
+            "fontFamily": "{fontFamilies.pingfang-sc}",
+            "fontWeight": "{fontWeights.pingfang-sc-1}",
+            "fontSize": "{fontSize.2}",
+            "lineHeight": "{lineHeights.3}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "letterSpacing": "{letterSpacing.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "type": "typography"
         }
       },
       "gap": {
@@ -1974,10 +1991,6 @@
       }
     },
     "intent_distribution": {
-      "borderradius": {
-        "value": "{borderRadius.32}",
-        "type": "borderRadius"
-      },
       "shadow": {
         "value": "{elevation.herald.05}",
         "type": "boxShadow"
@@ -1998,10 +2011,6 @@
       }
     },
     "texttips": {
-      "borderradius": {
-        "value": "{borderRadius.8}",
-        "type": "borderRadius"
-      },
       "shadow": {
         "value": "{elevation.herald.03}",
         "type": "boxShadow"
