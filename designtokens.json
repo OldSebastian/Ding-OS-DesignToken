@@ -2219,6 +2219,98 @@
         "value": "{dimension.40}",
         "type": "sizing"
       }
+    },
+    "color-color-state-default-white": {
+      "7": {
+        "value": "{opacity.white.7}",
+        "type": "color"
+      },
+      "12": {
+        "value": "{opacity.white.12}",
+        "type": "color"
+      },
+      "16": {
+        "value": "{opacity.white.16}",
+        "type": "color"
+      },
+      "20": {
+        "value": "{opacity.white.20}",
+        "type": "color"
+      },
+      "24": {
+        "value": "{opacity.white.24}",
+        "type": "color"
+      },
+      "32": {
+        "value": "{opacity.white.32}",
+        "type": "color"
+      },
+      "48": {
+        "value": "{opacity.white.48}",
+        "type": "color"
+      },
+      "64": {
+        "value": "{opacity.white.64}",
+        "type": "color"
+      },
+      "76": {
+        "value": "{opacity.white.76}",
+        "type": "color"
+      },
+      "88": {
+        "value": "{opacity.white.88}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{opacity.white.100}",
+        "type": "color"
+      }
+    },
+    "color-color-state-default-black": {
+      "7": {
+        "value": "{opacity.black.7}",
+        "type": "color"
+      },
+      "12": {
+        "value": "{opacity.black.12}",
+        "type": "color"
+      },
+      "16": {
+        "value": "{opacity.black.16}",
+        "type": "color"
+      },
+      "20": {
+        "value": "{opacity.black.20}",
+        "type": "color"
+      },
+      "24": {
+        "value": "{opacity.black.24}",
+        "type": "color"
+      },
+      "32": {
+        "value": "{opacity.black.32}",
+        "type": "color"
+      },
+      "48": {
+        "value": "{opacity.black.48}",
+        "type": "color"
+      },
+      "64": {
+        "value": "{opacity.black.64}",
+        "type": "color"
+      },
+      "76": {
+        "value": "{opacity.black.76}",
+        "type": "color"
+      },
+      "88": {
+        "value": "{opacity.black.88}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{opacity.black.100}",
+        "type": "color"
+      }
     }
   },
   "basic-text-odc": {
@@ -2579,6 +2671,98 @@
         },
         "type": "typography"
       }
+    },
+    "color-textcolor-state-default-white": {
+      "7": {
+        "value": "{opacity.white.7}",
+        "type": "color"
+      },
+      "12": {
+        "value": "{opacity.white.12}",
+        "type": "color"
+      },
+      "16": {
+        "value": "{opacity.white.16}",
+        "type": "color"
+      },
+      "20": {
+        "value": "{opacity.white.20}",
+        "type": "color"
+      },
+      "24": {
+        "value": "{opacity.white.24}",
+        "type": "color"
+      },
+      "32": {
+        "value": "{opacity.white.32}",
+        "type": "color"
+      },
+      "48": {
+        "value": "{opacity.white.48}",
+        "type": "color"
+      },
+      "64": {
+        "value": "{opacity.white.64}",
+        "type": "color"
+      },
+      "76": {
+        "value": "{opacity.white.76}",
+        "type": "color"
+      },
+      "88": {
+        "value": "{opacity.white.88}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{opacity.white.100}",
+        "type": "color"
+      }
+    },
+    "color-textcolor-state-default-black": {
+      "7": {
+        "value": "{opacity.black.7}",
+        "type": "color"
+      },
+      "12": {
+        "value": "{opacity.black.12}",
+        "type": "color"
+      },
+      "16": {
+        "value": "{opacity.black.16}",
+        "type": "color"
+      },
+      "20": {
+        "value": "{opacity.black.20}",
+        "type": "color"
+      },
+      "24": {
+        "value": "{opacity.black.24}",
+        "type": "color"
+      },
+      "32": {
+        "value": "{opacity.black.32}",
+        "type": "color"
+      },
+      "48": {
+        "value": "{opacity.black.48}",
+        "type": "color"
+      },
+      "64": {
+        "value": "{opacity.black.64}",
+        "type": "color"
+      },
+      "76": {
+        "value": "{opacity.black.76}",
+        "type": "color"
+      },
+      "88": {
+        "value": "{opacity.black.88}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{opacity.black.100}",
+        "type": "color"
+      }
     }
   },
   "basic-img-odc": {
@@ -2641,10 +2825,7 @@
       "name": "dark",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "basic": "source",
-        "basic-icon-odc": "disabled",
-        "basic-text-odc": "disabled",
-        "basic-img-odc": "disabled"
+        "basic": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:149:1035",
       "$figmaModeId": "149:1",
